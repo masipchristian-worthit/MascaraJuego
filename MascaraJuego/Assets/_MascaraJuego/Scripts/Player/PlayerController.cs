@@ -28,6 +28,7 @@ public class PlayerController : MonoBehaviour
     void Awake()
     {
         rb = GetComponent<Rigidbody>();
+        Cursor.visible = false;
         movement = Vector2.zero;
         if (InteractColliderSide) InteractColliderSide.enabled = false;
     }
@@ -158,12 +159,15 @@ void Movement()
         if (isPaused)
         {
             Time.timeScale = 0f; 
+            Cursor.visible = true;
             if(pauseMenuPanel) pauseMenuPanel.SetActive(true);
             GetComponent<PlayerInput>().SwitchCurrentActionMap("UI");
+
         }
         else
         {
             Time.timeScale = 1f; 
+            Cursor.visible = false;
             if(pauseMenuPanel) pauseMenuPanel.SetActive(false);
             GetComponent<PlayerInput>().SwitchCurrentActionMap("Gameplay");
         }
