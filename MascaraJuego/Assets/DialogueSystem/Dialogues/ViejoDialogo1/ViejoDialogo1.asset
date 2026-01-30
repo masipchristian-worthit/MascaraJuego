@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abd133c77dbcb374a950c429185e0edc, type: 3}
+  m_Name: ViejoDialogo1
+  m_EditorClassIdentifier: 
+  <FileName>k__BackingField: ViejoDialogo1
+  <DialogueGroups>k__BackingField:
+    list: []
+  <UngroupedDialogues>k__BackingField:
+  - {fileID: 11400000, guid: 641dc834c9c70e2438cca4b791dee853, type: 2}
+  - {fileID: 11400000, guid: b80db2b338e804447ade346d7d67863b, type: 2}

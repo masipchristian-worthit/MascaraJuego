@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abd133c77dbcb374a950c429185e0edc, type: 3}
+  m_Name: FurroJardineroASHENPAW
+  m_EditorClassIdentifier: 
+  <FileName>k__BackingField: FurroJardineroASHENPAW
+  <DialogueGroups>k__BackingField:
+    list: []
+  <UngroupedDialogues>k__BackingField:
+  - {fileID: 11400000, guid: 8fc58e6f17faba4478489333ecea608f, type: 2}
+  - {fileID: 11400000, guid: 80c31ba6b6c6c9247ad2c876f1a7f32e, type: 2}

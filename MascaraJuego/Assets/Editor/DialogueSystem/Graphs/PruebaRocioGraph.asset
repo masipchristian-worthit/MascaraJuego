@@ -1,0 +1,107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9147bccad748a464487ec789f0cfc14b, type: 3}
+  m_Name: PruebaRocioGraph
+  m_EditorClassIdentifier: 
+  <FileName>k__BackingField: PruebaRocio
+  <Groups>k__BackingField: []
+  <Nodes>k__BackingField:
+  - <ID>k__BackingField: 1cc3cc24-4ae0-4d36-b2c4-da23b7538937
+    <Name>k__BackingField: Medio
+    <Text>k__BackingField: Va porfavor que no tengo dinero para un coche grande
+    <SpeakerName>k__BackingField: Rocio
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Te lo doy
+      <NodeID>k__BackingField: 83873ac0-3336-4589-b779-2aafa6f7a64b
+    - <Text>k__BackingField: No te lo doy
+      <NodeID>k__BackingField: 5bfc2afe-e95c-4646-9ab5-a8c430a3caae
+    <GroupID>k__BackingField: 
+    <AnimationName>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 0.01
+    <Audio>k__BackingField: DialogueSound2
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 1185, y: 108}
+  - <ID>k__BackingField: 21d6a2b5-12b8-402e-adbe-a9b0ba9b3c48
+    <Name>k__BackingField: Inciio
+    <Text>k__BackingField: Rubius regalame un coche porfavor muy grande
+    <SpeakerName>k__BackingField: Rocio
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: 1cc3cc24-4ae0-4d36-b2c4-da23b7538937
+    <GroupID>k__BackingField: 
+    <AnimationName>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 0.01
+    <Audio>k__BackingField: DialogueSound
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 369, y: 133}
+  - <ID>k__BackingField: 83873ac0-3336-4589-b779-2aafa6f7a64b
+    <Name>k__BackingField: Si
+    <Text>k__BackingField: Muchas gracias
+    <SpeakerName>k__BackingField: Rocio
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: 
+    <AnimationName>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 0.01
+    <Audio>k__BackingField: DialogueSound
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 1965, y: -32}
+  - <ID>k__BackingField: 5bfc2afe-e95c-4646-9ab5-a8c430a3caae
+    <Name>k__BackingField: No
+    <Text>k__BackingField: Vale tio
+    <SpeakerName>k__BackingField: Rocio
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: 
+    <AnimationName>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 0.01
+    <Audio>k__BackingField: DialogueSound2
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 1965, y: 488}
+  - <ID>k__BackingField: 7543312f-805a-418e-8d62-1e788832d848
+    <Name>k__BackingField: DialogueName
+    <Text>k__BackingField: Dialogue text.
+    <SpeakerName>k__BackingField: 
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: New Choice
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: 
+    <AnimationName>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: 
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 1164, y: 1189}
+  - <ID>k__BackingField: 625ac7b2-0b8f-4b21-ac8f-f17725c214a6
+    <Name>k__BackingField: Inicio2
+    <Text>k__BackingField: Dialogue text.
+    <SpeakerName>k__BackingField: 
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: 7543312f-805a-418e-8d62-1e788832d848
+    <GroupID>k__BackingField: 
+    <AnimationName>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: 
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 580, y: 981}
+  <OldGroupNames>k__BackingField: []
+  <OldUngroupedNodesNames>k__BackingField:
+  - Medio
+  - Inciio
+  - Si
+  - No
+  - DialogueName
+  - Inicio2
+  <OldGroupedNodeNames>k__BackingField:
+    list: []

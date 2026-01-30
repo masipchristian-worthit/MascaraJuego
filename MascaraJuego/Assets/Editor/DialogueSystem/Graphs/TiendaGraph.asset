@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9147bccad748a464487ec789f0cfc14b, type: 3}
+  m_Name: TiendaGraph
+  m_EditorClassIdentifier: 
+  <FileName>k__BackingField: Tienda
+  <Groups>k__BackingField:
+  - <ID>k__BackingField: e76b5947-dc9b-4ebb-836c-4ffe3a17a886
+    <Name>k__BackingField: DialogoDelPrincipio
+    <Position>k__BackingField: {x: -462.99997, y: -637}
+  <Nodes>k__BackingField:
+  - <ID>k__BackingField: 68ffb808-20c7-46f5-9e6b-7133bdc17d28
+    <Name>k__BackingField: InicioPrime
+    <Text>k__BackingField: '[wave]Soy un pene[/]'
+    <SpeakerName>k__BackingField: Pene
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: b6f6f8f3-01b6-4ec5-b146-6d6a51b66826
+    <GroupID>k__BackingField: e76b5947-dc9b-4ebb-836c-4ffe3a17a886
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: 
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: -438, y: -578}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: 05df7a543a51fd442933c033944f3574, type: 3}
+    <CharacterImageRight>k__BackingField: {fileID: 21300000, guid: 3d96ce5d3d39b6a4c9695281d0b2681d, type: 3}
+    <CharacterRightAnimation>k__BackingField: Idle
+    <CharacterLeftAnimation>k__BackingField: Enfadao
+  - <ID>k__BackingField: b6f6f8f3-01b6-4ec5-b146-6d6a51b66826
+    <Name>k__BackingField: KiaraMuere
+    <Text>k__BackingField: Dialogue text.
+    <SpeakerName>k__BackingField: 
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: e76b5947-dc9b-4ebb-836c-4ffe3a17a886
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: 
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: -57, y: -578}
+    <CharacterImageLeft>k__BackingField: {fileID: 0}
+    <CharacterImageRight>k__BackingField: {fileID: 0}
+    <CharacterRightAnimation>k__BackingField: 
+    <CharacterLeftAnimation>k__BackingField: 
+  <OldGroupNames>k__BackingField:
+  - DialogoDelPrincipio
+  <OldUngroupedNodesNames>k__BackingField: []
+  <OldGroupedNodeNames>k__BackingField:
+    list: []
