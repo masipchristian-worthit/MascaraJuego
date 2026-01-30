@@ -1,0 +1,121 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9147bccad748a464487ec789f0cfc14b, type: 3}
+  m_Name: Sectario1Graph
+  m_EditorClassIdentifier: 
+  <FileName>k__BackingField: Sectario1
+  <Groups>k__BackingField: []
+  <Nodes>k__BackingField:
+  - <ID>k__BackingField: 0e7d6bb1-487f-48ca-93ed-54ab3b47d2e1
+    <Name>k__BackingField: Primero
+    <Text>k__BackingField: 'I hope you are not one of those heretics. Let''s see..
+
+'
+    <SpeakerName>k__BackingField: Cultist
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: e3874227-61b7-40b2-a3f6-ae09a347a98c
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 30
+    <Audio>k__BackingField: Blop
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 256, y: 209}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: 1ce3f8fe24b40a04dacb77514ae115b1, type: 3}
+    <Actions>k__BackingField: 
+  - <ID>k__BackingField: e3874227-61b7-40b2-a3f6-ae09a347a98c
+    <Name>k__BackingField: Eleccion
+    <Text>k__BackingField: 'If you are one of us, you should know the code to enter
+      the secret meeting tomorrow. '
+    <SpeakerName>k__BackingField: Cultist
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: LIE
+      <NodeID>k__BackingField: 200dc808-c265-4e0e-a2ac-1194b141c31b
+    - <Text>k__BackingField: TRUTH
+      <NodeID>k__BackingField: 82266b40-604d-4db3-9ead-4144b5fb827c
+    - <Text>k__BackingField: 'SUBBORN:'
+      <NodeID>k__BackingField: ead3827a-8d1a-46e8-8649-61d52a1a5113
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 30
+    <Audio>k__BackingField: Blop
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 997, y: 209}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: 1ce3f8fe24b40a04dacb77514ae115b1, type: 3}
+    <Actions>k__BackingField: 
+  - <ID>k__BackingField: 15627280-fb41-4c9f-a25c-6625a1417cf3
+    <Name>k__BackingField: VerdadDado
+    <Text>k__BackingField: Lucky you told me, I forgot about it.
+    <SpeakerName>k__BackingField: Cultist
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 25
+    <Audio>k__BackingField: Blop
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 2247, y: -88}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: 6e8ccbd5f2405684dad3245b60dcef2e, type: 3}
+    <Actions>k__BackingField: 
+  - <ID>k__BackingField: 200dc808-c265-4e0e-a2ac-1194b141c31b
+    <Name>k__BackingField: Sectario1
+    <Text>k__BackingField: Let's see...
+    <SpeakerName>k__BackingField: Cultist
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: "\u200E "
+      <NodeID>k__BackingField: 15627280-fb41-4c9f-a25c-6625a1417cf3
+    - <Text>k__BackingField: "\u200E \u200E "
+      <NodeID>k__BackingField: 82266b40-604d-4db3-9ead-4144b5fb827c
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 25
+    <Audio>k__BackingField: Blop
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 1662, y: 24}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: 1ce3f8fe24b40a04dacb77514ae115b1, type: 3}
+    <Actions>k__BackingField: Dice
+  - <ID>k__BackingField: 82266b40-604d-4db3-9ead-4144b5fb827c
+    <Name>k__BackingField: Pelea
+    <Text>k__BackingField: I knew that you looked like a traitor. so you know the
+      code was.....
+    <SpeakerName>k__BackingField: Cultist
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 30
+    <Audio>k__BackingField: Blop
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 2285, y: 651}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: 6e8ccbd5f2405684dad3245b60dcef2e, type: 3}
+    <Actions>k__BackingField: Fight
+  - <ID>k__BackingField: ead3827a-8d1a-46e8-8649-61d52a1a5113
+    <Name>k__BackingField: Sobornar
+    <Text>k__BackingField: You really knew it well, didn't you?
+    <SpeakerName>k__BackingField: Cultist
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 30
+    <Audio>k__BackingField: Blop
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 1636, y: 961}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: 6e8ccbd5f2405684dad3245b60dcef2e, type: 3}
+    <Actions>k__BackingField: Suborn
+  <OldGroupNames>k__BackingField: []
+  <OldUngroupedNodesNames>k__BackingField:
+  - Primero
+  - Eleccion
+  - VerdadDado
+  - Sectario1
+  - Pelea
+  - Sobornar
+  <OldGroupedNodeNames>k__BackingField:
+    list: []

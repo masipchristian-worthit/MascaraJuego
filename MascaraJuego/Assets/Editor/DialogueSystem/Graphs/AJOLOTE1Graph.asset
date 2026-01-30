@@ -1,0 +1,262 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9147bccad748a464487ec789f0cfc14b, type: 3}
+  m_Name: AJOLOTE1Graph
+  m_EditorClassIdentifier: 
+  <FileName>k__BackingField: AJOLOTE1
+  <Groups>k__BackingField: []
+  <Nodes>k__BackingField:
+  - <ID>k__BackingField: ead3827a-8d1a-46e8-8649-61d52a1a5113
+    <Name>k__BackingField: SOBORNAR
+    <Text>k__BackingField: '[wave] WaIT... ThoSE.... Aren''T.... StoNEs...? [/]'
+    <SpeakerName>k__BackingField: CAPITOLINO
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 30
+    <Audio>k__BackingField: Blop
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 1698, y: 1080}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: 6e8ccbd5f2405684dad3245b60dcef2e, type: 3}
+    <Actions>k__BackingField: Suborn
+  - <ID>k__BackingField: e3874227-61b7-40b2-a3f6-ae09a347a98c
+    <Name>k__BackingField: CUARTO
+    <Text>k__BackingField: '[wave] thE hOly WAr hE stoPped, tHe WoRLd He mENdeD...
+      [/w]
+
+      [shake] Hee-hee-hee.... [/] <color=#c39764> *Whispers* </color>
+      ThOUgh ''twaS He wHO hAd it SpLEndidLy ended.'
+    <SpeakerName>k__BackingField: CAPITOLINO
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: LIE
+      <NodeID>k__BackingField: 200dc808-c265-4e0e-a2ac-1194b141c31b
+    - <Text>k__BackingField: TRUTH
+      <NodeID>k__BackingField: 82266b40-604d-4db3-9ead-4144b5fb827c
+    - <Text>k__BackingField: 'SUBBORN:'
+      <NodeID>k__BackingField: ead3827a-8d1a-46e8-8649-61d52a1a5113
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 30
+    <Audio>k__BackingField: Blop
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 1041, y: 212}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: 1ce3f8fe24b40a04dacb77514ae115b1, type: 3}
+    <Actions>k__BackingField: 
+  - <ID>k__BackingField: 6a1387f0-efeb-408b-9f14-903165582500
+    <Name>k__BackingField: SEGUNDO
+    <Text>k__BackingField: "[wave] MY dEar, SUch a fusS yOu maKE! [/]\r"
+    <SpeakerName>k__BackingField: CAPITOLINO
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: f51fa6ab-83a9-447e-b76a-0dbf041ce0ef
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 20
+    <Audio>k__BackingField: Blop
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: -538, y: 266}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: 1732656560f187b479d8c28687cca096, type: 3}
+    <Actions>k__BackingField: 
+  - <ID>k__BackingField: f51fa6ab-83a9-447e-b76a-0dbf041ce0ef
+    <Name>k__BackingField: TERCERO
+    <Text>k__BackingField: '[wave] YOU dOn''t aGReE wITh [/] [shake] <color="green">
+      IRYEN? [/] </color> [wave] FOr gOodNEss'' sAke! [/]'
+    <SpeakerName>k__BackingField: CAPITOLINO
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: e3874227-61b7-40b2-a3f6-ae09a347a98c
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 20
+    <Audio>k__BackingField: Blop
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 268, y: 260}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: 1ce3f8fe24b40a04dacb77514ae115b1, type: 3}
+    <Actions>k__BackingField: 
+  - <ID>k__BackingField: 489c9c8c-8884-4074-91b5-97489d842793
+    <Name>k__BackingField: MENTIRSALEMAL
+    <Text>k__BackingField: '[shake] wHAT you sayinG? TaLK tO my hAnd, ''cAusE my
+      FacE aIN''t LisTENing. '
+    <SpeakerName>k__BackingField: CAPITOLINO
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 25
+    <Audio>k__BackingField: Blop
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 2476, y: -203}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: 1ce3f8fe24b40a04dacb77514ae115b1, type: 3}
+    <Actions>k__BackingField: Fight
+  - <ID>k__BackingField: 15627280-fb41-4c9f-a25c-6625a1417cf3
+    <Name>k__BackingField: MENTIRSALEBIEN
+    <Text>k__BackingField: '[wave] WhatEVer... I HAve tO go...... sOMewHere.........
+      [/]'
+    <SpeakerName>k__BackingField: CAPITOLINO
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 35
+    <Audio>k__BackingField: Blop
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 2469, y: -924}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: 6e8ccbd5f2405684dad3245b60dcef2e, type: 3}
+    <Actions>k__BackingField: 
+  - <ID>k__BackingField: d3eeac1f-c6a1-4839-a0a6-af2f6bff0f85
+    <Name>k__BackingField: PRIMERO
+    <Text>k__BackingField: '[shake] WHAt, WhAT, WHaT [/] <color=#c39764> *Nervous*
+      </color>'
+    <SpeakerName>k__BackingField: CAPITOLINO
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: 6a1387f0-efeb-408b-9f14-903165582500
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 15
+    <Audio>k__BackingField: Blop
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: -1220, y: 273}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: 1ce3f8fe24b40a04dacb77514ae115b1, type: 3}
+    <Actions>k__BackingField: 
+  - <ID>k__BackingField: 200dc808-c265-4e0e-a2ac-1194b141c31b
+    <Name>k__BackingField: MENTIR
+    <Text>k__BackingField: '[shake] Hee-hee-hee.... [/]'
+    <SpeakerName>k__BackingField: CAPITOLINO
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: "\u200E "
+      <NodeID>k__BackingField: 15627280-fb41-4c9f-a25c-6625a1417cf3
+    - <Text>k__BackingField: "\u200E \u200E "
+      <NodeID>k__BackingField: 489c9c8c-8884-4074-91b5-97489d842793
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 15
+    <Audio>k__BackingField: Blop
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 1761, y: -487}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: 1ce3f8fe24b40a04dacb77514ae115b1, type: 3}
+    <Actions>k__BackingField: Dice
+  - <ID>k__BackingField: 82266b40-604d-4db3-9ead-4144b5fb827c
+    <Name>k__BackingField: VERDADPELEA
+    <Text>k__BackingField: '[wave] hAlf a lEaGUe, haLf a LeagUE [/] ...'
+    <SpeakerName>k__BackingField: CAPITOLINO
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: 8ee46881-5ae5-4d27-9a00-e2dbbb48ccdb
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 15
+    <Audio>k__BackingField: Blop
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 2451, y: 562}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: 6e8ccbd5f2405684dad3245b60dcef2e, type: 3}
+    <Actions>k__BackingField: Nothing
+  - <ID>k__BackingField: 8ee46881-5ae5-4d27-9a00-e2dbbb48ccdb
+    <Name>k__BackingField: poema1
+    <Text>k__BackingField: '[wave] HaLF a lEaguE onWArd [/] ...'
+    <SpeakerName>k__BackingField: CAPITOLINO
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: aee47972-55e1-471e-aec5-81562107d688
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 15
+    <Audio>k__BackingField: Blop
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 3200, y: 621}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: 1ce3f8fe24b40a04dacb77514ae115b1, type: 3}
+    <Actions>k__BackingField: Nothing
+  - <ID>k__BackingField: aee47972-55e1-471e-aec5-81562107d688
+    <Name>k__BackingField: poema2
+    <Text>k__BackingField: '[wave] alL iN tHe vallEy of <color="red"> dEaTH [/] </color>
+      ...'
+    <SpeakerName>k__BackingField: CAPITOLINO
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: 7f262929-26c8-4b15-a7c6-c75471d49d90
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 15
+    <Audio>k__BackingField: Blop
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 3971, y: 580}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: 6e8ccbd5f2405684dad3245b60dcef2e, type: 3}
+    <Actions>k__BackingField: 
+  - <ID>k__BackingField: 7f262929-26c8-4b15-a7c6-c75471d49d90
+    <Name>k__BackingField: Poema3
+    <Text>k__BackingField: '[wave] RodE thE siX hunDreD [/] ... '
+    <SpeakerName>k__BackingField: CAPITOLINO
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: a2add57b-c91e-447d-9eaf-1fdd0c3a5ba9
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 15
+    <Audio>k__BackingField: Blop
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 4749, y: 681}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: 1ce3f8fe24b40a04dacb77514ae115b1, type: 3}
+    <Actions>k__BackingField: 
+  - <ID>k__BackingField: c1cde175-e69f-42da-a8b0-aeb535c2184a
+    <Name>k__BackingField: Poema5
+    <Text>k__BackingField: '[wave] iNtO thE vallEY oF <color="red"> dEATH [/] </color> '
+    <SpeakerName>k__BackingField: CAPITOLINO
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: 81172049-3d33-47a7-9496-43e582f3eee2
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 15
+    <Audio>k__BackingField: Blop
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 6352, y: 804}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: 1ce3f8fe24b40a04dacb77514ae115b1, type: 3}
+    <Actions>k__BackingField: 
+  - <ID>k__BackingField: 81172049-3d33-47a7-9496-43e582f3eee2
+    <Name>k__BackingField: Poema6
+    <Text>k__BackingField: '[wave] RodE thE siX hunDreD [/] ... '
+    <SpeakerName>k__BackingField: CAPITOLINO
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 15
+    <Audio>k__BackingField: Blop
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 7191, y: 819}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: 6e8ccbd5f2405684dad3245b60dcef2e, type: 3}
+    <Actions>k__BackingField: Fight
+  - <ID>k__BackingField: a2add57b-c91e-447d-9eaf-1fdd0c3a5ba9
+    <Name>k__BackingField: Poema4
+    <Text>k__BackingField: '[shake] <color="red"> "Forward, the Light Brigade! Charge
+      the guns!" [/] </color> [wave] hE sAId... [/]'
+    <SpeakerName>k__BackingField: CAPITOLINO
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: c1cde175-e69f-42da-a8b0-aeb535c2184a
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 15
+    <Audio>k__BackingField: Blop
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 5593, y: 803}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: 6e8ccbd5f2405684dad3245b60dcef2e, type: 3}
+    <Actions>k__BackingField: 
+  <OldGroupNames>k__BackingField: []
+  <OldUngroupedNodesNames>k__BackingField:
+  - SOBORNAR
+  - CUARTO
+  - SEGUNDO
+  - TERCERO
+  - MENTIRSALEMAL
+  - MENTIRSALEBIEN
+  - PRIMERO
+  - MENTIR
+  - VERDADPELEA
+  - poema1
+  - poema2
+  - Poema3
+  - Poema5
+  - Poema6
+  - Poema4
+  <OldGroupedNodeNames>k__BackingField:
+    list: []

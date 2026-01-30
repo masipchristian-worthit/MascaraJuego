@@ -1,0 +1,133 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9147bccad748a464487ec789f0cfc14b, type: 3}
+  m_Name: DialogoMemeGraph
+  m_EditorClassIdentifier: 
+  <FileName>k__BackingField: DialogoMeme
+  <Groups>k__BackingField:
+  - <ID>k__BackingField: 0e185d54-fb9f-4624-80bb-881c90521ecb
+    <Name>k__BackingField: DialogueGroup
+    <Position>k__BackingField: {x: 2178, y: -502}
+  <Nodes>k__BackingField:
+  - <ID>k__BackingField: 34b98163-0347-453c-a338-39c093455727
+    <Name>k__BackingField: ayyuda
+    <Text>k__BackingField: Dialogue text.
+    <SpeakerName>k__BackingField: Gato2
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Dado
+      <NodeID>k__BackingField: ba2ed5ff-a3f6-4932-bae9-5b0e11a1d261
+    - <Text>k__BackingField: eee
+      <NodeID>k__BackingField: 38cc166f-2eb1-4a85-adfc-1c957968d11b
+    - <Text>k__BackingField: 'Sobornar:'
+      <NodeID>k__BackingField: 7a5843f8-3acd-408e-88ac-736da19829dd
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 20
+    <Audio>k__BackingField: Blop
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 1730, y: 115}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: 11df0ec7cb3d2d64c802d269bd1abc9a, type: 3}
+    <Actions>k__BackingField: Nothing
+  - <ID>k__BackingField: 7a5843f8-3acd-408e-88ac-736da19829dd
+    <Name>k__BackingField: ooooo
+    <Text>k__BackingField: oooooooo
+    <SpeakerName>k__BackingField: oooooo
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: 0e185d54-fb9f-4624-80bb-881c90521ecb
+    <DialogueSpeed>k__BackingField: 50
+    <Audio>k__BackingField: 
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 2587, y: 491}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: b2b53cd42330f53458b285163af76d49, type: 3}
+    <Actions>k__BackingField: Suborn
+  - <ID>k__BackingField: 9dc80eb6-64d1-40bf-b532-0054cbe7eb96
+    <Name>k__BackingField: 1
+    <Text>k__BackingField: Cuando alguien te dice que faltan dos meses para el 2024
+    <SpeakerName>k__BackingField: gato
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: c204b860-df6a-44de-a4d8-7c7e901f6951
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 20
+    <Audio>k__BackingField: Blop
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 289, y: 175}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: 11df0ec7cb3d2d64c802d269bd1abc9a, type: 3}
+    <Actions>k__BackingField: GiveObject
+  - <ID>k__BackingField: c204b860-df6a-44de-a4d8-7c7e901f6951
+    <Name>k__BackingField: DialogueName
+    <Text>k__BackingField: "[shake]Pero t\xFA todav\xEDa sigues procesando el 2020[/]"
+    <SpeakerName>k__BackingField: gato
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: 34b98163-0347-453c-a338-39c093455727
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 20
+    <Audio>k__BackingField: Blop
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 1053, y: 254}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: 11df0ec7cb3d2d64c802d269bd1abc9a, type: 3}
+    <Actions>k__BackingField: Nothing
+  - <ID>k__BackingField: dd60fdbc-1ca2-4389-a8c8-f8648c96f5fa
+    <Name>k__BackingField: HAsganado
+    <Text>k__BackingField: OStia pero si has ganado nsq te creo va
+    <SpeakerName>k__BackingField: Gato
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 100
+    <Audio>k__BackingField: Blop
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 3039, y: -680}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: 6e8ccbd5f2405684dad3245b60dcef2e, type: 3}
+    <Actions>k__BackingField: 
+  - <ID>k__BackingField: 38cc166f-2eb1-4a85-adfc-1c957968d11b
+    <Name>k__BackingField: ee
+    <Text>k__BackingField: eeeeeeeee
+    <SpeakerName>k__BackingField: eeeee
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: 0e185d54-fb9f-4624-80bb-881c90521ecb
+    <DialogueSpeed>k__BackingField: 20
+    <Audio>k__BackingField: bLOP
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 2246, y: 157}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: 11df0ec7cb3d2d64c802d269bd1abc9a, type: 3}
+    <Actions>k__BackingField: Fight
+  - <ID>k__BackingField: ba2ed5ff-a3f6-4932-bae9-5b0e11a1d261
+    <Name>k__BackingField: DADOOO
+    <Text>k__BackingField: EL DADO EL DADO EL DADOP
+    <SpeakerName>k__BackingField: Gato
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: "\u200E "
+      <NodeID>k__BackingField: dd60fdbc-1ca2-4389-a8c8-f8648c96f5fa
+    - <Text>k__BackingField: "\u200E \u200E "
+      <NodeID>k__BackingField: 38cc166f-2eb1-4a85-adfc-1c957968d11b
+    <GroupID>k__BackingField: 0e185d54-fb9f-4624-80bb-881c90521ecb
+    <DialogueSpeed>k__BackingField: 50
+    <Audio>k__BackingField: Blop
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 2203, y: -443}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: 1ce3f8fe24b40a04dacb77514ae115b1, type: 3}
+    <Actions>k__BackingField: Dice
+  <OldGroupNames>k__BackingField:
+  - DialogueGroup
+  <OldUngroupedNodesNames>k__BackingField:
+  - ayyuda
+  - 1
+  - DialogueName
+  - HAsganado
+  <OldGroupedNodeNames>k__BackingField:
+    list: []

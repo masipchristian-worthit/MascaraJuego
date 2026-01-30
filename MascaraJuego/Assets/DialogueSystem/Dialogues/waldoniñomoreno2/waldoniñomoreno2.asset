@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abd133c77dbcb374a950c429185e0edc, type: 3}
+  m_Name: "waldoni\xF1omoreno2"
+  m_EditorClassIdentifier: 
+  <FileName>k__BackingField: "waldoni\xF1omoreno2"
+  <DialogueGroups>k__BackingField:
+    list: []
+  <UngroupedDialogues>k__BackingField:
+  - {fileID: 11400000, guid: 92eeb21df3268b345b803b590c3f9df6, type: 2}
+  - {fileID: 11400000, guid: 084038653b8763b42b4ea9a6d0203511, type: 2}

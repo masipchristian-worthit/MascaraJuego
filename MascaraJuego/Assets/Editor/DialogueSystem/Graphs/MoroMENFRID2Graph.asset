@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9147bccad748a464487ec789f0cfc14b, type: 3}
+  m_Name: MoroMENFRID2Graph
+  m_EditorClassIdentifier: 
+  <FileName>k__BackingField: MoroMENFRID2
+  <Groups>k__BackingField: []
+  <Nodes>k__BackingField:
+  - <ID>k__BackingField: 36cdb115-afe2-47aa-b1aa-0651a11daffc
+    <Name>k__BackingField: Segundo
+    <Text>k__BackingField: "Yo, yo, check it out, here I go,\r\nI\u2019m the king
+      of\u2026 uh\u2026 I don\u2019t really know.\r\nMy rhymes are tight\u2014no,
+      wait, they\u2019re loose,\r\nOops, forgot the beat\u2014what\u2019s my excuse?\r\nI\u2019m
+      spittin\u2019 fire\u2026 or maybe just steam,\r\nLivin\u2019 the dream? Nah,
+      eatin\u2019 ice cream.\r\nThey call me the champ\u2014of being real bad,\r\nBut
+      hey, at least I\u2019m funny, so don\u2019t be mad!\r"
+    <SpeakerName>k__BackingField: MENFRID
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 25
+    <Audio>k__BackingField: Freestyle
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 198, y: 106}
+    <CharacterImageLeft>k__BackingField: {fileID: 0}
+    <Actions>k__BackingField: 
+  <OldGroupNames>k__BackingField: []
+  <OldUngroupedNodesNames>k__BackingField:
+  - Segundo
+  <OldGroupedNodeNames>k__BackingField:
+    list: []

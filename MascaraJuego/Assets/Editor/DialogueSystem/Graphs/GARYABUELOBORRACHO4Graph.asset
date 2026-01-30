@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9147bccad748a464487ec789f0cfc14b, type: 3}
+  m_Name: GARYABUELOBORRACHO4Graph
+  m_EditorClassIdentifier: 
+  <FileName>k__BackingField: GARYABUELOBORRACHO4
+  <Groups>k__BackingField: []
+  <Nodes>k__BackingField:
+  - <ID>k__BackingField: 016603ba-b903-4198-a11c-3a82ffcdebc8
+    <Name>k__BackingField: PRINCIPIO
+    <Text>k__BackingField: Katherine, please give me back the children!!!
+    <SpeakerName>k__BackingField: GARY
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 20
+    <Audio>k__BackingField: Blop
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 6305, y: 580}
+    <CharacterImageLeft>k__BackingField: {fileID: 0}
+    <Actions>k__BackingField: 
+  <OldGroupNames>k__BackingField: []
+  <OldUngroupedNodesNames>k__BackingField:
+  - PRINCIPIO
+  <OldGroupedNodeNames>k__BackingField:
+    list: []
