@@ -85,7 +85,7 @@ public class DialogueVertexAnimator
     
                         if (!string.IsNullOrEmpty(audioName))
                         {
-                            //AudioManager.Instance.SFXRandomPitch(audioName); 
+                            AudioManager.Instance.SFXRandomPitch(audioName); 
                         }
     
                         if (visableCharacterIndex == charCount)
@@ -94,7 +94,7 @@ public class DialogueVertexAnimator
                         }
                     }
                 }
-            }
+            } 
     
             // Animación de caracteres
             for (int j = 0; j < charCount; j++)
