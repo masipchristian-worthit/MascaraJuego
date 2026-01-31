@@ -7,7 +7,7 @@
             "id": "e9cf7829-d603-4f6c-a442-a81f426ca4c6",
             "actions": [
                 {
-                    "name": "Accept",
+                    "name": "AcceptUI",
                     "type": "Button",
                     "id": "cfda8932-4973-4205-ad14-c3e7f375e96b",
                     "expectedControlType": "",
@@ -16,7 +16,7 @@
                     "initialStateCheck": false
                 },
                 {
-                    "name": "Navigate",
+                    "name": "NavigateUI",
                     "type": "Value",
                     "id": "cfc33570-1770-4f2e-b852-52955a0e3673",
                     "expectedControlType": "Vector2",
@@ -25,7 +25,7 @@
                     "initialStateCheck": true
                 },
                 {
-                    "name": "Escape",
+                    "name": "EscapeUI",
                     "type": "Button",
                     "id": "db799ac4-5d91-481e-b322-fa488e567079",
                     "expectedControlType": "",
@@ -42,7 +42,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Accept",
+                    "action": "AcceptUI",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -53,7 +53,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Accept",
+                    "action": "AcceptUI",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -64,7 +64,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Accept",
+                    "action": "AcceptUI",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -75,7 +75,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Navigate",
+                    "action": "NavigateUI",
                     "isComposite": true,
                     "isPartOfComposite": false
                 },
@@ -86,7 +86,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Navigate",
+                    "action": "NavigateUI",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
@@ -97,7 +97,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Navigate",
+                    "action": "NavigateUI",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
@@ -108,7 +108,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Navigate",
+                    "action": "NavigateUI",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
@@ -119,7 +119,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Navigate",
+                    "action": "NavigateUI",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
@@ -130,7 +130,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Navigate",
+                    "action": "NavigateUI",
                     "isComposite": true,
                     "isPartOfComposite": false
                 },
@@ -141,7 +141,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Navigate",
+                    "action": "NavigateUI",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
@@ -152,7 +152,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Navigate",
+                    "action": "NavigateUI",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
@@ -163,7 +163,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Navigate",
+                    "action": "NavigateUI",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
@@ -174,7 +174,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Navigate",
+                    "action": "NavigateUI",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
@@ -185,7 +185,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Navigate",
+                    "action": "NavigateUI",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -196,7 +196,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Navigate",
+                    "action": "NavigateUI",
                     "isComposite": true,
                     "isPartOfComposite": false
                 },
@@ -207,7 +207,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Navigate",
+                    "action": "NavigateUI",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
@@ -218,7 +218,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Navigate",
+                    "action": "NavigateUI",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
@@ -229,7 +229,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Navigate",
+                    "action": "NavigateUI",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
@@ -240,7 +240,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Navigate",
+                    "action": "NavigateUI",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
@@ -251,7 +251,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Escape",
+                    "action": "EscapeUI",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -262,7 +262,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Escape",
+                    "action": "EscapeUI",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -273,7 +273,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Escape",
+                    "action": "EscapeUI",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -284,7 +284,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Escape",
+                    "action": "EscapeUI",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -295,7 +295,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Escape",
+                    "action": "EscapeUI",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -306,7 +306,18 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Escape",
+                    "action": "EscapeUI",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6314bb4b-4e0c-459f-81c3-d0bb1896dc8d",
+                    "path": "<Keyboard>/k",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "EscapeUI",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
@@ -317,7 +328,7 @@
             "id": "2e7e3410-354b-41a7-96cb-b5e175274fcb",
             "actions": [
                 {
-                    "name": "Interact",
+                    "name": "InteractGameplay",
                     "type": "Button",
                     "id": "e4c3d020-700c-4b31-9495-38339bf70695",
                     "expectedControlType": "",
@@ -326,7 +337,7 @@
                     "initialStateCheck": false
                 },
                 {
-                    "name": "Move",
+                    "name": "MoveGameplay",
                     "type": "Value",
                     "id": "18770bc5-5dc8-4ee4-93cd-4f6d70c9a04f",
                     "expectedControlType": "Vector2",
@@ -335,7 +346,7 @@
                     "initialStateCheck": true
                 },
                 {
-                    "name": "Pause",
+                    "name": "PauseGameplay",
                     "type": "Button",
                     "id": "3453f72b-5d08-47dc-a937-2f35fbe03ae0",
                     "expectedControlType": "",
@@ -352,7 +363,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Interact",
+                    "action": "InteractGameplay",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -363,7 +374,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Interact",
+                    "action": "InteractGameplay",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -374,7 +385,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Interact",
+                    "action": "InteractGameplay",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -385,7 +396,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Move",
+                    "action": "MoveGameplay",
                     "isComposite": true,
                     "isPartOfComposite": false
                 },
@@ -396,7 +407,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Move",
+                    "action": "MoveGameplay",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
@@ -407,7 +418,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Move",
+                    "action": "MoveGameplay",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
@@ -418,7 +429,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Move",
+                    "action": "MoveGameplay",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
@@ -429,7 +440,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Move",
+                    "action": "MoveGameplay",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
@@ -440,7 +451,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Move",
+                    "action": "MoveGameplay",
                     "isComposite": true,
                     "isPartOfComposite": false
                 },
@@ -451,7 +462,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Move",
+                    "action": "MoveGameplay",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
@@ -462,7 +473,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Move",
+                    "action": "MoveGameplay",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
@@ -473,7 +484,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Move",
+                    "action": "MoveGameplay",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
@@ -484,7 +495,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Move",
+                    "action": "MoveGameplay",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
@@ -495,7 +506,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Move",
+                    "action": "MoveGameplay",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -506,7 +517,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Move",
+                    "action": "MoveGameplay",
                     "isComposite": true,
                     "isPartOfComposite": false
                 },
@@ -517,7 +528,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Move",
+                    "action": "MoveGameplay",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
@@ -528,7 +539,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Move",
+                    "action": "MoveGameplay",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
@@ -539,7 +550,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Move",
+                    "action": "MoveGameplay",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
@@ -550,7 +561,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Move",
+                    "action": "MoveGameplay",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
@@ -561,7 +572,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Pause",
+                    "action": "PauseGameplay",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -572,7 +583,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Pause",
+                    "action": "PauseGameplay",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -583,7 +594,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Pause",
+                    "action": "PauseGameplay",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -594,7 +605,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Pause",
+                    "action": "PauseGameplay",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
@@ -605,7 +616,7 @@
             "id": "4959ff87-fff5-4ea4-9023-d287fe3527d7",
             "actions": [
                 {
-                    "name": "Accept",
+                    "name": "AcceptDialogue",
                     "type": "Button",
                     "id": "a12aa78b-1ebe-4b7c-8eff-f3d9a7593714",
                     "expectedControlType": "",
@@ -614,7 +625,7 @@
                     "initialStateCheck": false
                 },
                 {
-                    "name": "Navigate",
+                    "name": "NavigateDialogue",
                     "type": "Value",
                     "id": "a09c6542-e145-4565-afac-1750017232ea",
                     "expectedControlType": "Vector2",
@@ -623,7 +634,7 @@
                     "initialStateCheck": true
                 },
                 {
-                    "name": "Escape",
+                    "name": "EscapeDialogue",
                     "type": "Button",
                     "id": "c4d9122e-8b93-4337-8f70-9bfbd9c73e17",
                     "expectedControlType": "",
@@ -640,7 +651,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Accept",
+                    "action": "AcceptDialogue",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -651,7 +662,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Accept",
+                    "action": "AcceptDialogue",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -662,7 +673,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Accept",
+                    "action": "AcceptDialogue",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -673,7 +684,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Navigate",
+                    "action": "NavigateDialogue",
                     "isComposite": true,
                     "isPartOfComposite": false
                 },
@@ -684,7 +695,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Navigate",
+                    "action": "NavigateDialogue",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
@@ -695,7 +706,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Navigate",
+                    "action": "NavigateDialogue",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
@@ -706,7 +717,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Navigate",
+                    "action": "NavigateDialogue",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
@@ -717,7 +728,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Navigate",
+                    "action": "NavigateDialogue",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
@@ -728,7 +739,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Navigate",
+                    "action": "NavigateDialogue",
                     "isComposite": true,
                     "isPartOfComposite": false
                 },
@@ -739,7 +750,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Navigate",
+                    "action": "NavigateDialogue",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
@@ -750,7 +761,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Navigate",
+                    "action": "NavigateDialogue",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
@@ -761,7 +772,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Navigate",
+                    "action": "NavigateDialogue",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
@@ -772,7 +783,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Navigate",
+                    "action": "NavigateDialogue",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
@@ -783,7 +794,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Navigate",
+                    "action": "NavigateDialogue",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -794,7 +805,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Navigate",
+                    "action": "NavigateDialogue",
                     "isComposite": true,
                     "isPartOfComposite": false
                 },
@@ -805,7 +816,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Navigate",
+                    "action": "NavigateDialogue",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
@@ -816,7 +827,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Navigate",
+                    "action": "NavigateDialogue",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
@@ -827,7 +838,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Navigate",
+                    "action": "NavigateDialogue",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
@@ -838,7 +849,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Navigate",
+                    "action": "NavigateDialogue",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
@@ -849,7 +860,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Escape",
+                    "action": "EscapeDialogue",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -860,7 +871,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Escape",
+                    "action": "EscapeDialogue",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -871,7 +882,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Escape",
+                    "action": "EscapeDialogue",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -882,7 +893,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Escape",
+                    "action": "EscapeDialogue",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -893,7 +904,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Escape",
+                    "action": "EscapeDialogue",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -904,7 +915,163 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Escape",
+                    "action": "EscapeDialogue",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "05b62d88-4368-4468-89a8-9e3ecc052348",
+                    "path": "<Keyboard>/k",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "EscapeDialogue",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Door",
+            "id": "407edf4a-bb4b-4dd0-9c14-3e693d3a9c48",
+            "actions": [
+                {
+                    "name": "EscapeDoor",
+                    "type": "Button",
+                    "id": "d08e69d6-c0e3-4a07-8af6-23da56717970",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "InteractCharacter",
+                    "type": "Button",
+                    "id": "64e4d6e4-072f-4844-9d51-b5d85057c704",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "GamepadCursor",
+                    "type": "Value",
+                    "id": "9e2cbcac-acd6-4901-9562-86561e7acd93",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "79103304-d06b-4857-8e0b-c74ab910306d",
+                    "path": "<Keyboard>/escape",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Gamepad;Keyboard",
+                    "action": "EscapeDoor",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "fbc166a8-092b-4ada-8514-ebbe5c7a94f2",
+                    "path": "<Keyboard>/delete",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Gamepad;Keyboard",
+                    "action": "EscapeDoor",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "db8022b4-20f4-4e9e-bcfa-88144288dbbc",
+                    "path": "<Keyboard>/enter",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Gamepad;Keyboard",
+                    "action": "EscapeDoor",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "1cde7a25-8d4f-4f8e-bffa-1c38992f82f4",
+                    "path": "<Keyboard>/tab",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Gamepad;Keyboard",
+                    "action": "EscapeDoor",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "65813b22-b273-4360-95d1-334222a218c0",
+                    "path": "<Keyboard>/x",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Gamepad;Keyboard",
+                    "action": "EscapeDoor",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5fe71007-8851-4e57-a738-b5e9a1895eed",
+                    "path": "<Gamepad>/buttonEast",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Gamepad;Keyboard",
+                    "action": "EscapeDoor",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6e8b08c9-742a-4cd9-ade0-2b5db705f397",
+                    "path": "<Keyboard>/k",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Gamepad;Keyboard",
+                    "action": "EscapeDoor",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "4143e3aa-9299-4ba1-b878-2f19ffe96fbe",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Gamepad;Keyboard",
+                    "action": "InteractCharacter",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c29682a4-9745-4725-9dde-0a5d5bc03609",
+                    "path": "<Gamepad>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Gamepad;Keyboard",
+                    "action": "InteractCharacter",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9f5aa993-7b7d-4708-8da8-8f4262361a2c",
+                    "path": "<VirtualMouse>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Gamepad",
+                    "action": "GamepadCursor",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
@@ -915,7 +1082,7 @@
             "id": "cf7f6d77-63fb-4195-a52d-2a4e9235a75b",
             "actions": [
                 {
-                    "name": "Accept",
+                    "name": "AcceptHint",
                     "type": "Button",
                     "id": "2aa6e3a4-75ad-48d1-88d1-473e1af3f762",
                     "expectedControlType": "",
@@ -924,7 +1091,7 @@
                     "initialStateCheck": false
                 },
                 {
-                    "name": "Navigate",
+                    "name": "NavigateHint",
                     "type": "Value",
                     "id": "92bfebf7-c092-47d1-901e-00f7aaa901fe",
                     "expectedControlType": "Vector2",
@@ -933,7 +1100,7 @@
                     "initialStateCheck": true
                 },
                 {
-                    "name": "Escape",
+                    "name": "EscapeHint",
                     "type": "Button",
                     "id": "78c4188e-ed85-4d32-9243-e1b8a730dabe",
                     "expectedControlType": "",
@@ -950,7 +1117,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Accept",
+                    "action": "AcceptHint",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -961,7 +1128,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Accept",
+                    "action": "AcceptHint",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -972,7 +1139,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Accept",
+                    "action": "AcceptHint",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -983,7 +1150,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Navigate",
+                    "action": "NavigateHint",
                     "isComposite": true,
                     "isPartOfComposite": false
                 },
@@ -994,7 +1161,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Navigate",
+                    "action": "NavigateHint",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
@@ -1005,7 +1172,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Navigate",
+                    "action": "NavigateHint",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
@@ -1016,7 +1183,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Navigate",
+                    "action": "NavigateHint",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
@@ -1027,7 +1194,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Navigate",
+                    "action": "NavigateHint",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
@@ -1038,7 +1205,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Navigate",
+                    "action": "NavigateHint",
                     "isComposite": true,
                     "isPartOfComposite": false
                 },
@@ -1049,7 +1216,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Navigate",
+                    "action": "NavigateHint",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
@@ -1060,7 +1227,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Navigate",
+                    "action": "NavigateHint",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
@@ -1071,7 +1238,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Navigate",
+                    "action": "NavigateHint",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
@@ -1082,7 +1249,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Navigate",
+                    "action": "NavigateHint",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
@@ -1093,7 +1260,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Navigate",
+                    "action": "NavigateHint",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -1104,7 +1271,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Navigate",
+                    "action": "NavigateHint",
                     "isComposite": true,
                     "isPartOfComposite": false
                 },
@@ -1115,7 +1282,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Navigate",
+                    "action": "NavigateHint",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
@@ -1126,7 +1293,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Navigate",
+                    "action": "NavigateHint",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
@@ -1137,7 +1304,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Navigate",
+                    "action": "NavigateHint",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
@@ -1148,7 +1315,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Navigate",
+                    "action": "NavigateHint",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
@@ -1159,7 +1326,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Escape",
+                    "action": "EscapeHint",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -1170,7 +1337,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Escape",
+                    "action": "EscapeHint",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -1181,7 +1348,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Escape",
+                    "action": "EscapeHint",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -1192,7 +1359,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Escape",
+                    "action": "EscapeHint",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -1203,7 +1370,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Escape",
+                    "action": "EscapeHint",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -1214,12 +1381,56 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Escape",
+                    "action": "EscapeHint",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "8a5ae5a4-d3e8-4811-8f3e-cf6174739a5b",
+                    "path": "<Keyboard>/k",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "EscapeHint",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
             ]
         }
     ],
-    "controlSchemes": []
+    "controlSchemes": [
+        {
+            "name": "Gamepad",
+            "bindingGroup": "Gamepad",
+            "devices": [
+                {
+                    "devicePath": "<Gamepad>",
+                    "isOptional": false,
+                    "isOR": false
+                },
+                {
+                    "devicePath": "<VirtualMouse>",
+                    "isOptional": true,
+                    "isOR": false
+                },
+                {
+                    "devicePath": "<VirtualMouse>",
+                    "isOptional": true,
+                    "isOR": false
+                }
+            ]
+        },
+        {
+            "name": "Keyboard",
+            "bindingGroup": "Keyboard",
+            "devices": [
+                {
+                    "devicePath": "<Keyboard>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
 }

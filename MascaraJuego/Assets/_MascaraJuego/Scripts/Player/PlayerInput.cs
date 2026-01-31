@@ -93,7 +93,7 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
             ""id"": ""e9cf7829-d603-4f6c-a442-a81f426ca4c6"",
             ""actions"": [
                 {
-                    ""name"": ""Accept"",
+                    ""name"": ""AcceptUI"",
                     ""type"": ""Button"",
                     ""id"": ""cfda8932-4973-4205-ad14-c3e7f375e96b"",
                     ""expectedControlType"": """",
@@ -102,7 +102,7 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                     ""initialStateCheck"": false
                 },
                 {
-                    ""name"": ""Navigate"",
+                    ""name"": ""NavigateUI"",
                     ""type"": ""Value"",
                     ""id"": ""cfc33570-1770-4f2e-b852-52955a0e3673"",
                     ""expectedControlType"": ""Vector2"",
@@ -111,7 +111,7 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                     ""initialStateCheck"": true
                 },
                 {
-                    ""name"": ""Escape"",
+                    ""name"": ""EscapeUI"",
                     ""type"": ""Button"",
                     ""id"": ""db799ac4-5d91-481e-b322-fa488e567079"",
                     ""expectedControlType"": """",
@@ -128,7 +128,7 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Accept"",
+                    ""action"": ""AcceptUI"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 },
@@ -139,7 +139,7 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Accept"",
+                    ""action"": ""AcceptUI"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 },
@@ -150,7 +150,7 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Accept"",
+                    ""action"": ""AcceptUI"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 },
@@ -161,7 +161,7 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Navigate"",
+                    ""action"": ""NavigateUI"",
                     ""isComposite"": true,
                     ""isPartOfComposite"": false
                 },
@@ -172,7 +172,7 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Navigate"",
+                    ""action"": ""NavigateUI"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": true
                 },
@@ -183,7 +183,7 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Navigate"",
+                    ""action"": ""NavigateUI"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": true
                 },
@@ -194,7 +194,7 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Navigate"",
+                    ""action"": ""NavigateUI"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": true
                 },
@@ -205,7 +205,7 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Navigate"",
+                    ""action"": ""NavigateUI"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": true
                 },
@@ -216,7 +216,7 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Navigate"",
+                    ""action"": ""NavigateUI"",
                     ""isComposite"": true,
                     ""isPartOfComposite"": false
                 },
@@ -227,7 +227,7 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Navigate"",
+                    ""action"": ""NavigateUI"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": true
                 },
@@ -238,7 +238,7 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Navigate"",
+                    ""action"": ""NavigateUI"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": true
                 },
@@ -249,7 +249,7 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Navigate"",
+                    ""action"": ""NavigateUI"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": true
                 },
@@ -260,7 +260,7 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Navigate"",
+                    ""action"": ""NavigateUI"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": true
                 },
@@ -271,7 +271,7 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Navigate"",
+                    ""action"": ""NavigateUI"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 },
@@ -282,7 +282,7 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Navigate"",
+                    ""action"": ""NavigateUI"",
                     ""isComposite"": true,
                     ""isPartOfComposite"": false
                 },
@@ -293,7 +293,7 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Navigate"",
+                    ""action"": ""NavigateUI"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": true
                 },
@@ -304,7 +304,7 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Navigate"",
+                    ""action"": ""NavigateUI"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": true
                 },
@@ -315,7 +315,7 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Navigate"",
+                    ""action"": ""NavigateUI"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": true
                 },
@@ -326,7 +326,7 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Navigate"",
+                    ""action"": ""NavigateUI"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": true
                 },
@@ -337,7 +337,7 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Escape"",
+                    ""action"": ""EscapeUI"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 },
@@ -348,7 +348,7 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Escape"",
+                    ""action"": ""EscapeUI"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 },
@@ -359,7 +359,7 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Escape"",
+                    ""action"": ""EscapeUI"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 },
@@ -370,7 +370,7 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Escape"",
+                    ""action"": ""EscapeUI"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 },
@@ -381,7 +381,7 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Escape"",
+                    ""action"": ""EscapeUI"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 },
@@ -392,7 +392,18 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Escape"",
+                    ""action"": ""EscapeUI"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""6314bb4b-4e0c-459f-81c3-d0bb1896dc8d"",
+                    ""path"": ""<Keyboard>/k"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""EscapeUI"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 }
@@ -403,7 +414,7 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
             ""id"": ""2e7e3410-354b-41a7-96cb-b5e175274fcb"",
             ""actions"": [
                 {
-                    ""name"": ""Interact"",
+                    ""name"": ""InteractGameplay"",
                     ""type"": ""Button"",
                     ""id"": ""e4c3d020-700c-4b31-9495-38339bf70695"",
                     ""expectedControlType"": """",
@@ -412,7 +423,7 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                     ""initialStateCheck"": false
                 },
                 {
-                    ""name"": ""Move"",
+                    ""name"": ""MoveGameplay"",
                     ""type"": ""Value"",
                     ""id"": ""18770bc5-5dc8-4ee4-93cd-4f6d70c9a04f"",
                     ""expectedControlType"": ""Vector2"",
@@ -421,7 +432,7 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                     ""initialStateCheck"": true
                 },
                 {
-                    ""name"": ""Pause"",
+                    ""name"": ""PauseGameplay"",
                     ""type"": ""Button"",
                     ""id"": ""3453f72b-5d08-47dc-a937-2f35fbe03ae0"",
                     ""expectedControlType"": """",
@@ -438,7 +449,7 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Interact"",
+                    ""action"": ""InteractGameplay"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 },
@@ -449,7 +460,7 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Interact"",
+                    ""action"": ""InteractGameplay"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 },
@@ -460,7 +471,7 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Interact"",
+                    ""action"": ""InteractGameplay"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 },
@@ -471,7 +482,7 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Move"",
+                    ""action"": ""MoveGameplay"",
                     ""isComposite"": true,
                     ""isPartOfComposite"": false
                 },
@@ -482,7 +493,7 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Move"",
+                    ""action"": ""MoveGameplay"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": true
                 },
@@ -493,7 +504,7 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Move"",
+                    ""action"": ""MoveGameplay"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": true
                 },
@@ -504,7 +515,7 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Move"",
+                    ""action"": ""MoveGameplay"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": true
                 },
@@ -515,7 +526,7 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Move"",
+                    ""action"": ""MoveGameplay"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": true
                 },
@@ -526,7 +537,7 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Move"",
+                    ""action"": ""MoveGameplay"",
                     ""isComposite"": true,
                     ""isPartOfComposite"": false
                 },
@@ -537,7 +548,7 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Move"",
+                    ""action"": ""MoveGameplay"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": true
                 },
@@ -548,7 +559,7 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Move"",
+                    ""action"": ""MoveGameplay"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": true
                 },
@@ -559,7 +570,7 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Move"",
+                    ""action"": ""MoveGameplay"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": true
                 },
@@ -570,7 +581,7 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Move"",
+                    ""action"": ""MoveGameplay"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": true
                 },
@@ -581,7 +592,7 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Move"",
+                    ""action"": ""MoveGameplay"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 },
@@ -592,7 +603,7 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Move"",
+                    ""action"": ""MoveGameplay"",
                     ""isComposite"": true,
                     ""isPartOfComposite"": false
                 },
@@ -603,7 +614,7 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Move"",
+                    ""action"": ""MoveGameplay"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": true
                 },
@@ -614,7 +625,7 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Move"",
+                    ""action"": ""MoveGameplay"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": true
                 },
@@ -625,7 +636,7 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Move"",
+                    ""action"": ""MoveGameplay"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": true
                 },
@@ -636,7 +647,7 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Move"",
+                    ""action"": ""MoveGameplay"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": true
                 },
@@ -647,7 +658,7 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Pause"",
+                    ""action"": ""PauseGameplay"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 },
@@ -658,7 +669,7 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Pause"",
+                    ""action"": ""PauseGameplay"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 },
@@ -669,7 +680,7 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Pause"",
+                    ""action"": ""PauseGameplay"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 },
@@ -680,7 +691,7 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Pause"",
+                    ""action"": ""PauseGameplay"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 }
@@ -691,7 +702,7 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
             ""id"": ""4959ff87-fff5-4ea4-9023-d287fe3527d7"",
             ""actions"": [
                 {
-                    ""name"": ""Accept"",
+                    ""name"": ""AcceptDialogue"",
                     ""type"": ""Button"",
                     ""id"": ""a12aa78b-1ebe-4b7c-8eff-f3d9a7593714"",
                     ""expectedControlType"": """",
@@ -700,7 +711,7 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                     ""initialStateCheck"": false
                 },
                 {
-                    ""name"": ""Navigate"",
+                    ""name"": ""NavigateDialogue"",
                     ""type"": ""Value"",
                     ""id"": ""a09c6542-e145-4565-afac-1750017232ea"",
                     ""expectedControlType"": ""Vector2"",
@@ -709,7 +720,7 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                     ""initialStateCheck"": true
                 },
                 {
-                    ""name"": ""Escape"",
+                    ""name"": ""EscapeDialogue"",
                     ""type"": ""Button"",
                     ""id"": ""c4d9122e-8b93-4337-8f70-9bfbd9c73e17"",
                     ""expectedControlType"": """",
@@ -726,7 +737,7 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Accept"",
+                    ""action"": ""AcceptDialogue"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 },
@@ -737,7 +748,7 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Accept"",
+                    ""action"": ""AcceptDialogue"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 },
@@ -748,7 +759,7 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Accept"",
+                    ""action"": ""AcceptDialogue"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 },
@@ -759,7 +770,7 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Navigate"",
+                    ""action"": ""NavigateDialogue"",
                     ""isComposite"": true,
                     ""isPartOfComposite"": false
                 },
@@ -770,7 +781,7 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Navigate"",
+                    ""action"": ""NavigateDialogue"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": true
                 },
@@ -781,7 +792,7 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Navigate"",
+                    ""action"": ""NavigateDialogue"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": true
                 },
@@ -792,7 +803,7 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Navigate"",
+                    ""action"": ""NavigateDialogue"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": true
                 },
@@ -803,7 +814,7 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Navigate"",
+                    ""action"": ""NavigateDialogue"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": true
                 },
@@ -814,7 +825,7 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Navigate"",
+                    ""action"": ""NavigateDialogue"",
                     ""isComposite"": true,
                     ""isPartOfComposite"": false
                 },
@@ -825,7 +836,7 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Navigate"",
+                    ""action"": ""NavigateDialogue"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": true
                 },
@@ -836,7 +847,7 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Navigate"",
+                    ""action"": ""NavigateDialogue"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": true
                 },
@@ -847,7 +858,7 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Navigate"",
+                    ""action"": ""NavigateDialogue"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": true
                 },
@@ -858,7 +869,7 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Navigate"",
+                    ""action"": ""NavigateDialogue"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": true
                 },
@@ -869,7 +880,7 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Navigate"",
+                    ""action"": ""NavigateDialogue"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 },
@@ -880,7 +891,7 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Navigate"",
+                    ""action"": ""NavigateDialogue"",
                     ""isComposite"": true,
                     ""isPartOfComposite"": false
                 },
@@ -891,7 +902,7 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Navigate"",
+                    ""action"": ""NavigateDialogue"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": true
                 },
@@ -902,7 +913,7 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Navigate"",
+                    ""action"": ""NavigateDialogue"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": true
                 },
@@ -913,7 +924,7 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Navigate"",
+                    ""action"": ""NavigateDialogue"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": true
                 },
@@ -924,7 +935,7 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Navigate"",
+                    ""action"": ""NavigateDialogue"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": true
                 },
@@ -935,7 +946,7 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Escape"",
+                    ""action"": ""EscapeDialogue"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 },
@@ -946,7 +957,7 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Escape"",
+                    ""action"": ""EscapeDialogue"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 },
@@ -957,7 +968,7 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Escape"",
+                    ""action"": ""EscapeDialogue"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 },
@@ -968,7 +979,7 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Escape"",
+                    ""action"": ""EscapeDialogue"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 },
@@ -979,7 +990,7 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Escape"",
+                    ""action"": ""EscapeDialogue"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 },
@@ -990,7 +1001,163 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Escape"",
+                    ""action"": ""EscapeDialogue"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""05b62d88-4368-4468-89a8-9e3ecc052348"",
+                    ""path"": ""<Keyboard>/k"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""EscapeDialogue"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                }
+            ]
+        },
+        {
+            ""name"": ""Door"",
+            ""id"": ""407edf4a-bb4b-4dd0-9c14-3e693d3a9c48"",
+            ""actions"": [
+                {
+                    ""name"": ""EscapeDoor"",
+                    ""type"": ""Button"",
+                    ""id"": ""d08e69d6-c0e3-4a07-8af6-23da56717970"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""InteractCharacter"",
+                    ""type"": ""Button"",
+                    ""id"": ""64e4d6e4-072f-4844-9d51-b5d85057c704"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""GamepadCursor"",
+                    ""type"": ""Value"",
+                    ""id"": ""9e2cbcac-acd6-4901-9562-86561e7acd93"",
+                    ""expectedControlType"": ""Vector2"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": true
+                }
+            ],
+            ""bindings"": [
+                {
+                    ""name"": """",
+                    ""id"": ""79103304-d06b-4857-8e0b-c74ab910306d"",
+                    ""path"": ""<Keyboard>/escape"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": "";Gamepad;Keyboard"",
+                    ""action"": ""EscapeDoor"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""fbc166a8-092b-4ada-8514-ebbe5c7a94f2"",
+                    ""path"": ""<Keyboard>/delete"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": "";Gamepad;Keyboard"",
+                    ""action"": ""EscapeDoor"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""db8022b4-20f4-4e9e-bcfa-88144288dbbc"",
+                    ""path"": ""<Keyboard>/enter"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": "";Gamepad;Keyboard"",
+                    ""action"": ""EscapeDoor"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""1cde7a25-8d4f-4f8e-bffa-1c38992f82f4"",
+                    ""path"": ""<Keyboard>/tab"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": "";Gamepad;Keyboard"",
+                    ""action"": ""EscapeDoor"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""65813b22-b273-4360-95d1-334222a218c0"",
+                    ""path"": ""<Keyboard>/x"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": "";Gamepad;Keyboard"",
+                    ""action"": ""EscapeDoor"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""5fe71007-8851-4e57-a738-b5e9a1895eed"",
+                    ""path"": ""<Gamepad>/buttonEast"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": "";Gamepad;Keyboard"",
+                    ""action"": ""EscapeDoor"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""6e8b08c9-742a-4cd9-ade0-2b5db705f397"",
+                    ""path"": ""<Keyboard>/k"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": "";Gamepad;Keyboard"",
+                    ""action"": ""EscapeDoor"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""4143e3aa-9299-4ba1-b878-2f19ffe96fbe"",
+                    ""path"": ""<Mouse>/leftButton"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": "";Gamepad;Keyboard"",
+                    ""action"": ""InteractCharacter"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""c29682a4-9745-4725-9dde-0a5d5bc03609"",
+                    ""path"": ""<Gamepad>/buttonSouth"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": "";Gamepad;Keyboard"",
+                    ""action"": ""InteractCharacter"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""9f5aa993-7b7d-4708-8da8-8f4262361a2c"",
+                    ""path"": ""<VirtualMouse>/position"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": "";Gamepad"",
+                    ""action"": ""GamepadCursor"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 }
@@ -1001,7 +1168,7 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
             ""id"": ""cf7f6d77-63fb-4195-a52d-2a4e9235a75b"",
             ""actions"": [
                 {
-                    ""name"": ""Accept"",
+                    ""name"": ""AcceptHint"",
                     ""type"": ""Button"",
                     ""id"": ""2aa6e3a4-75ad-48d1-88d1-473e1af3f762"",
                     ""expectedControlType"": """",
@@ -1010,7 +1177,7 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                     ""initialStateCheck"": false
                 },
                 {
-                    ""name"": ""Navigate"",
+                    ""name"": ""NavigateHint"",
                     ""type"": ""Value"",
                     ""id"": ""92bfebf7-c092-47d1-901e-00f7aaa901fe"",
                     ""expectedControlType"": ""Vector2"",
@@ -1019,7 +1186,7 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                     ""initialStateCheck"": true
                 },
                 {
-                    ""name"": ""Escape"",
+                    ""name"": ""EscapeHint"",
                     ""type"": ""Button"",
                     ""id"": ""78c4188e-ed85-4d32-9243-e1b8a730dabe"",
                     ""expectedControlType"": """",
@@ -1036,7 +1203,7 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Accept"",
+                    ""action"": ""AcceptHint"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 },
@@ -1047,7 +1214,7 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Accept"",
+                    ""action"": ""AcceptHint"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 },
@@ -1058,7 +1225,7 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Accept"",
+                    ""action"": ""AcceptHint"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 },
@@ -1069,7 +1236,7 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Navigate"",
+                    ""action"": ""NavigateHint"",
                     ""isComposite"": true,
                     ""isPartOfComposite"": false
                 },
@@ -1080,7 +1247,7 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Navigate"",
+                    ""action"": ""NavigateHint"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": true
                 },
@@ -1091,7 +1258,7 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Navigate"",
+                    ""action"": ""NavigateHint"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": true
                 },
@@ -1102,7 +1269,7 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Navigate"",
+                    ""action"": ""NavigateHint"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": true
                 },
@@ -1113,7 +1280,7 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Navigate"",
+                    ""action"": ""NavigateHint"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": true
                 },
@@ -1124,7 +1291,7 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Navigate"",
+                    ""action"": ""NavigateHint"",
                     ""isComposite"": true,
                     ""isPartOfComposite"": false
                 },
@@ -1135,7 +1302,7 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Navigate"",
+                    ""action"": ""NavigateHint"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": true
                 },
@@ -1146,7 +1313,7 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Navigate"",
+                    ""action"": ""NavigateHint"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": true
                 },
@@ -1157,7 +1324,7 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Navigate"",
+                    ""action"": ""NavigateHint"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": true
                 },
@@ -1168,7 +1335,7 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Navigate"",
+                    ""action"": ""NavigateHint"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": true
                 },
@@ -1179,7 +1346,7 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Navigate"",
+                    ""action"": ""NavigateHint"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 },
@@ -1190,7 +1357,7 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Navigate"",
+                    ""action"": ""NavigateHint"",
                     ""isComposite"": true,
                     ""isPartOfComposite"": false
                 },
@@ -1201,7 +1368,7 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Navigate"",
+                    ""action"": ""NavigateHint"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": true
                 },
@@ -1212,7 +1379,7 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Navigate"",
+                    ""action"": ""NavigateHint"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": true
                 },
@@ -1223,7 +1390,7 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Navigate"",
+                    ""action"": ""NavigateHint"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": true
                 },
@@ -1234,7 +1401,7 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Navigate"",
+                    ""action"": ""NavigateHint"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": true
                 },
@@ -1245,7 +1412,7 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Escape"",
+                    ""action"": ""EscapeHint"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 },
@@ -1256,7 +1423,7 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Escape"",
+                    ""action"": ""EscapeHint"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 },
@@ -1267,7 +1434,7 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Escape"",
+                    ""action"": ""EscapeHint"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 },
@@ -1278,7 +1445,7 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Escape"",
+                    ""action"": ""EscapeHint"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 },
@@ -1289,7 +1456,7 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Escape"",
+                    ""action"": ""EscapeHint"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 },
@@ -1300,35 +1467,84 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Escape"",
+                    ""action"": ""EscapeHint"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""8a5ae5a4-d3e8-4811-8f3e-cf6174739a5b"",
+                    ""path"": ""<Keyboard>/k"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""EscapeHint"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 }
             ]
         }
     ],
-    ""controlSchemes"": []
+    ""controlSchemes"": [
+        {
+            ""name"": ""Gamepad"",
+            ""bindingGroup"": ""Gamepad"",
+            ""devices"": [
+                {
+                    ""devicePath"": ""<Gamepad>"",
+                    ""isOptional"": false,
+                    ""isOR"": false
+                },
+                {
+                    ""devicePath"": ""<VirtualMouse>"",
+                    ""isOptional"": true,
+                    ""isOR"": false
+                },
+                {
+                    ""devicePath"": ""<VirtualMouse>"",
+                    ""isOptional"": true,
+                    ""isOR"": false
+                }
+            ]
+        },
+        {
+            ""name"": ""Keyboard"",
+            ""bindingGroup"": ""Keyboard"",
+            ""devices"": [
+                {
+                    ""devicePath"": ""<Keyboard>"",
+                    ""isOptional"": false,
+                    ""isOR"": false
+                }
+            ]
+        }
+    ]
 }");
         // UI
         m_UI = asset.FindActionMap("UI", throwIfNotFound: true);
-        m_UI_Accept = m_UI.FindAction("Accept", throwIfNotFound: true);
-        m_UI_Navigate = m_UI.FindAction("Navigate", throwIfNotFound: true);
-        m_UI_Escape = m_UI.FindAction("Escape", throwIfNotFound: true);
+        m_UI_AcceptUI = m_UI.FindAction("AcceptUI", throwIfNotFound: true);
+        m_UI_NavigateUI = m_UI.FindAction("NavigateUI", throwIfNotFound: true);
+        m_UI_EscapeUI = m_UI.FindAction("EscapeUI", throwIfNotFound: true);
         // Gameplay
         m_Gameplay = asset.FindActionMap("Gameplay", throwIfNotFound: true);
-        m_Gameplay_Interact = m_Gameplay.FindAction("Interact", throwIfNotFound: true);
-        m_Gameplay_Move = m_Gameplay.FindAction("Move", throwIfNotFound: true);
-        m_Gameplay_Pause = m_Gameplay.FindAction("Pause", throwIfNotFound: true);
+        m_Gameplay_InteractGameplay = m_Gameplay.FindAction("InteractGameplay", throwIfNotFound: true);
+        m_Gameplay_MoveGameplay = m_Gameplay.FindAction("MoveGameplay", throwIfNotFound: true);
+        m_Gameplay_PauseGameplay = m_Gameplay.FindAction("PauseGameplay", throwIfNotFound: true);
         // Dialogue
         m_Dialogue = asset.FindActionMap("Dialogue", throwIfNotFound: true);
-        m_Dialogue_Accept = m_Dialogue.FindAction("Accept", throwIfNotFound: true);
-        m_Dialogue_Navigate = m_Dialogue.FindAction("Navigate", throwIfNotFound: true);
-        m_Dialogue_Escape = m_Dialogue.FindAction("Escape", throwIfNotFound: true);
+        m_Dialogue_AcceptDialogue = m_Dialogue.FindAction("AcceptDialogue", throwIfNotFound: true);
+        m_Dialogue_NavigateDialogue = m_Dialogue.FindAction("NavigateDialogue", throwIfNotFound: true);
+        m_Dialogue_EscapeDialogue = m_Dialogue.FindAction("EscapeDialogue", throwIfNotFound: true);
+        // Door
+        m_Door = asset.FindActionMap("Door", throwIfNotFound: true);
+        m_Door_EscapeDoor = m_Door.FindAction("EscapeDoor", throwIfNotFound: true);
+        m_Door_InteractCharacter = m_Door.FindAction("InteractCharacter", throwIfNotFound: true);
+        m_Door_GamepadCursor = m_Door.FindAction("GamepadCursor", throwIfNotFound: true);
         // Hint
         m_Hint = asset.FindActionMap("Hint", throwIfNotFound: true);
-        m_Hint_Accept = m_Hint.FindAction("Accept", throwIfNotFound: true);
-        m_Hint_Navigate = m_Hint.FindAction("Navigate", throwIfNotFound: true);
-        m_Hint_Escape = m_Hint.FindAction("Escape", throwIfNotFound: true);
+        m_Hint_AcceptHint = m_Hint.FindAction("AcceptHint", throwIfNotFound: true);
+        m_Hint_NavigateHint = m_Hint.FindAction("NavigateHint", throwIfNotFound: true);
+        m_Hint_EscapeHint = m_Hint.FindAction("EscapeHint", throwIfNotFound: true);
     }
 
     ~@PlayerInputActions()
@@ -1336,6 +1552,7 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
         UnityEngine.Debug.Assert(!m_UI.enabled, "This will cause a leak and performance issues, PlayerInputActions.UI.Disable() has not been called.");
         UnityEngine.Debug.Assert(!m_Gameplay.enabled, "This will cause a leak and performance issues, PlayerInputActions.Gameplay.Disable() has not been called.");
         UnityEngine.Debug.Assert(!m_Dialogue.enabled, "This will cause a leak and performance issues, PlayerInputActions.Dialogue.Disable() has not been called.");
+        UnityEngine.Debug.Assert(!m_Door.enabled, "This will cause a leak and performance issues, PlayerInputActions.Door.Disable() has not been called.");
         UnityEngine.Debug.Assert(!m_Hint.enabled, "This will cause a leak and performance issues, PlayerInputActions.Hint.Disable() has not been called.");
     }
 
@@ -1412,9 +1629,9 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
     // UI
     private readonly InputActionMap m_UI;
     private List<IUIActions> m_UIActionsCallbackInterfaces = new List<IUIActions>();
-    private readonly InputAction m_UI_Accept;
-    private readonly InputAction m_UI_Navigate;
-    private readonly InputAction m_UI_Escape;
+    private readonly InputAction m_UI_AcceptUI;
+    private readonly InputAction m_UI_NavigateUI;
+    private readonly InputAction m_UI_EscapeUI;
     /// <summary>
     /// Provides access to input actions defined in input action map "UI".
     /// </summary>
@@ -1427,17 +1644,17 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
         /// </summary>
         public UIActions(@PlayerInputActions wrapper) { m_Wrapper = wrapper; }
         /// <summary>
-        /// Provides access to the underlying input action "UI/Accept".
+        /// Provides access to the underlying input action "UI/AcceptUI".
         /// </summary>
-        public InputAction @Accept => m_Wrapper.m_UI_Accept;
+        public InputAction @AcceptUI => m_Wrapper.m_UI_AcceptUI;
         /// <summary>
-        /// Provides access to the underlying input action "UI/Navigate".
+        /// Provides access to the underlying input action "UI/NavigateUI".
         /// </summary>
-        public InputAction @Navigate => m_Wrapper.m_UI_Navigate;
+        public InputAction @NavigateUI => m_Wrapper.m_UI_NavigateUI;
         /// <summary>
-        /// Provides access to the underlying input action "UI/Escape".
+        /// Provides access to the underlying input action "UI/EscapeUI".
         /// </summary>
-        public InputAction @Escape => m_Wrapper.m_UI_Escape;
+        public InputAction @EscapeUI => m_Wrapper.m_UI_EscapeUI;
         /// <summary>
         /// Provides access to the underlying input action map instance.
         /// </summary>
@@ -1464,15 +1681,15 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
         {
             if (instance == null || m_Wrapper.m_UIActionsCallbackInterfaces.Contains(instance)) return;
             m_Wrapper.m_UIActionsCallbackInterfaces.Add(instance);
-            @Accept.started += instance.OnAccept;
-            @Accept.performed += instance.OnAccept;
-            @Accept.canceled += instance.OnAccept;
-            @Navigate.started += instance.OnNavigate;
-            @Navigate.performed += instance.OnNavigate;
-            @Navigate.canceled += instance.OnNavigate;
-            @Escape.started += instance.OnEscape;
-            @Escape.performed += instance.OnEscape;
-            @Escape.canceled += instance.OnEscape;
+            @AcceptUI.started += instance.OnAcceptUI;
+            @AcceptUI.performed += instance.OnAcceptUI;
+            @AcceptUI.canceled += instance.OnAcceptUI;
+            @NavigateUI.started += instance.OnNavigateUI;
+            @NavigateUI.performed += instance.OnNavigateUI;
+            @NavigateUI.canceled += instance.OnNavigateUI;
+            @EscapeUI.started += instance.OnEscapeUI;
+            @EscapeUI.performed += instance.OnEscapeUI;
+            @EscapeUI.canceled += instance.OnEscapeUI;
         }
 
         /// <summary>
@@ -1484,15 +1701,15 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
         /// <seealso cref="UIActions" />
         private void UnregisterCallbacks(IUIActions instance)
         {
-            @Accept.started -= instance.OnAccept;
-            @Accept.performed -= instance.OnAccept;
-            @Accept.canceled -= instance.OnAccept;
-            @Navigate.started -= instance.OnNavigate;
-            @Navigate.performed -= instance.OnNavigate;
-            @Navigate.canceled -= instance.OnNavigate;
-            @Escape.started -= instance.OnEscape;
-            @Escape.performed -= instance.OnEscape;
-            @Escape.canceled -= instance.OnEscape;
+            @AcceptUI.started -= instance.OnAcceptUI;
+            @AcceptUI.performed -= instance.OnAcceptUI;
+            @AcceptUI.canceled -= instance.OnAcceptUI;
+            @NavigateUI.started -= instance.OnNavigateUI;
+            @NavigateUI.performed -= instance.OnNavigateUI;
+            @NavigateUI.canceled -= instance.OnNavigateUI;
+            @EscapeUI.started -= instance.OnEscapeUI;
+            @EscapeUI.performed -= instance.OnEscapeUI;
+            @EscapeUI.canceled -= instance.OnEscapeUI;
         }
 
         /// <summary>
@@ -1530,9 +1747,9 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
     // Gameplay
     private readonly InputActionMap m_Gameplay;
     private List<IGameplayActions> m_GameplayActionsCallbackInterfaces = new List<IGameplayActions>();
-    private readonly InputAction m_Gameplay_Interact;
-    private readonly InputAction m_Gameplay_Move;
-    private readonly InputAction m_Gameplay_Pause;
+    private readonly InputAction m_Gameplay_InteractGameplay;
+    private readonly InputAction m_Gameplay_MoveGameplay;
+    private readonly InputAction m_Gameplay_PauseGameplay;
     /// <summary>
     /// Provides access to input actions defined in input action map "Gameplay".
     /// </summary>
@@ -1545,17 +1762,17 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
         /// </summary>
         public GameplayActions(@PlayerInputActions wrapper) { m_Wrapper = wrapper; }
         /// <summary>
-        /// Provides access to the underlying input action "Gameplay/Interact".
+        /// Provides access to the underlying input action "Gameplay/InteractGameplay".
         /// </summary>
-        public InputAction @Interact => m_Wrapper.m_Gameplay_Interact;
+        public InputAction @InteractGameplay => m_Wrapper.m_Gameplay_InteractGameplay;
         /// <summary>
-        /// Provides access to the underlying input action "Gameplay/Move".
+        /// Provides access to the underlying input action "Gameplay/MoveGameplay".
         /// </summary>
-        public InputAction @Move => m_Wrapper.m_Gameplay_Move;
+        public InputAction @MoveGameplay => m_Wrapper.m_Gameplay_MoveGameplay;
         /// <summary>
-        /// Provides access to the underlying input action "Gameplay/Pause".
+        /// Provides access to the underlying input action "Gameplay/PauseGameplay".
         /// </summary>
-        public InputAction @Pause => m_Wrapper.m_Gameplay_Pause;
+        public InputAction @PauseGameplay => m_Wrapper.m_Gameplay_PauseGameplay;
         /// <summary>
         /// Provides access to the underlying input action map instance.
         /// </summary>
@@ -1582,15 +1799,15 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
         {
             if (instance == null || m_Wrapper.m_GameplayActionsCallbackInterfaces.Contains(instance)) return;
             m_Wrapper.m_GameplayActionsCallbackInterfaces.Add(instance);
-            @Interact.started += instance.OnInteract;
-            @Interact.performed += instance.OnInteract;
-            @Interact.canceled += instance.OnInteract;
-            @Move.started += instance.OnMove;
-            @Move.performed += instance.OnMove;
-            @Move.canceled += instance.OnMove;
-            @Pause.started += instance.OnPause;
-            @Pause.performed += instance.OnPause;
-            @Pause.canceled += instance.OnPause;
+            @InteractGameplay.started += instance.OnInteractGameplay;
+            @InteractGameplay.performed += instance.OnInteractGameplay;
+            @InteractGameplay.canceled += instance.OnInteractGameplay;
+            @MoveGameplay.started += instance.OnMoveGameplay;
+            @MoveGameplay.performed += instance.OnMoveGameplay;
+            @MoveGameplay.canceled += instance.OnMoveGameplay;
+            @PauseGameplay.started += instance.OnPauseGameplay;
+            @PauseGameplay.performed += instance.OnPauseGameplay;
+            @PauseGameplay.canceled += instance.OnPauseGameplay;
         }
 
         /// <summary>
@@ -1602,15 +1819,15 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
         /// <seealso cref="GameplayActions" />
         private void UnregisterCallbacks(IGameplayActions instance)
         {
-            @Interact.started -= instance.OnInteract;
-            @Interact.performed -= instance.OnInteract;
-            @Interact.canceled -= instance.OnInteract;
-            @Move.started -= instance.OnMove;
-            @Move.performed -= instance.OnMove;
-            @Move.canceled -= instance.OnMove;
-            @Pause.started -= instance.OnPause;
-            @Pause.performed -= instance.OnPause;
-            @Pause.canceled -= instance.OnPause;
+            @InteractGameplay.started -= instance.OnInteractGameplay;
+            @InteractGameplay.performed -= instance.OnInteractGameplay;
+            @InteractGameplay.canceled -= instance.OnInteractGameplay;
+            @MoveGameplay.started -= instance.OnMoveGameplay;
+            @MoveGameplay.performed -= instance.OnMoveGameplay;
+            @MoveGameplay.canceled -= instance.OnMoveGameplay;
+            @PauseGameplay.started -= instance.OnPauseGameplay;
+            @PauseGameplay.performed -= instance.OnPauseGameplay;
+            @PauseGameplay.canceled -= instance.OnPauseGameplay;
         }
 
         /// <summary>
@@ -1648,9 +1865,9 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
     // Dialogue
     private readonly InputActionMap m_Dialogue;
     private List<IDialogueActions> m_DialogueActionsCallbackInterfaces = new List<IDialogueActions>();
-    private readonly InputAction m_Dialogue_Accept;
-    private readonly InputAction m_Dialogue_Navigate;
-    private readonly InputAction m_Dialogue_Escape;
+    private readonly InputAction m_Dialogue_AcceptDialogue;
+    private readonly InputAction m_Dialogue_NavigateDialogue;
+    private readonly InputAction m_Dialogue_EscapeDialogue;
     /// <summary>
     /// Provides access to input actions defined in input action map "Dialogue".
     /// </summary>
@@ -1663,17 +1880,17 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
         /// </summary>
         public DialogueActions(@PlayerInputActions wrapper) { m_Wrapper = wrapper; }
         /// <summary>
-        /// Provides access to the underlying input action "Dialogue/Accept".
+        /// Provides access to the underlying input action "Dialogue/AcceptDialogue".
         /// </summary>
-        public InputAction @Accept => m_Wrapper.m_Dialogue_Accept;
+        public InputAction @AcceptDialogue => m_Wrapper.m_Dialogue_AcceptDialogue;
         /// <summary>
-        /// Provides access to the underlying input action "Dialogue/Navigate".
+        /// Provides access to the underlying input action "Dialogue/NavigateDialogue".
         /// </summary>
-        public InputAction @Navigate => m_Wrapper.m_Dialogue_Navigate;
+        public InputAction @NavigateDialogue => m_Wrapper.m_Dialogue_NavigateDialogue;
         /// <summary>
-        /// Provides access to the underlying input action "Dialogue/Escape".
+        /// Provides access to the underlying input action "Dialogue/EscapeDialogue".
         /// </summary>
-        public InputAction @Escape => m_Wrapper.m_Dialogue_Escape;
+        public InputAction @EscapeDialogue => m_Wrapper.m_Dialogue_EscapeDialogue;
         /// <summary>
         /// Provides access to the underlying input action map instance.
         /// </summary>
@@ -1700,15 +1917,15 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
         {
             if (instance == null || m_Wrapper.m_DialogueActionsCallbackInterfaces.Contains(instance)) return;
             m_Wrapper.m_DialogueActionsCallbackInterfaces.Add(instance);
-            @Accept.started += instance.OnAccept;
-            @Accept.performed += instance.OnAccept;
-            @Accept.canceled += instance.OnAccept;
-            @Navigate.started += instance.OnNavigate;
-            @Navigate.performed += instance.OnNavigate;
-            @Navigate.canceled += instance.OnNavigate;
-            @Escape.started += instance.OnEscape;
-            @Escape.performed += instance.OnEscape;
-            @Escape.canceled += instance.OnEscape;
+            @AcceptDialogue.started += instance.OnAcceptDialogue;
+            @AcceptDialogue.performed += instance.OnAcceptDialogue;
+            @AcceptDialogue.canceled += instance.OnAcceptDialogue;
+            @NavigateDialogue.started += instance.OnNavigateDialogue;
+            @NavigateDialogue.performed += instance.OnNavigateDialogue;
+            @NavigateDialogue.canceled += instance.OnNavigateDialogue;
+            @EscapeDialogue.started += instance.OnEscapeDialogue;
+            @EscapeDialogue.performed += instance.OnEscapeDialogue;
+            @EscapeDialogue.canceled += instance.OnEscapeDialogue;
         }
 
         /// <summary>
@@ -1720,15 +1937,15 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
         /// <seealso cref="DialogueActions" />
         private void UnregisterCallbacks(IDialogueActions instance)
         {
-            @Accept.started -= instance.OnAccept;
-            @Accept.performed -= instance.OnAccept;
-            @Accept.canceled -= instance.OnAccept;
-            @Navigate.started -= instance.OnNavigate;
-            @Navigate.performed -= instance.OnNavigate;
-            @Navigate.canceled -= instance.OnNavigate;
-            @Escape.started -= instance.OnEscape;
-            @Escape.performed -= instance.OnEscape;
-            @Escape.canceled -= instance.OnEscape;
+            @AcceptDialogue.started -= instance.OnAcceptDialogue;
+            @AcceptDialogue.performed -= instance.OnAcceptDialogue;
+            @AcceptDialogue.canceled -= instance.OnAcceptDialogue;
+            @NavigateDialogue.started -= instance.OnNavigateDialogue;
+            @NavigateDialogue.performed -= instance.OnNavigateDialogue;
+            @NavigateDialogue.canceled -= instance.OnNavigateDialogue;
+            @EscapeDialogue.started -= instance.OnEscapeDialogue;
+            @EscapeDialogue.performed -= instance.OnEscapeDialogue;
+            @EscapeDialogue.canceled -= instance.OnEscapeDialogue;
         }
 
         /// <summary>
@@ -1763,12 +1980,130 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
     /// </summary>
     public DialogueActions @Dialogue => new DialogueActions(this);
 
+    // Door
+    private readonly InputActionMap m_Door;
+    private List<IDoorActions> m_DoorActionsCallbackInterfaces = new List<IDoorActions>();
+    private readonly InputAction m_Door_EscapeDoor;
+    private readonly InputAction m_Door_InteractCharacter;
+    private readonly InputAction m_Door_GamepadCursor;
+    /// <summary>
+    /// Provides access to input actions defined in input action map "Door".
+    /// </summary>
+    public struct DoorActions
+    {
+        private @PlayerInputActions m_Wrapper;
+
+        /// <summary>
+        /// Construct a new instance of the input action map wrapper class.
+        /// </summary>
+        public DoorActions(@PlayerInputActions wrapper) { m_Wrapper = wrapper; }
+        /// <summary>
+        /// Provides access to the underlying input action "Door/EscapeDoor".
+        /// </summary>
+        public InputAction @EscapeDoor => m_Wrapper.m_Door_EscapeDoor;
+        /// <summary>
+        /// Provides access to the underlying input action "Door/InteractCharacter".
+        /// </summary>
+        public InputAction @InteractCharacter => m_Wrapper.m_Door_InteractCharacter;
+        /// <summary>
+        /// Provides access to the underlying input action "Door/GamepadCursor".
+        /// </summary>
+        public InputAction @GamepadCursor => m_Wrapper.m_Door_GamepadCursor;
+        /// <summary>
+        /// Provides access to the underlying input action map instance.
+        /// </summary>
+        public InputActionMap Get() { return m_Wrapper.m_Door; }
+        /// <inheritdoc cref="UnityEngine.InputSystem.InputActionMap.Enable()" />
+        public void Enable() { Get().Enable(); }
+        /// <inheritdoc cref="UnityEngine.InputSystem.InputActionMap.Disable()" />
+        public void Disable() { Get().Disable(); }
+        /// <inheritdoc cref="UnityEngine.InputSystem.InputActionMap.enabled" />
+        public bool enabled => Get().enabled;
+        /// <summary>
+        /// Implicitly converts an <see ref="DoorActions" /> to an <see ref="InputActionMap" /> instance.
+        /// </summary>
+        public static implicit operator InputActionMap(DoorActions set) { return set.Get(); }
+        /// <summary>
+        /// Adds <see cref="InputAction.started"/>, <see cref="InputAction.performed"/> and <see cref="InputAction.canceled"/> callbacks provided via <param cref="instance" /> on all input actions contained in this map.
+        /// </summary>
+        /// <param name="instance">Callback instance.</param>
+        /// <remarks>
+        /// If <paramref name="instance" /> is <c>null</c> or <paramref name="instance"/> have already been added this method does nothing.
+        /// </remarks>
+        /// <seealso cref="DoorActions" />
+        public void AddCallbacks(IDoorActions instance)
+        {
+            if (instance == null || m_Wrapper.m_DoorActionsCallbackInterfaces.Contains(instance)) return;
+            m_Wrapper.m_DoorActionsCallbackInterfaces.Add(instance);
+            @EscapeDoor.started += instance.OnEscapeDoor;
+            @EscapeDoor.performed += instance.OnEscapeDoor;
+            @EscapeDoor.canceled += instance.OnEscapeDoor;
+            @InteractCharacter.started += instance.OnInteractCharacter;
+            @InteractCharacter.performed += instance.OnInteractCharacter;
+            @InteractCharacter.canceled += instance.OnInteractCharacter;
+            @GamepadCursor.started += instance.OnGamepadCursor;
+            @GamepadCursor.performed += instance.OnGamepadCursor;
+            @GamepadCursor.canceled += instance.OnGamepadCursor;
+        }
+
+        /// <summary>
+        /// Removes <see cref="InputAction.started"/>, <see cref="InputAction.performed"/> and <see cref="InputAction.canceled"/> callbacks provided via <param cref="instance" /> on all input actions contained in this map.
+        /// </summary>
+        /// <remarks>
+        /// Calling this method when <paramref name="instance" /> have not previously been registered has no side-effects.
+        /// </remarks>
+        /// <seealso cref="DoorActions" />
+        private void UnregisterCallbacks(IDoorActions instance)
+        {
+            @EscapeDoor.started -= instance.OnEscapeDoor;
+            @EscapeDoor.performed -= instance.OnEscapeDoor;
+            @EscapeDoor.canceled -= instance.OnEscapeDoor;
+            @InteractCharacter.started -= instance.OnInteractCharacter;
+            @InteractCharacter.performed -= instance.OnInteractCharacter;
+            @InteractCharacter.canceled -= instance.OnInteractCharacter;
+            @GamepadCursor.started -= instance.OnGamepadCursor;
+            @GamepadCursor.performed -= instance.OnGamepadCursor;
+            @GamepadCursor.canceled -= instance.OnGamepadCursor;
+        }
+
+        /// <summary>
+        /// Unregisters <param cref="instance" /> and unregisters all input action callbacks via <see cref="DoorActions.UnregisterCallbacks(IDoorActions)" />.
+        /// </summary>
+        /// <seealso cref="DoorActions.UnregisterCallbacks(IDoorActions)" />
+        public void RemoveCallbacks(IDoorActions instance)
+        {
+            if (m_Wrapper.m_DoorActionsCallbackInterfaces.Remove(instance))
+                UnregisterCallbacks(instance);
+        }
+
+        /// <summary>
+        /// Replaces all existing callback instances and previously registered input action callbacks associated with them with callbacks provided via <param cref="instance" />.
+        /// </summary>
+        /// <remarks>
+        /// If <paramref name="instance" /> is <c>null</c>, calling this method will only unregister all existing callbacks but not register any new callbacks.
+        /// </remarks>
+        /// <seealso cref="DoorActions.AddCallbacks(IDoorActions)" />
+        /// <seealso cref="DoorActions.RemoveCallbacks(IDoorActions)" />
+        /// <seealso cref="DoorActions.UnregisterCallbacks(IDoorActions)" />
+        public void SetCallbacks(IDoorActions instance)
+        {
+            foreach (var item in m_Wrapper.m_DoorActionsCallbackInterfaces)
+                UnregisterCallbacks(item);
+            m_Wrapper.m_DoorActionsCallbackInterfaces.Clear();
+            AddCallbacks(instance);
+        }
+    }
+    /// <summary>
+    /// Provides a new <see cref="DoorActions" /> instance referencing this action map.
+    /// </summary>
+    public DoorActions @Door => new DoorActions(this);
+
     // Hint
     private readonly InputActionMap m_Hint;
     private List<IHintActions> m_HintActionsCallbackInterfaces = new List<IHintActions>();
-    private readonly InputAction m_Hint_Accept;
-    private readonly InputAction m_Hint_Navigate;
-    private readonly InputAction m_Hint_Escape;
+    private readonly InputAction m_Hint_AcceptHint;
+    private readonly InputAction m_Hint_NavigateHint;
+    private readonly InputAction m_Hint_EscapeHint;
     /// <summary>
     /// Provides access to input actions defined in input action map "Hint".
     /// </summary>
@@ -1781,17 +2116,17 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
         /// </summary>
         public HintActions(@PlayerInputActions wrapper) { m_Wrapper = wrapper; }
         /// <summary>
-        /// Provides access to the underlying input action "Hint/Accept".
+        /// Provides access to the underlying input action "Hint/AcceptHint".
         /// </summary>
-        public InputAction @Accept => m_Wrapper.m_Hint_Accept;
+        public InputAction @AcceptHint => m_Wrapper.m_Hint_AcceptHint;
         /// <summary>
-        /// Provides access to the underlying input action "Hint/Navigate".
+        /// Provides access to the underlying input action "Hint/NavigateHint".
         /// </summary>
-        public InputAction @Navigate => m_Wrapper.m_Hint_Navigate;
+        public InputAction @NavigateHint => m_Wrapper.m_Hint_NavigateHint;
         /// <summary>
-        /// Provides access to the underlying input action "Hint/Escape".
+        /// Provides access to the underlying input action "Hint/EscapeHint".
         /// </summary>
-        public InputAction @Escape => m_Wrapper.m_Hint_Escape;
+        public InputAction @EscapeHint => m_Wrapper.m_Hint_EscapeHint;
         /// <summary>
         /// Provides access to the underlying input action map instance.
         /// </summary>
@@ -1818,15 +2153,15 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
         {
             if (instance == null || m_Wrapper.m_HintActionsCallbackInterfaces.Contains(instance)) return;
             m_Wrapper.m_HintActionsCallbackInterfaces.Add(instance);
-            @Accept.started += instance.OnAccept;
-            @Accept.performed += instance.OnAccept;
-            @Accept.canceled += instance.OnAccept;
-            @Navigate.started += instance.OnNavigate;
-            @Navigate.performed += instance.OnNavigate;
-            @Navigate.canceled += instance.OnNavigate;
-            @Escape.started += instance.OnEscape;
-            @Escape.performed += instance.OnEscape;
-            @Escape.canceled += instance.OnEscape;
+            @AcceptHint.started += instance.OnAcceptHint;
+            @AcceptHint.performed += instance.OnAcceptHint;
+            @AcceptHint.canceled += instance.OnAcceptHint;
+            @NavigateHint.started += instance.OnNavigateHint;
+            @NavigateHint.performed += instance.OnNavigateHint;
+            @NavigateHint.canceled += instance.OnNavigateHint;
+            @EscapeHint.started += instance.OnEscapeHint;
+            @EscapeHint.performed += instance.OnEscapeHint;
+            @EscapeHint.canceled += instance.OnEscapeHint;
         }
 
         /// <summary>
@@ -1838,15 +2173,15 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
         /// <seealso cref="HintActions" />
         private void UnregisterCallbacks(IHintActions instance)
         {
-            @Accept.started -= instance.OnAccept;
-            @Accept.performed -= instance.OnAccept;
-            @Accept.canceled -= instance.OnAccept;
-            @Navigate.started -= instance.OnNavigate;
-            @Navigate.performed -= instance.OnNavigate;
-            @Navigate.canceled -= instance.OnNavigate;
-            @Escape.started -= instance.OnEscape;
-            @Escape.performed -= instance.OnEscape;
-            @Escape.canceled -= instance.OnEscape;
+            @AcceptHint.started -= instance.OnAcceptHint;
+            @AcceptHint.performed -= instance.OnAcceptHint;
+            @AcceptHint.canceled -= instance.OnAcceptHint;
+            @NavigateHint.started -= instance.OnNavigateHint;
+            @NavigateHint.performed -= instance.OnNavigateHint;
+            @NavigateHint.canceled -= instance.OnNavigateHint;
+            @EscapeHint.started -= instance.OnEscapeHint;
+            @EscapeHint.performed -= instance.OnEscapeHint;
+            @EscapeHint.canceled -= instance.OnEscapeHint;
         }
 
         /// <summary>
@@ -1880,6 +2215,32 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
     /// Provides a new <see cref="HintActions" /> instance referencing this action map.
     /// </summary>
     public HintActions @Hint => new HintActions(this);
+    private int m_GamepadSchemeIndex = -1;
+    /// <summary>
+    /// Provides access to the input control scheme.
+    /// </summary>
+    /// <seealso cref="UnityEngine.InputSystem.InputControlScheme" />
+    public InputControlScheme GamepadScheme
+    {
+        get
+        {
+            if (m_GamepadSchemeIndex == -1) m_GamepadSchemeIndex = asset.FindControlSchemeIndex("Gamepad");
+            return asset.controlSchemes[m_GamepadSchemeIndex];
+        }
+    }
+    private int m_KeyboardSchemeIndex = -1;
+    /// <summary>
+    /// Provides access to the input control scheme.
+    /// </summary>
+    /// <seealso cref="UnityEngine.InputSystem.InputControlScheme" />
+    public InputControlScheme KeyboardScheme
+    {
+        get
+        {
+            if (m_KeyboardSchemeIndex == -1) m_KeyboardSchemeIndex = asset.FindControlSchemeIndex("Keyboard");
+            return asset.controlSchemes[m_KeyboardSchemeIndex];
+        }
+    }
     /// <summary>
     /// Interface to implement callback methods for all input action callbacks associated with input actions defined by "UI" which allows adding and removing callbacks.
     /// </summary>
@@ -1888,26 +2249,26 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
     public interface IUIActions
     {
         /// <summary>
-        /// Method invoked when associated input action "Accept" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// Method invoked when associated input action "AcceptUI" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
         /// </summary>
         /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
         /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
         /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
-        void OnAccept(InputAction.CallbackContext context);
+        void OnAcceptUI(InputAction.CallbackContext context);
         /// <summary>
-        /// Method invoked when associated input action "Navigate" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// Method invoked when associated input action "NavigateUI" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
         /// </summary>
         /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
         /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
         /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
-        void OnNavigate(InputAction.CallbackContext context);
+        void OnNavigateUI(InputAction.CallbackContext context);
         /// <summary>
-        /// Method invoked when associated input action "Escape" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// Method invoked when associated input action "EscapeUI" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
         /// </summary>
         /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
         /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
         /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
-        void OnEscape(InputAction.CallbackContext context);
+        void OnEscapeUI(InputAction.CallbackContext context);
     }
     /// <summary>
     /// Interface to implement callback methods for all input action callbacks associated with input actions defined by "Gameplay" which allows adding and removing callbacks.
@@ -1917,26 +2278,26 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
     public interface IGameplayActions
     {
         /// <summary>
-        /// Method invoked when associated input action "Interact" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// Method invoked when associated input action "InteractGameplay" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
         /// </summary>
         /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
         /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
         /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
-        void OnInteract(InputAction.CallbackContext context);
+        void OnInteractGameplay(InputAction.CallbackContext context);
         /// <summary>
-        /// Method invoked when associated input action "Move" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// Method invoked when associated input action "MoveGameplay" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
         /// </summary>
         /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
         /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
         /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
-        void OnMove(InputAction.CallbackContext context);
+        void OnMoveGameplay(InputAction.CallbackContext context);
         /// <summary>
-        /// Method invoked when associated input action "Pause" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// Method invoked when associated input action "PauseGameplay" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
         /// </summary>
         /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
         /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
         /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
-        void OnPause(InputAction.CallbackContext context);
+        void OnPauseGameplay(InputAction.CallbackContext context);
     }
     /// <summary>
     /// Interface to implement callback methods for all input action callbacks associated with input actions defined by "Dialogue" which allows adding and removing callbacks.
@@ -1946,26 +2307,55 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
     public interface IDialogueActions
     {
         /// <summary>
-        /// Method invoked when associated input action "Accept" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// Method invoked when associated input action "AcceptDialogue" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
         /// </summary>
         /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
         /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
         /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
-        void OnAccept(InputAction.CallbackContext context);
+        void OnAcceptDialogue(InputAction.CallbackContext context);
         /// <summary>
-        /// Method invoked when associated input action "Navigate" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// Method invoked when associated input action "NavigateDialogue" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
         /// </summary>
         /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
         /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
         /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
-        void OnNavigate(InputAction.CallbackContext context);
+        void OnNavigateDialogue(InputAction.CallbackContext context);
         /// <summary>
-        /// Method invoked when associated input action "Escape" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// Method invoked when associated input action "EscapeDialogue" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
         /// </summary>
         /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
         /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
         /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
-        void OnEscape(InputAction.CallbackContext context);
+        void OnEscapeDialogue(InputAction.CallbackContext context);
+    }
+    /// <summary>
+    /// Interface to implement callback methods for all input action callbacks associated with input actions defined by "Door" which allows adding and removing callbacks.
+    /// </summary>
+    /// <seealso cref="DoorActions.AddCallbacks(IDoorActions)" />
+    /// <seealso cref="DoorActions.RemoveCallbacks(IDoorActions)" />
+    public interface IDoorActions
+    {
+        /// <summary>
+        /// Method invoked when associated input action "EscapeDoor" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// </summary>
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
+        void OnEscapeDoor(InputAction.CallbackContext context);
+        /// <summary>
+        /// Method invoked when associated input action "InteractCharacter" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// </summary>
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
+        void OnInteractCharacter(InputAction.CallbackContext context);
+        /// <summary>
+        /// Method invoked when associated input action "GamepadCursor" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// </summary>
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
+        void OnGamepadCursor(InputAction.CallbackContext context);
     }
     /// <summary>
     /// Interface to implement callback methods for all input action callbacks associated with input actions defined by "Hint" which allows adding and removing callbacks.
@@ -1975,25 +2365,25 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
     public interface IHintActions
     {
         /// <summary>
-        /// Method invoked when associated input action "Accept" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// Method invoked when associated input action "AcceptHint" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
         /// </summary>
         /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
         /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
         /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
-        void OnAccept(InputAction.CallbackContext context);
+        void OnAcceptHint(InputAction.CallbackContext context);
         /// <summary>
-        /// Method invoked when associated input action "Navigate" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// Method invoked when associated input action "NavigateHint" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
         /// </summary>
         /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
         /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
         /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
-        void OnNavigate(InputAction.CallbackContext context);
+        void OnNavigateHint(InputAction.CallbackContext context);
         /// <summary>
-        /// Method invoked when associated input action "Escape" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// Method invoked when associated input action "EscapeHint" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
         /// </summary>
         /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
         /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
         /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
-        void OnEscape(InputAction.CallbackContext context);
+        void OnEscapeHint(InputAction.CallbackContext context);
     }
 }

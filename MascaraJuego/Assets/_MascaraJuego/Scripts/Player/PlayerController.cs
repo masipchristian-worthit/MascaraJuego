@@ -43,7 +43,6 @@ public class PlayerController : MonoBehaviour
         }
 
         rb = GetComponent<Rigidbody>();
-        Cursor.visible = false;
         movement = Vector2.zero;
         if (InteractColliderSide) InteractColliderSide.enabled = false;
     }
@@ -110,55 +109,70 @@ public class PlayerController : MonoBehaviour
     {
         if (context.performed)
         {
-            TogglePause();
         }
     }
 
     //UI ACTIONS
     public void onAcceptUI(InputAction.CallbackContext context) { }
     public void onNavigateUI(InputAction.CallbackContext context) { }
-    
+
     public void onCancelUI(InputAction.CallbackContext context)
     {
         if (context.performed)
-        {  
-            if (pauseMenuPanel != null && pauseMenuPanel.activeInHierarchy)
+        {
+            if (pauseMenuPanel != null) 
             {
-                TogglePause();
+                isPaused = false;
+                Time.timeScale = 1f;
+                pauseMenuPanel.SetActive(false);
             }
+            InputManager.Instance.ReturnToPreviousMap();
         }
     }
 
-    // DIALOGUE ACTIONS
-    public void onAcceptDialogue(InputAction.CallbackContext context) { }
-    public void onCancelDialogue(InputAction.CallbackContext context) { }
-    public void onNavigateDialogue(InputAction.CallbackContext context) { }
+    // --------------------------------------------------------------------
+    // HINT ACTIONS (Pantalla de Pistas/Notas)
+    // --------------------------------------------------------------------
 
-    // HINT ACTIONS
     public void onAcceptHint(InputAction.CallbackContext context) { }
-    public void onCancelHint(InputAction.CallbackContext context) { }
     public void onNavigateHint(InputAction.CallbackContext context) { }
 
-    #endregion
-
-    public void TogglePause()
+    public void onCancelHint(InputAction.CallbackContext context)
     {
-        isPaused = !isPaused;
-
-        if (isPaused)
+        if (context.performed)
         {
-            Time.timeScale = 0f; 
-            Cursor.visible = true;
-            if(pauseMenuPanel) pauseMenuPanel.SetActive(true);
-            GetComponent<PlayerInput>().SwitchCurrentActionMap("UI");
-
-        }
-        else
-        {
-            Time.timeScale = 1f; 
-            Cursor.visible = false;
-            if(pauseMenuPanel) pauseMenuPanel.SetActive(false);
-            GetComponent<PlayerInput>().SwitchCurrentActionMap("Gameplay");
+            if (hintPanel != null) hintPanel.SetActive(false);
+        
+            InputManager.Instance.ReturnToPreviousMap();
         }
     }
+
+    // --------------------------------------------------------------------
+    // DIALOGUE ACTIONS
+    // --------------------------------------------------------------------
+    public void onAcceptDialogue(InputAction.CallbackContext context) 
+    {
+        if (context.performed)
+        {
+            
+        }
+    }
+
+    public void onNavigateDialogue(InputAction.CallbackContext context) 
+    {
+        
+    }   
+
+    // --------------------------------------------------------------------
+    // DOORS ACTIONS
+    // --------------------------------------------------------------------
+    public void onEscapeDoor(InputAction.CallbackContext context) 
+    {
+        if (context.performed)
+        {
+            // Lógica para salir de la puerta
+        }
+    }
+    #endregion
+
 }
