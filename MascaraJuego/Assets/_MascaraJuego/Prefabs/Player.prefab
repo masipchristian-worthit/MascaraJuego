@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 6107583305622632593}
   m_Layer: 0
   m_Name: InteractCollider
-  m_TagString: Untagged
+  m_TagString: PlayerInteract
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -70,7 +70,7 @@ GameObject:
   - component: {fileID: 3404816905962830845}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -340,6 +340,30 @@ MonoBehaviour:
         m_CallState: 2
     m_ActionId: db799ac4-5d91-481e-b322-fa488e567079
     m_ActionName: 'UI/Escape[/Keyboard/escape,/Keyboard/delete,/Keyboard/enter,/Keyboard/tab,/Keyboard/x]'
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: a12aa78b-1ebe-4b7c-8eff-f3d9a7593714
+    m_ActionName: 'Dialogue/Accept[/Keyboard/z,/Keyboard/j]'
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: a09c6542-e145-4565-afac-1750017232ea
+    m_ActionName: 'Dialogue/Navigate[/Keyboard/w,/Keyboard/s,/Keyboard/a,/Keyboard/d,/Keyboard/upArrow,/Keyboard/downArrow,/Keyboard/leftArrow,/Keyboard/rightArrow]'
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: c4d9122e-8b93-4337-8f70-9bfbd9c73e17
+    m_ActionName: 'Dialogue/Escape[/Keyboard/escape,/Keyboard/delete,/Keyboard/enter,/Keyboard/tab,/Keyboard/x]'
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 2aa6e3a4-75ad-48d1-88d1-473e1af3f762
+    m_ActionName: 'Hint/Accept[/Keyboard/z,/Keyboard/j]'
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 92bfebf7-c092-47d1-901e-00f7aaa901fe
+    m_ActionName: 'Hint/Navigate[/Keyboard/w,/Keyboard/s,/Keyboard/a,/Keyboard/d,/Keyboard/upArrow,/Keyboard/downArrow,/Keyboard/leftArrow,/Keyboard/rightArrow]'
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 78c4188e-ed85-4d32-9243-e1b8a730dabe
+    m_ActionName: 'Hint/Escape[/Keyboard/escape,/Keyboard/delete,/Keyboard/enter,/Keyboard/tab,/Keyboard/x]'
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Gameplay
@@ -362,3 +386,4 @@ MonoBehaviour:
   anim: {fileID: 3973806210736726926}
   InteractColliderSide: {fileID: 6107583305622632593}
   pauseMenuPanel: {fileID: 0}
+  hintPanel: {fileID: 0}
