@@ -76,6 +76,30 @@ namespace DS.Utilities
 
             return imageField;
         }
+        
+        public static ObjectField CreateScriptableObjectArea<T>(
+            T value = null,
+            string label = null
+        ) where T : ScriptableObject
+        {
+            var objectField = new ObjectField
+            {
+                label = label,
+                objectType = typeof(T),
+                allowSceneObjects = false,
+                value = value 
+            };
+
+            objectField.RegisterValueChangedCallback(evt =>
+            {
+                if (evt.newValue != null)
+                {
+                    value = (T)evt.newValue;
+                }
+            });
+
+            return objectField;
+        }
 
         public static DropdownField CreateDropdown( string label = null, List<string> options = null, string selectedOption = null, EventCallback<ChangeEvent<string>> onValueChanged = null)
         {

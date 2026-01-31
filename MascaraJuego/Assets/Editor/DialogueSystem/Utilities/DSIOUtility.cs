@@ -185,7 +185,8 @@ namespace DS.Utilities
                 DialogueType = node.DialogueType,
                 Position = node.GetPosition().position,
                 CharacterImageLeft = node.CharacterLeft,
-                Actions = node.DialogueAction
+                Actions = node.DialogueAction,
+                HintSo = node.HintSO
             };
 
             graphData.Nodes.Add(nodeData);
@@ -218,7 +219,8 @@ namespace DS.Utilities
                 node.IsStartingNode(),
                 node.DialogueSpeed,
                 node.CharacterLeft,
-                node.DialogueAction
+                node.DialogueAction,
+                node.HintSO
                 );
 
             createdDialogues.Add(node.ID, dialogue);
@@ -357,6 +359,7 @@ namespace DS.Utilities
                 node.DialogueAudio = nodeData.Audio;
                 node.CharacterLeft = nodeData.CharacterImageLeft;
                 node.DialogueAction = nodeData.Actions;
+                node.HintSO = nodeData.HintSo;
 
                 node.Draw();
 

@@ -10,18 +10,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 131a78a354596af40b2a9b91fee30564, type: 3}
-  m_Name: tes1
+  m_Name: nometoco
   m_EditorClassIdentifier: Assembly-CSharp::DS.ScriptableObjects.DSDialogueSO
-  <DialogueName>k__BackingField: tes1
-  <Text>k__BackingField: mami
-  <SpeakerName>k__BackingField: diablo
+  <DialogueName>k__BackingField: nometoco
+  <Text>k__BackingField: me toco mas que te den
+  <SpeakerName>k__BackingField: no me toco
   <Choices>k__BackingField:
   - <Text>k__BackingField: Next DIalogue
-    <NextDialogue>k__BackingField: {fileID: 11400000, guid: 1cef44b75cdb32a44b573f16ffffcc3a, type: 2}
+    <NextDialogue>k__BackingField: {fileID: 11400000, guid: 52a9f089d238f794db6fa10d35218f38, type: 2}
   <Audio>k__BackingField: 
   <DialogueType>k__BackingField: 0
-  <IsStartingDialogue>k__BackingField: 1
+  <IsStartingDialogue>k__BackingField: 0
   <DialogueSpeed>k__BackingField: 
   <DialogueCharacterLeft>k__BackingField: {fileID: 21300000, guid: b2fed1ecb0d934a45a2a78e19d12b9aa, type: 3}
-  <DialogueActionName>k__BackingField: Nothing
+  <DialogueActionName>k__BackingField: 
   <HintSo>k__BackingField: {fileID: 0}

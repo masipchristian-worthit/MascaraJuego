@@ -11,6 +11,7 @@ public class HintManager : MonoBehaviour
     [SerializeField] private HintUI _hintMenu;
     [SerializeField] private HintUI _hintDiscover;
     public static HintManager Instance;
+    private PlayerInputActions _playerInputActions;
     
     private void Awake()
     {
@@ -23,7 +24,7 @@ public class HintManager : MonoBehaviour
             Destroy(gameObject);
         }
     }
-
+    
     private void Start()
     {
         showHintsInMenu();
@@ -58,7 +59,8 @@ public class HintManager : MonoBehaviour
 
     public void ShowHintDialogue(HintSO hint)
     {
-        
+        _hintDiscover.SetHint(hint);
+        InputManager.Instance.SwitchTo(InputManager.InputMapType.Hint);
         
     }
 }
