@@ -51,8 +51,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 0.69834197, y: 1, z: 1}
+  m_Center: {x: 0.49933958, y: 0, z: 0}
 --- !u!1 &7672706718773078946
 GameObject:
   m_ObjectHideFlags: 0
@@ -357,7 +357,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fac8d2c87bcbcc44a303daf5576e737, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerController
-  moveSpeed: 5
+  moveSpeed: 2
   spriteRenderer: {fileID: 5295850203195952129}
   anim: {fileID: 3973806210736726926}
   InteractColliderSide: {fileID: 6107583305622632593}

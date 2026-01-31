@@ -4,6 +4,9 @@ using System.Collections;
 
 public class PlayerController : MonoBehaviour
 {
+    // --- ESTA ES LA PARTE QUE TE FALTABA (SINGLETON) ---
+    public static PlayerController Instance { get; private set; }
+
     [Header("Player Settings")]
     [SerializeField] public float moveSpeed = 5f;
 
@@ -27,6 +30,17 @@ public class PlayerController : MonoBehaviour
     
     void Awake()
     {
+        // --- CONFIGURACIÓN DEL SINGLETON ---
+        if (Instance == null)
+        {
+            Instance = this;
+        }
+        else
+        {
+            Destroy(gameObject);
+            return; 
+        }
+
         rb = GetComponent<Rigidbody>();
         Cursor.visible = false;
         movement = Vector2.zero;
@@ -35,14 +49,8 @@ public class PlayerController : MonoBehaviour
 
     void Start()
     {
-        // Si no asignaste el SpriteRenderer en el inspector, lo buscamos
         if (spriteRenderer == null) spriteRenderer = GetComponent<SpriteRenderer>();
         if (anim == null) anim = GetComponent<Animator>();
-    }
-
-    void Update()
-    {
-        
     }
 
     void FixedUpdate()
@@ -53,47 +61,33 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-void Movement()
-{
-    Vector3 displacement = new Vector3(movement.x, movement.y, 0f) * moveSpeed * Time.fixedDeltaTime;
-    rb.MovePosition(rb.position + displacement);
-}
+    void Movement()
+    {
+        Vector3 displacement = new Vector3(movement.x, movement.y, 0f) * moveSpeed * Time.fixedDeltaTime;
+        rb.MovePosition(rb.position + displacement);
+    }
+
     // COROUTINES
     IEnumerator Interact()
     {
         isInteracting = true;
-        
-        // Seleccionamos qué collider activar según la dirección actual
-        BoxCollider currentCollider = InteractColliderSide; // Default
+        BoxCollider currentCollider = InteractColliderSide; 
 
         if (currentCollider != null)
         {
             currentCollider.enabled = true;
-            // Debug.Log($"Interacting direction: {currentDirection}");
             yield return new WaitForSeconds(0.5f);
             currentCollider.enabled = false;
         }
         else
         {
-            // Fallback por si falta asignar algo
             yield return new WaitForSeconds(0.5f);
         }
 
         isInteracting = false;
     }
 
-    // Player Actions Logic
-    void InteractAction()
-    {
-        if (isInteracting) moveSpeed = 0f;
-    }
-
-    //-------------------------------------------------------------------------------------------------------------------
-    //-------------------------------------------------------------------------------------------------------------------
-
-    #region Input System Callbacks
-
-    // Gameplay Actions
+    // INPUT SYSTEM CALLBACKS
     public void OnMove(InputAction.CallbackContext context)
     {
         movement = context.ReadValue<Vector2>();
@@ -103,7 +97,6 @@ void Movement()
     {
         if (context.performed)
         {
-            // Debug.Log("Interact Pressed");
             StartCoroutine(Interact());
         }
     }
@@ -113,31 +106,12 @@ void Movement()
         if (context.performed)
         {
             TogglePause();
-            Debug.Log("Pause Pressed");
         }
     }
 
-    // UI Actions
-
-    public void onAccept(InputAction.CallbackContext context)
-    {
-        if (context.performed)
-        {
-            /*
-            // Si hay un diálogo activo, avanzar texto
-            if (DialogueManager.Instance != null && DialogueManager.Instance.gameObject.activeInHierarchy)
-            {
-                DialogueManager.Instance.DisplayNextSentence();
-            }
-            */
-        }
-    }
-
-    public void onNavigate(InputAction.CallbackContext context)
-    {
-        // Vector2 navigationInput = context.ReadValue<Vector2>();
-    }
-
+    public void onAccept(InputAction.CallbackContext context) { }
+    public void onNavigate(InputAction.CallbackContext context) { }
+    
     public void onEscape(InputAction.CallbackContext context)
     {
         if (context.performed)
@@ -149,9 +123,6 @@ void Movement()
         }
     }
 
-    #endregion
-
-    // Lógica de Pausa Manual
     public void TogglePause()
     {
         isPaused = !isPaused;
@@ -173,4 +144,3 @@ void Movement()
         }
     }
 }
-        
