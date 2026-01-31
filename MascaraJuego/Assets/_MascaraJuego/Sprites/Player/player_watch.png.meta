@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 9d35244d7d6b54747980347dddb7149e
+guid: 9ed2eba0d87f172459824ed402126478
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -97,7 +97,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: player_Idle_0
+      name: player_watch_0
       rect:
         serializedVersion: 2
         x: 0
@@ -112,14 +112,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dfc9b46b19a41374aa68911141fc7942
-      internalID: -244837234
+      spriteID: 2573e8e4f7de8c744b9cbe6a6012f564
+      internalID: 1327679143
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_Idle_1
+      name: player_watch_1
       rect:
         serializedVersion: 2
         x: 48
@@ -134,14 +134,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9c5490a36b7e74f4a8b4b09bb00dc64e
-      internalID: 547545538
+      spriteID: e913aad37d21ee445a9724297790d917
+      internalID: 2067849007
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_Idle_2
+      name: player_watch_2
       rect:
         serializedVersion: 2
         x: 96
@@ -156,14 +156,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f3d4461984a11764ab062887f6e46fe0
-      internalID: 1349284142
+      spriteID: b02ca3655d9a29b4bbd5a1935f2af1e0
+      internalID: 1319395808
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_Idle_3
+      name: player_watch_3
       rect:
         serializedVersion: 2
         x: 144
@@ -178,8 +178,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f9a9b75910d5ef84da6e1a6de9b07f92
-      internalID: -695677435
+      spriteID: 7b6e7e1202e9b814d9fd95ff7cb97656
+      internalID: -15874931
       vertices: []
       indices: 
       edges: []
@@ -188,7 +188,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 90cbd9dd0b453974887b488baecbf94c
+    spriteID: c211edf2b82d31442904f7b11afcf847
     internalID: 0
     vertices: []
     indices: 
@@ -200,10 +200,10 @@ TextureImporter:
       - key: SpriteEditor.SliceSettings
         value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":48.0,"y":48.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.0},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":7,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      player_Idle_0: -244837234
-      player_Idle_1: 547545538
-      player_Idle_2: 1349284142
-      player_Idle_3: -695677435
+      player_watch_0: 1327679143
+      player_watch_1: 2067849007
+      player_watch_2: 1319395808
+      player_watch_3: -15874931
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

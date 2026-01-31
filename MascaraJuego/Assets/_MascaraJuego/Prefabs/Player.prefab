@@ -26,7 +26,7 @@ Transform:
   m_GameObject: {fileID: 4773514726995771103}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0.265, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -51,8 +51,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.69834197, y: 1, z: 1}
-  m_Center: {x: 0.49933958, y: 0, z: 0}
+  m_Size: {x: 0.2917249, y: 0.4914253, z: 0.30628282}
+  m_Center: {x: 0.1837155, y: -0.00019932854, z: -0.010257594}
 --- !u!1 &7672706718773078946
 GameObject:
   m_ObjectHideFlags: 0
@@ -138,15 +138,15 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: -244837234, guid: 9d35244d7d6b54747980347dddb7149e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.48, y: 0.48}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!65 &6360441427675756556
@@ -168,8 +168,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 0.20687915, y: 0.5203228, z: 0.08488206}
+  m_Center: {x: -0.019026212, y: 0.25607368, z: 0.005334483}
 --- !u!54 &8340159264445202946
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -207,7 +207,7 @@ Animator:
   m_GameObject: {fileID: 7672706718773078946}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: cc172a627a7bc4248b638337f507f621, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -364,6 +364,18 @@ MonoBehaviour:
       m_Calls: []
     m_ActionId: 78c4188e-ed85-4d32-9243-e1b8a730dabe
     m_ActionName: 'Hint/Escape[/Keyboard/escape,/Keyboard/delete,/Keyboard/enter,/Keyboard/tab,/Keyboard/x]'
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: d08e69d6-c0e3-4a07-8af6-23da56717970
+    m_ActionName: 'Door/EscapeDoor[/Keyboard/escape,/Keyboard/delete,/Keyboard/enter,/Keyboard/tab,/Keyboard/x,/Keyboard/k]'
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 64e4d6e4-072f-4844-9d51-b5d85057c704
+    m_ActionName: 'Door/InteractCharacter[/Mouse/leftButton]'
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 9e2cbcac-acd6-4901-9562-86561e7acd93
+    m_ActionName: Door/GamepadCursor
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Gameplay

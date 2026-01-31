@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 9d35244d7d6b54747980347dddb7149e
+guid: 1a7a1b6fe6517034c96032b4e32bd5fb
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -97,7 +97,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: player_Idle_0
+      name: player_kick_0
       rect:
         serializedVersion: 2
         x: 0
@@ -112,14 +112,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dfc9b46b19a41374aa68911141fc7942
-      internalID: -244837234
+      spriteID: e31869e3f8da1cf4a931cadfb730e889
+      internalID: 575548856
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_Idle_1
+      name: player_kick_1
       rect:
         serializedVersion: 2
         x: 48
@@ -134,14 +134,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9c5490a36b7e74f4a8b4b09bb00dc64e
-      internalID: 547545538
+      spriteID: a8231cc0cb333ed488dbdbae054b50da
+      internalID: 996971270
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_Idle_2
+      name: player_kick_2
       rect:
         serializedVersion: 2
         x: 96
@@ -156,14 +156,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f3d4461984a11764ab062887f6e46fe0
-      internalID: 1349284142
+      spriteID: 93ff5e3d47a3652448b338eb173dfb10
+      internalID: 578592756
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_Idle_3
+      name: player_kick_3
       rect:
         serializedVersion: 2
         x: 144
@@ -178,8 +178,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f9a9b75910d5ef84da6e1a6de9b07f92
-      internalID: -695677435
+      spriteID: 8fc564bccefbb164a966985c90cf7233
+      internalID: -1956715665
       vertices: []
       indices: 
       edges: []
@@ -188,7 +188,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 90cbd9dd0b453974887b488baecbf94c
+    spriteID: e21b3420647d945478c714d8a2d8b17b
     internalID: 0
     vertices: []
     indices: 
@@ -200,10 +200,10 @@ TextureImporter:
       - key: SpriteEditor.SliceSettings
         value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":48.0,"y":48.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.0},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":7,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      player_Idle_0: -244837234
-      player_Idle_1: 547545538
-      player_Idle_2: 1349284142
-      player_Idle_3: -695677435
+      player_kick_0: 575548856
+      player_kick_1: 996971270
+      player_kick_2: 578592756
+      player_kick_3: -1956715665
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
