@@ -10,12 +10,13 @@ using UnityEngine.EventSystems;
 using UnityEngine.UI;
 using System.Linq;
 using System.Text.RegularExpressions;
+using DG.Tweening;
 
 public class DSDialogueUI : MonoBehaviour
 {
     public static DSDialogueUI Instance;
 
-    [SerializeField] private TextMeshProUGUI textUI;
+    [SerializeField] private TextMeshProUGUI textUI; 
     [SerializeField] private TextMeshProUGUI speakerNameTextUI;
     [SerializeField] public Animator dialogueAnimator;
     [SerializeField] public Image leftCharacterImage;
@@ -27,7 +28,7 @@ public class DSDialogueUI : MonoBehaviour
     [SerializeField] public bool inDialogue;
     [SerializeField] private PlayerInput playerInput;
     [SerializeField] private float dialogueSpeed;
-
+    [SerializeField] private string dialogueAction;
     private DialogueVertexAnimator dialogueVertexAnimator;
 
     //private EventInstance dialogueAudio;
@@ -52,7 +53,7 @@ public class DSDialogueUI : MonoBehaviour
 
     
 
-    private void Interact_Button()
+    public void Interact_Button()
     {
         if (inDialogue)
         {
@@ -74,17 +75,21 @@ public class DSDialogueUI : MonoBehaviour
                 }
                 else
                 {
-                    if (currentDialogue.Choices.Count >= 2)
+                    if (currentDialogue.Choices.Count >= 2) 
                     {
                         GameObject selectedButton = EventSystem.current.currentSelectedGameObject;
-                        if (selectedButton != null)
+
+                        if (selectedButton == null)
                         {
-                            selectedButton.GetComponent<Button>().onClick.Invoke();
+                            EventSystem.current.SetSelectedGameObject(optionButtons[0]);
+                            selectedButton = optionButtons[0];
                         }
+                    
+                        selectedButton.GetComponent<Button>().onClick.Invoke();
                     }
                     else
                     {
-                        NextText();
+                        NextText(); 
                     }
                 }
             }
@@ -111,9 +116,21 @@ public class DSDialogueUI : MonoBehaviour
         visibleColor.a = 1f;  
         textUI.color = visibleColor;
 
-        isTextFullyVisible = true;  
+        isTextFullyVisible = true;
+        
+        checkHint();
     }
 
+    void checkHint()
+    {
+        dialogueAction = currentDialogue.DialogueActionName;
+        if (dialogueAction == "GiveHint")
+        {
+            HintManager.Instance.registerHint(currentDialogue.HintSo);
+            InputManager.Instance.SwitchTo(InputManager.InputMapType.Hint);
+        }
+    }
+    
     public void ShowText(DSDialogueSO dialogue)
     {
         if (inDialogue)
@@ -168,6 +185,54 @@ public class DSDialogueUI : MonoBehaviour
             yield return StartCoroutine(dialogueVertexAnimator.AnimateTextIn(commands, totalTextMessage, OnTextAnimationComplete, dialogueSpeed,currentDialogue.Audio));
         }
     }
+    private void onOptionsShow()
+{
+    if (currentDialogue.Choices.Count >= 2)
+    {
+        optionsBox.SetActive(true);
+        EventSystem.current.SetSelectedGameObject(optionButtons[0]);
+
+        int choiceCount = currentDialogue.Choices.Count;
+        optionsBox.SetActive(choiceCount > 0);
+
+        for (int i = 0; i < optionButtons.Count; i++)
+        {
+            if (i < choiceCount)
+            {
+                optionButtons[i].SetActive(true);
+                optionButtons[i].transform.DOScale(1f, 0.3f);
+                var buttonText = optionButtons[i].GetComponentInChildren<TextMeshProUGUI>();
+                var button = optionButtons[i].GetComponent<Button>();
+                
+                if (string.IsNullOrEmpty(buttonText.text))
+                {
+                    optionButtons[i].SetActive(false);
+                }
+                else
+                {
+                    buttonText.text = currentDialogue.Choices[i].Text;
+                    
+                    button.onClick.RemoveAllListeners();
+                    
+                    int optionIndex = i;
+                    button.onClick.AddListener(() => OnOptionChosen(optionIndex));
+                }
+            }
+            else
+            {
+                optionButtons[i].SetActive(false);
+            }
+        }
+    }
+    else
+    {
+        if (optionsBox != null)
+        {
+            optionsBox.SetActive(false);
+        }
+    }
+}
+
 
     public void NextText()
     {
@@ -199,7 +264,7 @@ public class DSDialogueUI : MonoBehaviour
         dialogueBox.SetActive(false);
         yield return new WaitForSeconds(0.1f);
         inDialogue = false;
-        //InputManager.Instance.ChangeCurrentActionMap(actioMapToLoad);
+        //InputManager.Instance.SwitchTo();
         //actioMapToLoad = InputManager.ActionMaps.None;
     }
     
@@ -215,20 +280,45 @@ public class DSDialogueUI : MonoBehaviour
         textUI.text = cleanedText;
 
         textUI.ForceMeshUpdate();
+        onOptionsShow();
     }
 
     public void OnTextAnimationComplete()
     {
         isTextFullyVisible = true;  
+        onOptionsShow();
+        checkHint();
     }
 
+    public void OnOptionChosen(int choiceIndex)
+    {
+        if (inDialogue)
+        {
+            if (choiceIndex >= 0 && choiceIndex < currentDialogue.Choices.Count)
+            {
+                DSDialogueSO nextDialogue = currentDialogue.Choices[choiceIndex].NextDialogue;
+
+                if (nextDialogue == null)
+                {
+                    StartCoroutine(EndDialogue());
+                }
+                else
+                {
+                    currentDialogue = nextDialogue;
+                    ShowText(currentDialogue);
+                }
+
+                onOptionsShow();
+            }
+        }
+    }
 
     public void PlayDialogueNPC(DSDialogueContainerSO dialogueContainer)
     {
         dialogueBox.SetActive(true);
         currentDialogue = dialogueContainer.GetFirstDialogue();
         inDialogue = true;
-
+        //InputManager.Instance.SwitchTo(InputManager.InputMapType.Dialogue);
         if (currentDialogue != null && !string.IsNullOrEmpty(currentDialogue.Text))
         {
             ShowText(currentDialogue);

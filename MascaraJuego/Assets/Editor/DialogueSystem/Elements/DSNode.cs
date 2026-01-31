@@ -27,6 +27,7 @@ namespace DS.Elements
         public string DialogueAudio { get; set; }
         public string DialogueSpeed { get; set; }
         public Sprite CharacterLeft { get; set; }
+        public HintSO HintSO { get; set; }
         public string DialogueAction { get; set; }
         
         protected DSGraphView graphView;
@@ -173,7 +174,16 @@ namespace DS.Elements
                 sprite: CharacterLeft != null ? CharacterLeft : null
             );
             CharacterLeftImageField.AddToClassList("ds-node__image-field");
+            
+            ObjectField scriptableObjectField = DSElementUtility.CreateScriptableObjectArea<HintSO>(
+                HintSO
+            );
 
+            scriptableObjectField.RegisterValueChangedCallback(evt =>
+            {
+                HintSO = (HintSO)evt.newValue;  
+            });
+            
             // Crear vista previa de imagen para izquierda
             leftImageView = new Image
             {
@@ -194,7 +204,7 @@ namespace DS.Elements
 
             ////DROPDOWN ACCIONES
 
-            List<string> dropdownActions = new List<string> { "Nothing", "Dice", "Fight","Suborn","GiveObject","GiveAbility" };
+            List<string> dropdownActions = new List<string> { "Nothing","GiveHint" };
             
             DropdownField actionsDropdown = DSElementUtility.CreateDropdown(
                 "ActionsEnd",
@@ -206,7 +216,7 @@ namespace DS.Elements
                     Debug.Log("actionName: " + DialogueAction);
                 }
             );
-
+            
             Foldout imagesFoldout = DSElementUtility.CreateFouldout("Dialogue Images");
             imagesFoldout.Add(CharacterleftImageLabel);
             imagesFoldout.Add(CharacterLeftImageField);
@@ -220,6 +230,7 @@ namespace DS.Elements
             propertiesFoldout.Add(speedLabel);
             propertiesFoldout.Add(dialogueSpeedTextField);
             propertiesFoldout.Add(actionsDropdown);
+            propertiesFoldout.Add(scriptableObjectField);
             customDataContainer.Add(propertiesFoldout);
 
             extensionContainer.Add(customDataContainer);

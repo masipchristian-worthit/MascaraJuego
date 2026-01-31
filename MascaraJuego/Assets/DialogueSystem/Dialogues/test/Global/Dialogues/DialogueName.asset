@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 131a78a354596af40b2a9b91fee30564, type: 3}
+  m_Name: DialogueName
+  m_EditorClassIdentifier: Assembly-CSharp::DS.ScriptableObjects.DSDialogueSO
+  <DialogueName>k__BackingField: DialogueName
+  <Text>k__BackingField: que harias tu tiio
+  <SpeakerName>k__BackingField: waos
+  <Choices>k__BackingField:
+  - <Text>k__BackingField: me toco
+    <NextDialogue>k__BackingField: {fileID: 11400000, guid: f8215e111b9ba2c4eb7b3aa539509a12, type: 2}
+  - <Text>k__BackingField: no me toco
+    <NextDialogue>k__BackingField: {fileID: 11400000, guid: 63018ef947adcbf48b59c763ac802eb5, type: 2}
+  - <Text>k__BackingField: y si me toco
+    <NextDialogue>k__BackingField: {fileID: 11400000, guid: 2762c4af46586504792241d36dd84f60, type: 2}
+  - <Text>k__BackingField: adios
+    <NextDialogue>k__BackingField: {fileID: 11400000, guid: 118bf1e1e77a6464c9a5fc9c0986dccc, type: 2}
+  <Audio>k__BackingField: 
+  <DialogueType>k__BackingField: 1
+  <IsStartingDialogue>k__BackingField: 0
+  <DialogueSpeed>k__BackingField: 
+  <DialogueCharacterLeft>k__BackingField: {fileID: 21300000, guid: b2fed1ecb0d934a45a2a78e19d12b9aa, type: 3}
+  <DialogueActionName>k__BackingField: 
+  <HintSo>k__BackingField: {fileID: 0}

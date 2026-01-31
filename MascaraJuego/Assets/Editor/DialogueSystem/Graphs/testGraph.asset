@@ -13,7 +13,10 @@ MonoBehaviour:
   m_Name: testGraph
   m_EditorClassIdentifier: Assembly-CSharp-Editor::DS.Data.Save.DSGraphSaveData
   <FileName>k__BackingField: test
-  <Groups>k__BackingField: []
+  <Groups>k__BackingField:
+  - <ID>k__BackingField: e49118c7-7b5b-41cb-8864-e5adeef08905
+    <Name>k__BackingField: DialogueGroup
+    <Position>k__BackingField: {x: 1660.8, y: -1080.7999}
   <Nodes>k__BackingField:
   - <ID>k__BackingField: 832ab136-ad53-4a09-a9c9-333513ec19a4
     <Name>k__BackingField: tes1
@@ -27,12 +30,94 @@ MonoBehaviour:
     <Audio>k__BackingField: 
     <DialogueType>k__BackingField: 0
     <Position>k__BackingField: {x: 264, y: 127.99999}
-    <CharacterImageLeft>k__BackingField: {fileID: 0}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: b2fed1ecb0d934a45a2a78e19d12b9aa, type: 3}
     <Actions>k__BackingField: Nothing
+    <HintSo>k__BackingField: {fileID: 0}
+  - <ID>k__BackingField: 89ddee31-e814-420e-a25c-1c46c3d6baeb
+    <Name>k__BackingField: DialogueName
+    <Text>k__BackingField: que harias tu tiio
+    <SpeakerName>k__BackingField: waos
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: me toco
+      <NodeID>k__BackingField: d09bd6ae-89bc-42b0-9501-eaf7e96b54ea
+    - <Text>k__BackingField: no me toco
+      <NodeID>k__BackingField: 456cc8be-c0a9-4ee5-809e-2d17f94a3cab
+    - <Text>k__BackingField: y si me toco
+      <NodeID>k__BackingField: 46f1ab2f-0b2b-4bc4-aa4f-cfba76ba715c
+    - <Text>k__BackingField: adios
+      <NodeID>k__BackingField: a6f0dcd1-0cc6-4cbc-a106-1be2c34214ad
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: 
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 1047.2, y: -91.200005}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: b2fed1ecb0d934a45a2a78e19d12b9aa, type: 3}
+    <Actions>k__BackingField: 
+    <HintSo>k__BackingField: {fileID: 0}
+  - <ID>k__BackingField: d09bd6ae-89bc-42b0-9501-eaf7e96b54ea
+    <Name>k__BackingField: waos
+    <Text>k__BackingField: me voy a tocar y a correrme
+    <SpeakerName>k__BackingField: me toco
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: 89ddee31-e814-420e-a25c-1c46c3d6baeb
+    <GroupID>k__BackingField: e49118c7-7b5b-41cb-8864-e5adeef08905
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: 
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 1686.4, y: -1020.80005}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: b2fed1ecb0d934a45a2a78e19d12b9aa, type: 3}
+    <Actions>k__BackingField: 
+    <HintSo>k__BackingField: {fileID: 0}
   - <ID>k__BackingField: dc4a5308-4c5a-4073-b3ad-b3682489416e
     <Name>k__BackingField: diablo
     <Text>k__BackingField: waoooosss
     <SpeakerName>k__BackingField: que culaso
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: 89ddee31-e814-420e-a25c-1c46c3d6baeb
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: 
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 649.6, y: 96}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: b2fed1ecb0d934a45a2a78e19d12b9aa, type: 3}
+    <Actions>k__BackingField: GiveHint
+    <HintSo>k__BackingField: {fileID: 11400000, guid: e1a8a8c95bd01e2429cfe7d90cf20dd8, type: 2}
+  - <ID>k__BackingField: 456cc8be-c0a9-4ee5-809e-2d17f94a3cab
+    <Name>k__BackingField: nometoco
+    <Text>k__BackingField: me toco mas que te den
+    <SpeakerName>k__BackingField: no me toco
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: 89ddee31-e814-420e-a25c-1c46c3d6baeb
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: 
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 1674.4, y: -263.2}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: b2fed1ecb0d934a45a2a78e19d12b9aa, type: 3}
+    <Actions>k__BackingField: 
+    <HintSo>k__BackingField: {fileID: 0}
+  - <ID>k__BackingField: 46f1ab2f-0b2b-4bc4-aa4f-cfba76ba715c
+    <Name>k__BackingField: ysimetoco
+    <Text>k__BackingField: esa es la cuestion
+    <SpeakerName>k__BackingField: tocar o no tocarme
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: 89ddee31-e814-420e-a25c-1c46c3d6baeb
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: 
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 1674.4, y: 508.80002}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: b2fed1ecb0d934a45a2a78e19d12b9aa, type: 3}
+    <Actions>k__BackingField: 
+    <HintSo>k__BackingField: {fileID: 0}
+  - <ID>k__BackingField: a6f0dcd1-0cc6-4cbc-a106-1be2c34214ad
+    <Name>k__BackingField: adios
+    <Text>k__BackingField: me voy ya te odio
+    <SpeakerName>k__BackingField: adiosss
     <Choices>k__BackingField:
     - <Text>k__BackingField: Next DIalogue
       <NodeID>k__BackingField: 
@@ -40,12 +125,18 @@ MonoBehaviour:
     <DialogueSpeed>k__BackingField: 
     <Audio>k__BackingField: 
     <DialogueType>k__BackingField: 0
-    <Position>k__BackingField: {x: 649.6, y: 96}
-    <CharacterImageLeft>k__BackingField: {fileID: 0}
-    <Actions>k__BackingField: Nothing
-  <OldGroupNames>k__BackingField: []
+    <Position>k__BackingField: {x: 1302.4, y: 817.6}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: b2fed1ecb0d934a45a2a78e19d12b9aa, type: 3}
+    <Actions>k__BackingField: 
+    <HintSo>k__BackingField: {fileID: 0}
+  <OldGroupNames>k__BackingField:
+  - DialogueGroup
   <OldUngroupedNodesNames>k__BackingField:
   - tes1
+  - DialogueName
   - diablo
+  - nometoco
+  - ysimetoco
+  - adios
   <OldGroupedNodeNames>k__BackingField:
     list: []

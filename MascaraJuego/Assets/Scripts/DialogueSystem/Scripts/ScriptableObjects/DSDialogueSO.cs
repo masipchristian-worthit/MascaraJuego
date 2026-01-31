@@ -22,12 +22,13 @@ namespace DS.ScriptableObjects
         [field: SerializeField] public string DialogueSpeed { get; set; }
         [field: SerializeField] public Sprite DialogueCharacterLeft { get; set; }
         [field: SerializeField] public string DialogueActionName { get; set; }
+        [field: SerializeField] public HintSO HintSo { get; set; }
         
 
         public void Initialize(string dialogueName, string text, string speakerName,
             List<DSDialoguesChoiceData> choices, DSDialogueType dialogueType,
             string audio, bool isStartingDialogue,
-            string dialogueSpeed, Sprite dialogueCharacterLeft, string actionName)
+            string dialogueSpeed, Sprite dialogueCharacterLeft, string actionName,HintSO hintSo)
         {
             DialogueName = dialogueName;
             Text = text;
@@ -39,6 +40,7 @@ namespace DS.ScriptableObjects
             DialogueSpeed = dialogueSpeed;
             DialogueCharacterLeft = dialogueCharacterLeft;
             DialogueActionName = actionName;
+            HintSo = hintSo;
         }
     }
 

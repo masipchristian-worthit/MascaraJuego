@@ -21,7 +21,7 @@ namespace DS.Data.Save
         [field: SerializeField] public Vector2 Position { get; set; }
         [field:SerializeField] public Sprite CharacterImageLeft { get; set; }
         [field:SerializeField] public string Actions { get; set; }
-        
+        [field:SerializeField] public HintSO HintSo { get; set; }
     }
 }
 
