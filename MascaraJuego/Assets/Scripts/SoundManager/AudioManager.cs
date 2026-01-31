@@ -33,16 +33,16 @@ public class AudioManager : MonoBehaviour
     }
     private void Start()
     {
-        if (PlayerPrefs.HasKey("musicVolume"))
-        {
-            LoadVolume();
-        }
-        else
-        {
-            MusicVolume();
-            SFXVolume();
-            MasterVolume();
-        }
+     //   if (PlayerPrefs.HasKey("musicVolume"))
+     //   {
+     //       LoadVolume();
+     //   }
+     //   else
+     //   {
+     //       MusicVolume();
+     //       SFXVolume();
+     //       MasterVolume();
+     //   }
     }
 
 
