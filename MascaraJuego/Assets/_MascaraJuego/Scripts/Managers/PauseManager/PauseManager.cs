@@ -8,11 +8,27 @@ public class PauseManager : MonoBehaviour
     [SerializeField] private Animator _animator;
     [SerializeField] private CanvasGroup _canvasGroup;
    // public enum { Settings, Hints, };
+   public static PauseManager Instance;
+   [SerializeField] private GameObject _pausePanel;
 
-    public void pauseGame()
+   private void Awake()
+   {
+       if (Instance == null)
+       {
+           Instance = this;
+       }
+       else
+       {
+           Destroy(gameObject);
+       }
+       
+   }
+
+   public void pauseGame()
     {
+        _pausePanel.SetActive(true);
         _animator.Play("Open");
-        InputManager.Instance.SwitchTo(InputManager.InputMapType.UI);
+        
     }
 
 
