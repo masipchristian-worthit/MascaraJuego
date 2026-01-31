@@ -26,7 +26,8 @@ public class PlayerController : MonoBehaviour
     Vector2 movement;
 
     [Header("UI Panels")]
-    [SerializeField] private GameObject pauseMenuPanel; 
+    [SerializeField] private GameObject pauseMenuPanel;
+    [SerializeField] private GameObject hintPanel;
     
     void Awake()
     {
@@ -88,12 +89,16 @@ public class PlayerController : MonoBehaviour
     }
 
     // INPUT SYSTEM CALLBACKS
-    public void OnMove(InputAction.CallbackContext context)
+
+    #region Input Callbacks
+
+    //GAMEPLAY ACTIONS
+    public void OnMoveGameplay(InputAction.CallbackContext context)
     {
         movement = context.ReadValue<Vector2>();
     }
 
-    public void OnInteract(InputAction.CallbackContext context)
+    public void OnInteractGameplay(InputAction.CallbackContext context)
     {
         if (context.performed)
         {
@@ -101,7 +106,7 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    public void OnPause(InputAction.CallbackContext context)
+    public void OnPauseGameplay(InputAction.CallbackContext context)
     {
         if (context.performed)
         {
@@ -109,10 +114,11 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    public void onAccept(InputAction.CallbackContext context) { }
-    public void onNavigate(InputAction.CallbackContext context) { }
+    //UI ACTIONS
+    public void onAcceptUI(InputAction.CallbackContext context) { }
+    public void onNavigateUI(InputAction.CallbackContext context) { }
     
-    public void onEscape(InputAction.CallbackContext context)
+    public void onCancelUI(InputAction.CallbackContext context)
     {
         if (context.performed)
         {  
@@ -122,6 +128,18 @@ public class PlayerController : MonoBehaviour
             }
         }
     }
+
+    // DIALOGUE ACTIONS
+    public void onAcceptDialogue(InputAction.CallbackContext context) { }
+    public void onCancelDialogue(InputAction.CallbackContext context) { }
+    public void onNavigateDialogue(InputAction.CallbackContext context) { }
+
+    // HINT ACTIONS
+    public void onAcceptHint(InputAction.CallbackContext context) { }
+    public void onCancelHint(InputAction.CallbackContext context) { }
+    public void onNavigateHint(InputAction.CallbackContext context) { }
+
+    #endregion
 
     public void TogglePause()
     {

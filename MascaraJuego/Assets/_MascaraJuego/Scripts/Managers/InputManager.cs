@@ -41,7 +41,7 @@ public class InputManager : MonoBehaviour
     private void Start()
     {
         // Iniciamos activando el Gameplay
-        SwitchTo(InputMapType.Gameplay);
+        SwitchTo(InputMapType.UI);
     }
 
     // --- API PÚBLICA (Lo que usarás desde otros scripts) ---
