@@ -59,7 +59,7 @@ public class InputManager : MonoBehaviour
         }
 
         // Arranca en Gameplay (o lo que prefieras)
-        SwitchTo(InputMapType.Door);
+        SwitchTo(InputMapType.Gameplay);
     }
 
     private void CursorLogic()
