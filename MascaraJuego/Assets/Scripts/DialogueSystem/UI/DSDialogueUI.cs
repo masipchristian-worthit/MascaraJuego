@@ -1,4 +1,4 @@
-using System;
+    using System;
 using DS.ScriptableObjects;
 using System.Collections;
 using System.Collections.Generic;
@@ -18,10 +18,7 @@ public class DSDialogueUI : MonoBehaviour
     [SerializeField] private TextMeshProUGUI textUI;
     [SerializeField] private TextMeshProUGUI speakerNameTextUI;
     [SerializeField] public Animator dialogueAnimator;
-    [SerializeField] public Animator leftCharacterAnimator;
-    [SerializeField] public Animator rightCharacterAnimator;
     [SerializeField] public Image leftCharacterImage;
-    [SerializeField] public Image rightCharacterImage;
 
     public GameObject dialogueBox;
     public GameObject optionsBox;
@@ -30,7 +27,6 @@ public class DSDialogueUI : MonoBehaviour
     [SerializeField] public bool inDialogue;
     [SerializeField] private PlayerInput playerInput;
     [SerializeField] private float dialogueSpeed;
-    public float fadeDuration = 0.1f;
 
     private DialogueVertexAnimator dialogueVertexAnimator;
 

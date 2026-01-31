@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9147bccad748a464487ec789f0cfc14b, type: 3}
+  m_Name: testGraph
+  m_EditorClassIdentifier: Assembly-CSharp-Editor::DS.Data.Save.DSGraphSaveData
+  <FileName>k__BackingField: test
+  <Groups>k__BackingField: []
+  <Nodes>k__BackingField:
+  - <ID>k__BackingField: 832ab136-ad53-4a09-a9c9-333513ec19a4
+    <Name>k__BackingField: tes1
+    <Text>k__BackingField: mami
+    <SpeakerName>k__BackingField: diablo
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: dc4a5308-4c5a-4073-b3ad-b3682489416e
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: 
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 264, y: 127.99999}
+    <CharacterImageLeft>k__BackingField: {fileID: 0}
+    <Actions>k__BackingField: Nothing
+  - <ID>k__BackingField: dc4a5308-4c5a-4073-b3ad-b3682489416e
+    <Name>k__BackingField: diablo
+    <Text>k__BackingField: waoooosss
+    <SpeakerName>k__BackingField: que culaso
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: 
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 649.6, y: 96}
+    <CharacterImageLeft>k__BackingField: {fileID: 0}
+    <Actions>k__BackingField: Nothing
+  <OldGroupNames>k__BackingField: []
+  <OldUngroupedNodesNames>k__BackingField:
+  - tes1
+  - diablo
+  <OldGroupedNodeNames>k__BackingField:
+    list: []
