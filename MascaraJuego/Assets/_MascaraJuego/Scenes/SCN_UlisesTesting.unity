@@ -690,10 +690,6 @@ PrefabInstance:
       propertyPath: uiInputModule
       value: 
       objectReference: {fileID: 1160876133}
-    - target: {fileID: 5298347050007072867, guid: d820cc00638ec9c42a5446d46db93133, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: -1653
-      objectReference: {fileID: 0}
     - target: {fileID: 6467432511459006501, guid: d820cc00638ec9c42a5446d46db93133, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0

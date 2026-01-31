@@ -33,7 +33,7 @@ public class HintManager : MonoBehaviour
     public void registerHint(HintSO hint)
     {
         hints.Add(hint);
-        _hintDiscover.SetHint(hint);
+        _hintDiscover.SetHintDiscover(hint);
     }
 
     private void showHintsInMenu()
