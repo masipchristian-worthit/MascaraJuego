@@ -17,7 +17,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &5234558980115178856
 RectTransform:
   m_ObjectHideFlags: 0
@@ -221,7 +221,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 093ba83731ce3b84d88bc76693e5a392, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  _dialogueContainerSO: {fileID: 0}
+  _dialogueContainerSO: {fileID: 11400000, guid: 6358780c071a4e2469394c49da4ee2c1, type: 2}
+  Name: 
 --- !u!1 &2339092015950193517
 GameObject:
   m_ObjectHideFlags: 0
@@ -239,7 +240,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2773805642746132103
 RectTransform:
   m_ObjectHideFlags: 0
@@ -608,8 +609,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 2.3088837, z: 1.4176197}
-  m_Center: {x: 0, y: 1.1331773, z: 0.035651207}
+  m_Size: {x: 1.3315983, y: 2.3088837, z: 1.4176197}
+  m_Center: {x: 0.16579914, y: 1.1331773, z: 0.035651207}
 --- !u!114 &7918037114944707776
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -652,6 +653,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DoorInteraction
   _animator: {fileID: 6151359835685788717}
   _menuCanvas: {fileID: 8798902334355436592}
+  _firstButton: {fileID: 1396280662749592747}
 --- !u!1 &8262086756259172729
 GameObject:
   m_ObjectHideFlags: 0

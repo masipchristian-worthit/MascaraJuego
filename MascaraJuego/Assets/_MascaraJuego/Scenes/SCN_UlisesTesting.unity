@@ -415,7 +415,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.EventSystems.EventSystem
-  m_FirstSelected: {fileID: 1165673546}
+  m_FirstSelected: {fileID: 0}
   m_sendNavigationEvents: 1
   m_DragThreshold: 10
 --- !u!4 &1160876135
@@ -433,11 +433,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1165673546 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7135884373626231995, guid: d820cc00638ec9c42a5446d46db93133, type: 3}
-  m_PrefabInstance: {fileID: 3696205689016955087}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1166945508
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1308,17 +1303,13 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4682929463251394187, guid: a363544d7fcbaa645aea140b87948d23, type: 3}
-      propertyPath: m_Size.x
-      value: 1.3315983
-      objectReference: {fileID: 0}
-    - target: {fileID: 4682929463251394187, guid: a363544d7fcbaa645aea140b87948d23, type: 3}
-      propertyPath: m_Center.x
-      value: 0.16579914
-      objectReference: {fileID: 0}
     - target: {fileID: 7809715970582137391, guid: a363544d7fcbaa645aea140b87948d23, type: 3}
       propertyPath: m_Name
       value: Puerta_WC
+      objectReference: {fileID: 0}
+    - target: {fileID: 8798902334355436592, guid: a363544d7fcbaa645aea140b87948d23, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

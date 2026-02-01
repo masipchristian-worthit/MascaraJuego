@@ -30,7 +30,10 @@ public class DSDialogueUI : MonoBehaviour
     [SerializeField] private float dialogueSpeed;
     [SerializeField] private string dialogueAction;
     private DialogueVertexAnimator dialogueVertexAnimator;
+    InputAction _interact;
+    [SerializeField] private GameObject fake;
 
+    [SerializeField] private GameObject _canvas;
     //private EventInstance dialogueAudio;
     //private EventReference dialogueAudioName;
     //public InputManager.ActionMaps actioMapToLoad;
@@ -42,7 +45,8 @@ public class DSDialogueUI : MonoBehaviour
     
     private void Start()
     {
-        //InputManager.Instance.skipDialogueAction += Interact_Button;
+        _interact = InputManager.Instance.Dialogue.AcceptDialogue;
+        _interact.performed += ctx => Interact_Button();
        
     }
 
@@ -57,6 +61,25 @@ public class DSDialogueUI : MonoBehaviour
     {
         if (inDialogue)
         {
+            // Si hay opciones de diálogo, no permitir la interacción
+            if (optionsBox.activeSelf) // Comprobar si las opciones están activas
+            {
+                // Si hay opciones, se interactúa con las opciones, no con el texto
+                GameObject selectedButton = EventSystem.current.currentSelectedGameObject;
+
+                // Si no hay botón seleccionado, seleccionamos el primero
+                if (selectedButton == null)
+                {
+                    EventSystem.current.SetSelectedGameObject(optionButtons[0]);
+                    selectedButton = optionButtons[0];
+                }
+
+                // Invoca el clic en el botón seleccionado
+                selectedButton.GetComponent<Button>().onClick.Invoke();
+                return; // Salir de la función sin hacer nada más
+            }
+
+            // Si no hay opciones, procesamos el texto
             string parsedText = DialogueUtility.RemoveAnimationTags(currentDialogue.Text);
 
             if (parsedText.Length >= minSkipableCharacters)
@@ -65,36 +88,22 @@ public class DSDialogueUI : MonoBehaviour
                 {
                     if (dialogueVertexAnimator.textAnimating)
                     {
-                        StopAllCoroutines();
-                        CompleteTextWithEffects();
+                        StopAllCoroutines();  // Detiene la animación actual
+                        CompleteTextWithEffects();  // Completa el texto de golpe
                     }
                     else
                     {
-                        isTextFullyVisible = true;
+                        isTextFullyVisible = true;  // Si no está completo, lo marca como visible
                     }
                 }
                 else
                 {
-                    if (currentDialogue.Choices.Count >= 2) 
-                    {
-                        GameObject selectedButton = EventSystem.current.currentSelectedGameObject;
-
-                        if (selectedButton == null)
-                        {
-                            EventSystem.current.SetSelectedGameObject(optionButtons[0]);
-                            selectedButton = optionButtons[0];
-                        }
-                    
-                        selectedButton.GetComponent<Button>().onClick.Invoke();
-                    }
-                    else
-                    {
-                        NextText(); 
-                    }
+                    NextText();
                 }
             }
             else
             {
+                // Si el texto es corto, pasa directamente a la siguiente parte del diálogo
                 if (isTextFullyVisible)
                 {
                     NextText();
@@ -102,6 +111,7 @@ public class DSDialogueUI : MonoBehaviour
             }
         }
     }
+
 
 
     private void CompleteTextWithEffects()
@@ -261,10 +271,11 @@ public class DSDialogueUI : MonoBehaviour
 
     private IEnumerator EndDialogue()
     {
-        dialogueBox.SetActive(false);
+        dialogueAnimator.Play("Close");
         yield return new WaitForSeconds(0.1f);
         inDialogue = false;
-        //InputManager.Instance.SwitchTo();
+        InputManager.Instance.ReturnToPreviousMap();
+        Debug.Log("PENE");
         //actioMapToLoad = InputManager.ActionMaps.None;
     }
     
@@ -315,10 +326,12 @@ public class DSDialogueUI : MonoBehaviour
 
     public void PlayDialogueNPC(DSDialogueContainerSO dialogueContainer)
     {
-        dialogueBox.SetActive(true);
+        dialogueAnimator.Play("Open");
         currentDialogue = dialogueContainer.GetFirstDialogue();
         inDialogue = true;
-        //InputManager.Instance.SwitchTo(InputManager.InputMapType.Dialogue);
+        EventSystem.current.SetSelectedGameObject(fake);
+        Debug.Log(EventSystem.current.currentSelectedGameObject.name);
+        InputManager.Instance.SwitchTo(InputManager.InputMapType.Dialogue);
         if (currentDialogue != null && !string.IsNullOrEmpty(currentDialogue.Text))
         {
             ShowText(currentDialogue);

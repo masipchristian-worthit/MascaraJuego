@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class DoorInteraction : MonoBehaviour
 {
@@ -6,6 +7,7 @@ public class DoorInteraction : MonoBehaviour
     
     [SerializeField] private Animator _animator; 
     [SerializeField] private GameObject _menuCanvas; 
+    [SerializeField] private GameObject _firstButton;
     public void OpenDoorAndShowUI()
     {
         if (_menuCanvas != null)
@@ -15,7 +17,8 @@ public class DoorInteraction : MonoBehaviour
 
         if (_animator != null)
         {
-            _animator.SetTrigger("Open");
+            _animator.Play("Open");
+            EventSystem.current.SetSelectedGameObject(_firstButton);
         }
         else
         {

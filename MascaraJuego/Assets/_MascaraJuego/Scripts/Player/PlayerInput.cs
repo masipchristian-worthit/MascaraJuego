@@ -664,17 +664,6 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                 },
                 {
                     ""name"": """",
-                    ""id"": ""677c432c-a775-414d-aac0-929ecea0c86c"",
-                    ""path"": ""<Keyboard>/enter"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""PauseGameplay"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
                     ""id"": ""10bf3d91-823a-49bb-8e8f-b0f7bd03e4c0"",
                     ""path"": ""<Keyboard>/tab"",
                     ""interactions"": """",
