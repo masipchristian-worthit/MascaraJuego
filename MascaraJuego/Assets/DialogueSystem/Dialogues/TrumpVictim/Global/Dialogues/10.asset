@@ -13,8 +13,7 @@ MonoBehaviour:
   m_Name: 10
   m_EditorClassIdentifier: Assembly-CSharp::DS.ScriptableObjects.DSDialogueSO
   <DialogueName>k__BackingField: 10
-  <Text>k__BackingField: "I\u2019m not saying I\u2019ll do it, but if she disappeared?
-    The economy would go up"
+  <Text>k__BackingField: But she has a lot of followers, so I respect the hustle
   <SpeakerName>k__BackingField: Ronald Dump
   <Choices>k__BackingField:
   - <Text>k__BackingField: Next DIalogue
@@ -24,5 +23,5 @@ MonoBehaviour:
   <IsStartingDialogue>k__BackingField: 0
   <DialogueSpeed>k__BackingField: 
   <DialogueCharacterLeft>k__BackingField: {fileID: 21300000, guid: b2fed1ecb0d934a45a2a78e19d12b9aa, type: 3}
-  <DialogueActionName>k__BackingField: GiveHint
+  <DialogueActionName>k__BackingField: Nothing
   <HintSo>k__BackingField: {fileID: 0}

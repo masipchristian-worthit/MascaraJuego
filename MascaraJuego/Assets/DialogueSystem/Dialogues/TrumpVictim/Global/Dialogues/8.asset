@@ -13,8 +13,7 @@ MonoBehaviour:
   m_Name: 8
   m_EditorClassIdentifier: Assembly-CSharp::DS.ScriptableObjects.DSDialogueSO
   <DialogueName>k__BackingField: 8
-  <Text>k__BackingField: "That horse woman... Micky. She\u2019s a disaster. A total
-    nastiness."
+  <Text>k__BackingField: MIcky? She's fine. A bit loud.
   <SpeakerName>k__BackingField: Ronald Dump
   <Choices>k__BackingField:
   - <Text>k__BackingField: Next DIalogue

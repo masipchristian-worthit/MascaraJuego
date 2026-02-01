@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 9
   m_EditorClassIdentifier: Assembly-CSharp::DS.ScriptableObjects.DSDialogueSO
   <DialogueName>k__BackingField: 9
-  <Text>k__BackingField: She walked past me and neighed. Disrespectful! Someone needs
-    to send her to the glue factory.
+  <Text>k__BackingField: She reminds me of a referee I usd to know. No problems with
+    her.
   <SpeakerName>k__BackingField: Shack O'Kneel
   <Choices>k__BackingField:
   - <Text>k__BackingField: Next DIalogue
@@ -23,6 +23,6 @@ MonoBehaviour:
   <DialogueType>k__BackingField: 0
   <IsStartingDialogue>k__BackingField: 0
   <DialogueSpeed>k__BackingField: 
-  <DialogueCharacterLeft>k__BackingField: {fileID: 21300000, guid: b2fed1ecb0d934a45a2a78e19d12b9aa, type: 3}
+  <DialogueCharacterLeft>k__BackingField: {fileID: 21300000, guid: d694f35cadb551748976a5017f2adc1b, type: 3}
   <DialogueActionName>k__BackingField: 
   <HintSo>k__BackingField: {fileID: 0}

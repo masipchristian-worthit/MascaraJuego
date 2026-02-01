@@ -13,14 +13,14 @@ MonoBehaviour:
   m_Name: 4
   m_EditorClassIdentifier: Assembly-CSharp::DS.ScriptableObjects.DSDialogueSO
   <DialogueName>k__BackingField: 4
-  <Text>k__BackingField: What do you want? Are you a russian investigator?
+  <Text>k__BackingField: Hey, what's up little fella?
   <SpeakerName>k__BackingField: Shack O'Kneel
   <Choices>k__BackingField:
-  - <Text>k__BackingField: Rate the party
+  - <Text>k__BackingField: How are the views from up there?
     <NextDialogue>k__BackingField: {fileID: 11400000, guid: 62fae24e11be63048b0d0128bdbdbf04, type: 2}
-  - <Text>k__BackingField: What do you think about micky?
+  - <Text>k__BackingField: What do you think about Ella?
     <NextDialogue>k__BackingField: {fileID: 11400000, guid: 17f9a3d78cc08074c95080c9411c7418, type: 2}
-  - <Text>k__BackingField: Who invited you?
+  - <Text>k__BackingField: Tell me a special sentence for your sport
     <NextDialogue>k__BackingField: {fileID: 11400000, guid: 549d7ff249272144a83d07e649ac18ad, type: 2}
   - <Text>k__BackingField: Fuck you
     <NextDialogue>k__BackingField: {fileID: 11400000, guid: 1c73237f456db1b4685c93dc10178d6a, type: 2}
@@ -28,6 +28,6 @@ MonoBehaviour:
   <DialogueType>k__BackingField: 1
   <IsStartingDialogue>k__BackingField: 0
   <DialogueSpeed>k__BackingField: 
-  <DialogueCharacterLeft>k__BackingField: {fileID: 21300000, guid: b2fed1ecb0d934a45a2a78e19d12b9aa, type: 3}
+  <DialogueCharacterLeft>k__BackingField: {fileID: 21300000, guid: d694f35cadb551748976a5017f2adc1b, type: 3}
   <DialogueActionName>k__BackingField: 
   <HintSo>k__BackingField: {fileID: 0}

@@ -23,6 +23,6 @@ MonoBehaviour:
   <DialogueType>k__BackingField: 0
   <IsStartingDialogue>k__BackingField: 1
   <DialogueSpeed>k__BackingField: 
-  <DialogueCharacterLeft>k__BackingField: {fileID: 0}
+  <DialogueCharacterLeft>k__BackingField: {fileID: 21300000, guid: d694f35cadb551748976a5017f2adc1b, type: 3}
   <DialogueActionName>k__BackingField: 
   <HintSo>k__BackingField: {fileID: 0}

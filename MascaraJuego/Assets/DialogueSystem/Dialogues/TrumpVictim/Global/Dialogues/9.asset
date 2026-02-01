@@ -13,8 +13,7 @@ MonoBehaviour:
   m_Name: 9
   m_EditorClassIdentifier: Assembly-CSharp::DS.ScriptableObjects.DSDialogueSO
   <DialogueName>k__BackingField: 9
-  <Text>k__BackingField: She walked past me and neighed. Disrespectful! Someone needs
-    to send her to the glue factory.
+  <Text>k__BackingField: I prefer people who are quieter, more respectful of my genius.
   <SpeakerName>k__BackingField: Ronald Trump
   <Choices>k__BackingField:
   - <Text>k__BackingField: Next DIalogue

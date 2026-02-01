@@ -188,21 +188,6 @@ MonoBehaviour:
     <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: b2fed1ecb0d934a45a2a78e19d12b9aa, type: 3}
     <Actions>k__BackingField: 
     <HintSo>k__BackingField: {fileID: 0}
-  - <ID>k__BackingField: 74dd387b-21f3-40fa-a639-370c6012163d
-    <Name>k__BackingField: 13
-    <Text>k__BackingField: No, fuck you, bitch.
-    <SpeakerName>k__BackingField: Ronald Dump
-    <Choices>k__BackingField:
-    - <Text>k__BackingField: Next DIalogue
-      <NodeID>k__BackingField: 
-    <GroupID>k__BackingField: 
-    <DialogueSpeed>k__BackingField: 
-    <Audio>k__BackingField: Trump:Trump
-    <DialogueType>k__BackingField: 0
-    <Position>k__BackingField: {x: 2116, y: 811.19995}
-    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: b2fed1ecb0d934a45a2a78e19d12b9aa, type: 3}
-    <Actions>k__BackingField: 
-    <HintSo>k__BackingField: {fileID: 0}
   - <ID>k__BackingField: 8e9595fe-1a5a-4f3f-a938-5447f41d6f88
     <Name>k__BackingField: 4
     <Text>k__BackingField: What do you want? Are you a russian investigator?
@@ -224,6 +209,22 @@ MonoBehaviour:
     <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: b2fed1ecb0d934a45a2a78e19d12b9aa, type: 3}
     <Actions>k__BackingField: 
     <HintSo>k__BackingField: {fileID: 0}
+  - <ID>k__BackingField: 74dd387b-21f3-40fa-a639-370c6012163d
+    <Name>k__BackingField: 13
+    <Text>k__BackingField: No, fuck you, bitch. Yeah keep walking, nothing to see
+      here.
+    <SpeakerName>k__BackingField: Ronald Dump
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: Trump:Trump
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 2116, y: 811.19995}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: b2fed1ecb0d934a45a2a78e19d12b9aa, type: 3}
+    <Actions>k__BackingField: 
+    <HintSo>k__BackingField: {fileID: 0}
   <OldGroupNames>k__BackingField: []
   <OldUngroupedNodesNames>k__BackingField:
   - 3
@@ -237,7 +238,7 @@ MonoBehaviour:
   - 9
   - 7
   - 12
-  - 13
   - 4
+  - 13
   <OldGroupedNodeNames>k__BackingField:
     list: []

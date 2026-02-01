@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: 5
   m_EditorClassIdentifier: Assembly-CSharp::DS.ScriptableObjects.DSDialogueSO
   <DialogueName>k__BackingField: 5
-  <Text>k__BackingField: Honestly? The vibe is low energy. Very sad.
+  <Text>k__BackingField: I'm having a great time. I just endorsed five products since
+    I walked the door.
   <SpeakerName>k__BackingField: Shack O'Kneel
   <Choices>k__BackingField:
   - <Text>k__BackingField: Next DIalogue
@@ -22,6 +23,6 @@ MonoBehaviour:
   <DialogueType>k__BackingField: 0
   <IsStartingDialogue>k__BackingField: 0
   <DialogueSpeed>k__BackingField: 
-  <DialogueCharacterLeft>k__BackingField: {fileID: 21300000, guid: b2fed1ecb0d934a45a2a78e19d12b9aa, type: 3}
+  <DialogueCharacterLeft>k__BackingField: {fileID: 21300000, guid: d694f35cadb551748976a5017f2adc1b, type: 3}
   <DialogueActionName>k__BackingField: 
   <HintSo>k__BackingField: {fileID: 0}
