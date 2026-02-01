@@ -16,6 +16,7 @@ public class PauseManager : MonoBehaviour
     [SerializeField] private CanvasGroup _buttonsGroup;
     InputAction _actionEsc;
     [SerializeField] private GameObject _firstButton;
+    [SerializeField] private GameObject _fakeButton;
    private void Awake()
    {
        if (Instance == null)
@@ -51,6 +52,7 @@ public class PauseManager : MonoBehaviour
         {
             case MyEnum.Hints:
                 toMain();
+                HintManager.Instance.HideHintMenu();
                 break;
             case MyEnum.Settings:
                 toMain();
@@ -80,13 +82,21 @@ public class PauseManager : MonoBehaviour
     {
         _animator.Play("Close");
         InputManager.Instance.SwitchTo(InputManager.InputMapType.Gameplay);
-        EventSystem.current.SetSelectedGameObject(null);
+        EventSystem.current.SetSelectedGameObject(_fakeButton);
         Debug.Log("Selected");
+        PlayerController.Instance.cancelWatch();
     }
 
     public void hintMenu()
     {
-        HintManager.Instance.ShowHintsInMenu();
+        if (HintManager.Instance != null)
+        {
+            HintManager.Instance.ShowHintsInMenu();
+        }
+        else
+        {
+            Debug.Log("No hints found");
+        }
         _buttonsGroup.alpha = 0;
         currentOption = MyEnum.Hints;
     }

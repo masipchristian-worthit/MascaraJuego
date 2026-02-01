@@ -1,0 +1,400 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9147bccad748a464487ec789f0cfc14b, type: 3}
+  m_Name: TorrenteEvilGraph
+  m_EditorClassIdentifier: Assembly-CSharp-Editor::DS.Data.Save.DSGraphSaveData
+  <FileName>k__BackingField: TorrenteEvil
+  <Groups>k__BackingField: []
+  <Nodes>k__BackingField:
+  - <ID>k__BackingField: 6510c884-8272-417b-86bb-d5fb2c005489
+    <Name>k__BackingField: 2
+    <Text>k__BackingField: No strippers, and the wiskey tastes like cologne.
+    <SpeakerName>k__BackingField: Officer Torrent
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: 025108a2-0bda-4e3a-955a-d398249cffda
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: TorrenteAudio
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 267, y: 239}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: 1103e4f4bc863144abfe96c5f58b7dc9, type: 3}
+    <Actions>k__BackingField: 
+    <HintSo>k__BackingField: {fileID: 0}
+  - <ID>k__BackingField: 1ab5e83a-284b-4702-b395-0c52ec81460d
+    <Name>k__BackingField: 4
+    <Text>k__BackingField: These glasses? Perfect camouflage.
+    <SpeakerName>k__BackingField: Officer Torrent
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: c62ca95d-3903-4166-8554-13603e9f8d25
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: TorrenteAudio
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 971, y: 239}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: 1103e4f4bc863144abfe96c5f58b7dc9, type: 3}
+    <Actions>k__BackingField: 
+    <HintSo>k__BackingField: {fileID: 0}
+  - <ID>k__BackingField: 2b8cf2bd-9bf9-4ed3-ac5b-569394e62638
+    <Name>k__BackingField: 6
+    <Text>k__BackingField: These kids have no respect.
+    <SpeakerName>k__BackingField: Officer Torrent
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: 6e5d64c2-3404-429f-a6eb-d62c0e4993bf
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: TorrenteAudio
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 1805, y: -122}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: 1103e4f4bc863144abfe96c5f58b7dc9, type: 3}
+    <Actions>k__BackingField: 
+    <HintSo>k__BackingField: {fileID: 0}
+  - <ID>k__BackingField: 6e5d64c2-3404-429f-a6eb-d62c0e4993bf
+    <Name>k__BackingField: 7
+    <Text>k__BackingField: None.
+    <SpeakerName>k__BackingField: Officer Torrent
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: 7a2c8067-0b50-4f00-8a56-6bdaccd0ea49
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: TorrenteAudio
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 2114, y: -122}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: 1103e4f4bc863144abfe96c5f58b7dc9, type: 3}
+    <Actions>k__BackingField: 
+    <HintSo>k__BackingField: {fileID: 0}
+  - <ID>k__BackingField: 7a2c8067-0b50-4f00-8a56-6bdaccd0ea49
+    <Name>k__BackingField: 8
+    <Text>k__BackingField: '[shake]zero[/]'
+    <SpeakerName>k__BackingField: Oficcer Torrent
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: 4d28e466-2333-47a9-8363-f75418617fb2
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: TorrenteAudio
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 2405, y: -122}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: 1103e4f4bc863144abfe96c5f58b7dc9, type: 3}
+    <Actions>k__BackingField: 
+    <HintSo>k__BackingField: {fileID: 0}
+  - <ID>k__BackingField: 4d28e466-2333-47a9-8363-f75418617fb2
+    <Name>k__BackingField: 9
+    <Text>k__BackingField: Back in my days you didn't ask questions like these.
+    <SpeakerName>k__BackingField: Officer Torrent
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: 5d4b3f31-b646-4ebf-839f-f066cadd87d8
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: TorrenteAudio
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 2682, y: -122}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: 1103e4f4bc863144abfe96c5f58b7dc9, type: 3}
+    <Actions>k__BackingField: 
+    <HintSo>k__BackingField: {fileID: 0}
+  - <ID>k__BackingField: 5d4b3f31-b646-4ebf-839f-f066cadd87d8
+    <Name>k__BackingField: 10
+    <Text>k__BackingField: Nowadays everyone's got opinions, phones...
+    <SpeakerName>k__BackingField: Officer Torrent
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: 9eee130a-d343-4db5-ab06-562bbbc40c5c
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: TorrenteAudio
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 3038, y: -122}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: 1103e4f4bc863144abfe96c5f58b7dc9, type: 3}
+    <Actions>k__BackingField: 
+    <HintSo>k__BackingField: {fileID: 0}
+  - <ID>k__BackingField: c62ca95d-3903-4166-8554-13603e9f8d25
+    <Name>k__BackingField: 5
+    <Text>k__BackingField: Say, you wouldn't have five euros for the bus?
+    <SpeakerName>k__BackingField: Officer Torrent
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Are you cosplaying?
+      <NodeID>k__BackingField: 2b8cf2bd-9bf9-4ed3-ac5b-569394e62638
+    - <Text>k__BackingField: Do you have some personal matters with someone?
+      <NodeID>k__BackingField: 871ec4dc-6387-453e-a756-bf558bd7511a
+    - <Text>k__BackingField: No, sorry. I don't have a penny
+      <NodeID>k__BackingField: 5923e909-8e63-445e-a31b-92396898beee
+    - <Text>k__BackingField: Goodbye
+      <NodeID>k__BackingField: 76334ac2-79c8-4410-a0a1-ccb4e7dc41a7
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: TorrenteAudio
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 1303, y: 239}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: 1103e4f4bc863144abfe96c5f58b7dc9, type: 3}
+    <Actions>k__BackingField: 
+    <HintSo>k__BackingField: {fileID: 0}
+  - <ID>k__BackingField: be699791-c44f-43f4-85f7-0d5d6ff458c1
+    <Name>k__BackingField: 16
+    <Text>k__BackingField: No penny, he says. I don't care, chochete.
+    <SpeakerName>k__BackingField: Officer Torrent
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: af04abbc-645d-4e4b-a6b4-fed6b29c88db
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: TorrenteAudio
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 2436, y: 716}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: 1103e4f4bc863144abfe96c5f58b7dc9, type: 3}
+    <Actions>k__BackingField: 
+    <HintSo>k__BackingField: {fileID: 0}
+  - <ID>k__BackingField: 03be8160-1bb5-4f2a-ae10-e25b7f479dc2
+    <Name>k__BackingField: 15
+    <Text>k__BackingField: You think i'm running a charity? Ha! Don't be ridiculous.
+    <SpeakerName>k__BackingField: Officer Torrent
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: be699791-c44f-43f4-85f7-0d5d6ff458c1
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: TorrenteAudio
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 2061, y: 716}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: 1103e4f4bc863144abfe96c5f58b7dc9, type: 3}
+    <Actions>k__BackingField: 
+    <HintSo>k__BackingField: {fileID: 0}
+  - <ID>k__BackingField: 9eee130a-d343-4db5-ab06-562bbbc40c5c
+    <Name>k__BackingField: 11
+    <Text>k__BackingField: This isn't cosplay, kid. I earned this with my blood and
+      sweat.
+    <SpeakerName>k__BackingField: Officer Torrent
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: d38a1275-e6af-430e-b87f-00824c17ecfb
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: TorrenteAudio
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 3377, y: -122}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: 1103e4f4bc863144abfe96c5f58b7dc9, type: 3}
+    <Actions>k__BackingField: 
+    <HintSo>k__BackingField: {fileID: 0}
+  - <ID>k__BackingField: d38a1275-e6af-430e-b87f-00824c17ecfb
+    <Name>k__BackingField: 12
+    <Text>k__BackingField: This suit has seen more action than your sheets in your
+      entire life, and not the kind they put on streaming platforms.
+    <SpeakerName>k__BackingField: Officer Torrent
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: a4348ed3-3559-4e7d-b4bc-68ebcc36bd94
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: TorrenteAudio
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 3848, y: -138}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: 1103e4f4bc863144abfe96c5f58b7dc9, type: 3}
+    <Actions>k__BackingField: 
+    <HintSo>k__BackingField: {fileID: 0}
+  - <ID>k__BackingField: a4348ed3-3559-4e7d-b4bc-68ebcc36bd94
+    <Name>k__BackingField: 19
+    <Text>k__BackingField: So no, I'm not cosplaying.
+    <SpeakerName>k__BackingField: Officer Torrent
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: c62ca95d-3903-4166-8554-13603e9f8d25
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: TorrenteAudio
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 4545, y: -138}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: 1103e4f4bc863144abfe96c5f58b7dc9, type: 3}
+    <Actions>k__BackingField: 
+    <HintSo>k__BackingField: {fileID: 0}
+  - <ID>k__BackingField: 30130151-6379-4a51-800b-00afe1747570
+    <Name>k__BackingField: 21
+    <Text>k__BackingField: Do you know what I do to people who insult THE moustache?
+    <SpeakerName>k__BackingField: Officer Torrent
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: e8a3912e-dde1-470c-84b0-db17fe544339
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: TorrenteAudio
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 2731, y: -847}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: 1103e4f4bc863144abfe96c5f58b7dc9, type: 3}
+    <Actions>k__BackingField: 
+    <HintSo>k__BackingField: {fileID: 0}
+  - <ID>k__BackingField: 871ec4dc-6387-453e-a756-bf558bd7511a
+    <Name>k__BackingField: 13
+    <Text>k__BackingField: I would say yes. Have you met that pretty boy, Timothy?
+    <SpeakerName>k__BackingField: Officer Torrent
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: 42741949-34ef-4953-9294-ac090ef095ed
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: TorrenteAudio
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 1779, y: -847}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: 1103e4f4bc863144abfe96c5f58b7dc9, type: 3}
+    <Actions>k__BackingField: 
+    <HintSo>k__BackingField: {fileID: 0}
+  - <ID>k__BackingField: e8a3912e-dde1-470c-84b0-db17fe544339
+    <Name>k__BackingField: 22
+    <Text>k__BackingField: I introduce them to the spanish justice system. And by
+      justice system I mean my fist.
+    <SpeakerName>k__BackingField: Officer Torrent
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: c62ca95d-3903-4166-8554-13603e9f8d25
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: TorrenteAudio
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 3171, y: -847}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: 1103e4f4bc863144abfe96c5f58b7dc9, type: 3}
+    <Actions>k__BackingField: GiveHint
+    <HintSo>k__BackingField: {fileID: 0}
+  - <ID>k__BackingField: 872aec12-0a46-4421-8ec2-65ca453895c9
+    <Name>k__BackingField: 1
+    <Text>k__BackingField: '[wave]sniffs loudly[/] You call this a party?'
+    <SpeakerName>k__BackingField: Officer Torrent
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: 6510c884-8272-417b-86bb-d5fb2c005489
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: TorrenteAudio
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: -102, y: 239}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: 1103e4f4bc863144abfe96c5f58b7dc9, type: 3}
+    <Actions>k__BackingField: 
+    <HintSo>k__BackingField: {fileID: 0}
+  - <ID>k__BackingField: 025108a2-0bda-4e3a-955a-d398249cffda
+    <Name>k__BackingField: 3
+    <Text>k__BackingField: I'm undervober,kid.
+    <SpeakerName>k__BackingField: Officer Torrent
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: 1ab5e83a-284b-4702-b395-0c52ec81460d
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: TorrenteAudio
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 654, y: 239}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: 1103e4f4bc863144abfe96c5f58b7dc9, type: 3}
+    <Actions>k__BackingField: 
+    <HintSo>k__BackingField: {fileID: 0}
+  - <ID>k__BackingField: 76334ac2-79c8-4410-a0a1-ccb4e7dc41a7
+    <Name>k__BackingField: 30
+    <Text>k__BackingField: Bye chochete.
+    <SpeakerName>k__BackingField: Officer Torrente
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: TorrenteAudio
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 1373, y: 924}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: 1103e4f4bc863144abfe96c5f58b7dc9, type: 3}
+    <Actions>k__BackingField: 
+    <HintSo>k__BackingField: {fileID: 0}
+  - <ID>k__BackingField: 5923e909-8e63-445e-a31b-92396898beee
+    <Name>k__BackingField: 14
+    <Text>k__BackingField: This damn [shake]beggars.[/] You are everywhere.
+    <SpeakerName>k__BackingField: Officer Torrent
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: 03be8160-1bb5-4f2a-ae10-e25b7f479dc2
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: TorrenteAudio
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 1716, y: 716}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: 1103e4f4bc863144abfe96c5f58b7dc9, type: 3}
+    <Actions>k__BackingField: 
+    <HintSo>k__BackingField: {fileID: 0}
+  - <ID>k__BackingField: af04abbc-645d-4e4b-a6b4-fed6b29c88db
+    <Name>k__BackingField: 17
+    <Text>k__BackingField: 'Next time, don''t stop a man like me unless you''ve got
+      cash. '
+    <SpeakerName>k__BackingField: Officer Torrent
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: 07a2c046-de3a-4206-8fc4-8db832a6f7f5
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: TorrenteAudio
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 2740, y: 716}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: 1103e4f4bc863144abfe96c5f58b7dc9, type: 3}
+    <Actions>k__BackingField: 
+    <HintSo>k__BackingField: {fileID: 0}
+  - <ID>k__BackingField: 07a2c046-de3a-4206-8fc4-8db832a6f7f5
+    <Name>k__BackingField: 18
+    <Text>k__BackingField: So, let me ask you again. This time choose the correct
+      answer.
+    <SpeakerName>k__BackingField: Officer Torrent
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: c62ca95d-3903-4166-8554-13603e9f8d25
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: TorrenteAudio
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 3155, y: 716}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: 1103e4f4bc863144abfe96c5f58b7dc9, type: 3}
+    <Actions>k__BackingField: 
+    <HintSo>k__BackingField: {fileID: 0}
+  - <ID>k__BackingField: 42741949-34ef-4953-9294-ac090ef095ed
+    <Name>k__BackingField: 20
+    <Text>k__BackingField: That boy mocked my mustache, He called it [wave]retro-kitsch[/].
+    <SpeakerName>k__BackingField: Officer Torrent
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: 30130151-6379-4a51-800b-00afe1747570
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: TorrenteAudio
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 2279, y: -847}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: 1103e4f4bc863144abfe96c5f58b7dc9, type: 3}
+    <Actions>k__BackingField: 
+    <HintSo>k__BackingField: {fileID: 0}
+  <OldGroupNames>k__BackingField: []
+  <OldUngroupedNodesNames>k__BackingField:
+  - 2
+  - 4
+  - 6
+  - 7
+  - 8
+  - 9
+  - 10
+  - 5
+  - 16
+  - 15
+  - 11
+  - 12
+  - 19
+  - 21
+  - 13
+  - 22
+  - 1
+  - 3
+  - 30
+  - 14
+  - 17
+  - 18
+  - 20
+  <OldGroupedNodeNames>k__BackingField:
+    list: []

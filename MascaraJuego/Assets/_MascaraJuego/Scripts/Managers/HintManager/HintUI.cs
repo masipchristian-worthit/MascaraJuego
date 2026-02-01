@@ -16,11 +16,12 @@ public class HintUI : MonoBehaviour
     private void Start()
     {
         rectTransform = GetComponent<RectTransform>();
-        SetHint(_hint);
+        _canvasGroup = GetComponent<CanvasGroup>();
     }
 
     public void SetHint(HintSO hint)
     {
+        _canvasGroup.alpha = 1;
         _hint = hint;
         _hintText.text = _hint._name;
         _hintDescription.text = _hint._description;
@@ -39,7 +40,7 @@ public class HintUI : MonoBehaviour
 
     public void CloseHint()
     {
-        _canvasGroup.DOFade(1, 0.5f);
+        _canvasGroup.DOFade(0, 0.5f);
         rectTransform.DOAnchorPos(Vector2.zero, 0.2f).SetEase(Ease.OutBack);
     }
 }
