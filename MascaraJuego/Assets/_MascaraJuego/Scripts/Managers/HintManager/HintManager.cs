@@ -34,6 +34,7 @@ public class HintManager : MonoBehaviour
 
     public void ShowHintsInMenu()
     {
+        var _hintParentCanvas = _hintsParent.GetComponent<CanvasGroup>().alpha = 1;
         for (int i = 0; i < _hintsParent.childCount; i++)
         {
             Destroy(_hintsParent.GetChild(i).gameObject);
@@ -51,6 +52,11 @@ public class HintManager : MonoBehaviour
         {
             EventSystem.current.SetSelectedGameObject(_hintsParent.GetChild(0).transform.GetChild(0).gameObject);
         }
+    }
+
+    public void HideHintMenu()
+    {
+        var _hintParentCanvas = _hintsParent.GetComponent<CanvasGroup>().alpha = 0;
     }
 
     public void ShowHintInMenu(HintSO hint)
