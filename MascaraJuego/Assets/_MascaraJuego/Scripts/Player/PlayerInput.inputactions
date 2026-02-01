@@ -268,17 +268,6 @@
                 },
                 {
                     "name": "",
-                    "id": "8e19c147-a5ce-4776-a5ed-4632f57e21a1",
-                    "path": "<Keyboard>/enter",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "EscapeUI",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
                     "id": "cf4321df-c5fb-4725-9e62-3414b1093d79",
                     "path": "<Keyboard>/tab",
                     "interactions": "",
