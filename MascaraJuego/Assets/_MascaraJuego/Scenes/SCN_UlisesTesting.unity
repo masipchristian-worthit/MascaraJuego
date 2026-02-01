@@ -699,6 +699,14 @@ PrefabInstance:
       propertyPath: _pausePanel
       value: 
       objectReference: {fileID: 1118443070}
+    - target: {fileID: 2557946864741175560, guid: d820cc00638ec9c42a5446d46db93133, type: 3}
+      propertyPath: _firstButton
+      value: 
+      objectReference: {fileID: 3696205689016955090}
+    - target: {fileID: 2557946864741175560, guid: d820cc00638ec9c42a5446d46db93133, type: 3}
+      propertyPath: _buttonsGroup
+      value: 
+      objectReference: {fileID: 3696205689016955089}
     - target: {fileID: 3236389559201976891, guid: d820cc00638ec9c42a5446d46db93133, type: 3}
       propertyPath: m_AnchorMax.y
       value: 1
@@ -814,8 +822,33 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7040124815946325082, guid: d820cc00638ec9c42a5446d46db93133, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3696205689016955089}
   m_SourcePrefab: {fileID: 100100000, guid: d820cc00638ec9c42a5446d46db93133, type: 3}
+--- !u!1 &3696205689016955088 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7040124815946325082, guid: d820cc00638ec9c42a5446d46db93133, type: 3}
+  m_PrefabInstance: {fileID: 3696205689016955087}
+  m_PrefabAsset: {fileID: 0}
+--- !u!225 &3696205689016955089
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3696205689016955088}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
+--- !u!1 &3696205689016955090 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5625296812474035315, guid: d820cc00638ec9c42a5446d46db93133, type: 3}
+  m_PrefabInstance: {fileID: 3696205689016955087}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

@@ -15,6 +15,6 @@ public class HintButton : MonoBehaviour
         Hint = hint;
         _text.text = hint._name;
         _button = this.GetComponent<Button>();
-        _button.onClick.AddListener(() => HintManager.Instance.ShowHintsInMenu(Hint));
+        _button.onClick.AddListener(() => HintManager.Instance.ShowHintInMenu(Hint));
     }
 }

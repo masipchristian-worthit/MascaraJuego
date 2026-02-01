@@ -1789,7 +1789,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &5439670196650657903
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1797,17 +1797,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4732239786304279376}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2189958534077242203}
-  m_Father: {fileID: 1105392515835903249}
+  m_Father: {fileID: 5752605608850637333}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -774.3761, y: -28.2965}
+  m_AnchoredPosition: {x: 854.8076, y: 30.7035}
   m_SizeDelta: {x: 298.2072, y: 896.5397}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &392916988186083718
@@ -2280,6 +2280,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PauseManager
   _animator: {fileID: 3622179249712956238}
   _canvasGroup: {fileID: 0}
+  currentOption: 0
+  _pausePanel: {fileID: 5806406470762705389}
+  _buttonsGroup: {fileID: 3771203099965057954}
+  _firstButton: {fileID: 5625296812474035315}
 --- !u!1 &6247458504593441169
 GameObject:
   m_ObjectHideFlags: 0
@@ -2571,7 +2575,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 3985418242923890078}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2557946864741175560}
+        m_TargetAssemblyTypeName: PauseManager, Assembly-CSharp
+        m_MethodName: settingsMenu
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &6990909244880961091
 GameObject:
   m_ObjectHideFlags: 0
@@ -2621,6 +2637,7 @@ GameObject:
   - component: {fileID: 6509738662018248078}
   - component: {fileID: 5482806797452376606}
   - component: {fileID: 5615129637530149769}
+  - component: {fileID: 3771203099965057954}
   m_Layer: 5
   m_Name: Layout
   m_TagString: Untagged
@@ -2715,6 +2732,18 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!225 &3771203099965057954
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7040124815946325082}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &7135884373626231995
 GameObject:
   m_ObjectHideFlags: 0
@@ -3286,7 +3315,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 8415366172486978941}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2557946864741175560}
+        m_TargetAssemblyTypeName: PauseManager, Assembly-CSharp
+        m_MethodName: hintMenu
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &8021152040448816374
 GameObject:
   m_ObjectHideFlags: 0
@@ -3898,6 +3939,8 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 8144734088650609788}
+  - {fileID: 5439670196650657903}
   - {fileID: 1149787315448530474}
   - {fileID: 8327781654068120897}
   - {fileID: 1332367916816447065}
@@ -4232,8 +4275,7 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 5439670196650657903}
+  m_Children: []
   m_Father: {fileID: 7035736875514272633}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -4472,7 +4514,6 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 8144734088650609788}
   - {fileID: 5298347050007072867}
   m_Father: {fileID: 6467432511459006501}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -4815,7 +4856,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 869443010978858531}
+    m_TransformParent: {fileID: 5752605608850637333}
     m_Modifications:
     - target: {fileID: 728150956074773931, guid: bb6f1ceaaa4df0f4e97654dc08a54c2c, type: 3}
       propertyPath: m_Pivot.x
@@ -4867,23 +4908,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 728150956074773931, guid: bb6f1ceaaa4df0f4e97654dc08a54c2c, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 728150956074773931, guid: bb6f1ceaaa4df0f4e97654dc08a54c2c, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 728150956074773931, guid: bb6f1ceaaa4df0f4e97654dc08a54c2c, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 728150956074773931, guid: bb6f1ceaaa4df0f4e97654dc08a54c2c, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 1629.1837
       objectReference: {fileID: 0}
     - target: {fileID: 728150956074773931, guid: bb6f1ceaaa4df0f4e97654dc08a54c2c, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: 59
       objectReference: {fileID: 0}
     - target: {fileID: 728150956074773931, guid: bb6f1ceaaa4df0f4e97654dc08a54c2c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
