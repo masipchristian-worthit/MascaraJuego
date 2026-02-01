@@ -4,6 +4,9 @@ using System.Collections;
 [RequireComponent(typeof(Rigidbody))]
 public class NPCWaypointController : MonoBehaviour
 {
+    [Header("Referencias")]
+    [SerializeField] private Animator anim; // AHORA ES VISIBLE EN EL INSPECTOR
+    
     [Header("NPC Walk Settings")]
     [SerializeField] private float walkSpeed = 2f;
     [SerializeField] private BoxCollider pointA;
@@ -21,12 +24,17 @@ public class NPCWaypointController : MonoBehaviour
     {
         rb = GetComponent<Rigidbody>();
         
-  
+        // Intentamos buscarlo si se te olvidó asignarlo en el Inspector
+        if (anim == null) 
+            anim = GetComponentInChildren<Animator>(); // Busca en hijos también
+
+        if (anim == null)
+            Debug.LogError("¡FALTA EL ANIMATOR! Asígnalo en el Inspector del NPCWaypointController.");
+
         rb.interpolation = RigidbodyInterpolation.Interpolate;
         rb.collisionDetectionMode = CollisionDetectionMode.Continuous;
         rb.freezeRotation = true;
 
- 
         if (pointA != null && pointB != null)
         {
             currentTarget = pointB;
@@ -47,20 +55,29 @@ public class NPCWaypointController : MonoBehaviour
         Vector3 targetPos = currentTarget.bounds.center;
         Vector3 currentPos = rb.position;
 
- 
+        // Dirección
         float directionX = (targetPos.x > currentPos.x) ? 1f : -1f;
         Vector3 direction = new Vector3(directionX, 0, 0);
-        
+
         rb.MovePosition(currentPos + direction * walkSpeed * Time.fixedDeltaTime);
 
+        // Escala (Flip) manteniendo tamaño original
+        float scaleX = Mathf.Abs(transform.localScale.x);
+        transform.localScale = new Vector3(scaleX * directionX, transform.localScale.y, transform.localScale.z);
 
-        transform.localScale = new Vector3(directionX, 1, 1);
+        // Animación
+        if(anim != null) 
+        {
+            anim.SetBool("isMoving", true);
+        }
     }
 
     private void OnTriggerEnter(Collider other)
     {
+        bool isPoint = other.CompareTag("Point");
+        bool isPlayer = other.CompareTag("Player");
 
-        if (!isWaiting && other.CompareTag("Point") || !isWaiting && other.CompareTag("Player"))
+        if (!isWaiting && (isPoint || isPlayer))
         {
             StartCoroutine(WaitAndSwitchSequence());
         }
@@ -69,30 +86,33 @@ public class NPCWaypointController : MonoBehaviour
     private IEnumerator WaitAndSwitchSequence()
     {
         isWaiting = true;
-        rb.linearVelocity = Vector3.zero;
+        
+        // Detener física
+        // (Usa 'velocity' si usas Unity anterior a la versión 6)
+        rb.linearVelocity = Vector3.zero; 
 
+        // Detener animación
+        if(anim != null) 
+        {
+            anim.SetBool("isMoving", false);
+        }
 
         currentTarget.gameObject.SetActive(false);
 
-  
         float waitDuration = Random.Range(minWaitTime, maxWaitTime);
         yield return new WaitForSeconds(waitDuration);
 
-
         currentTarget = (currentTarget == pointA) ? pointB : pointA;
-
-
         currentTarget.gameObject.SetActive(true);
 
         isWaiting = false;
     }
-
+    
+    // (Gizmos omitidos para brevedad, no afectan la lógica)
     void OnDrawGizmos()
     {
         if (pointA == null || pointB == null) return;
         Gizmos.color = Color.cyan;
         Gizmos.DrawLine(pointA.bounds.center, pointB.bounds.center);
-        Gizmos.DrawWireCube(pointA.bounds.center, pointA.bounds.size);
-        Gizmos.DrawWireCube(pointB.bounds.center, pointB.bounds.size);
     }
 }
