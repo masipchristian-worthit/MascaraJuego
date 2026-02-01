@@ -1,0 +1,255 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9147bccad748a464487ec789f0cfc14b, type: 3}
+  m_Name: NickMinajVictimGraph
+  m_EditorClassIdentifier: Assembly-CSharp-Editor::DS.Data.Save.DSGraphSaveData
+  <FileName>k__BackingField: NickMinajVictim
+  <Groups>k__BackingField: []
+  <Nodes>k__BackingField:
+  - <ID>k__BackingField: 495d2edd-7998-4f76-a13a-a11b1699ad8a
+    <Name>k__BackingField: 3
+    <Text>k__BackingField: And my mask has better teeth than you
+    <SpeakerName>k__BackingField: Micky Mirage
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: ebe9dd68-3edc-49ad-826d-e3b3e7754df5
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: Nicki:Nicki
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 894.4, y: 110.4}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: bade6fedfff9f754380fa199f0f19c53, type: 3}
+    <Actions>k__BackingField: 
+    <HintSo>k__BackingField: {fileID: 0}
+  - <ID>k__BackingField: 5ae5ae9d-617e-4dbe-a435-8f48c9355d60
+    <Name>k__BackingField: 1
+    <Text>k__BackingField: Yo, listen up! I'm the queen of rap and the queen of this
+      party
+    <SpeakerName>k__BackingField: Micky Mirage
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: eeb6abfc-3760-430e-9ad8-84b962386322
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: Nicki:Nicki
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 184.8, y: 118.4}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: bade6fedfff9f754380fa199f0f19c53, type: 3}
+    <Actions>k__BackingField: 
+    <HintSo>k__BackingField: {fileID: 0}
+  - <ID>k__BackingField: eeb6abfc-3760-430e-9ad8-84b962386322
+    <Name>k__BackingField: 2
+    <Text>k__BackingField: it's patriotic, okay? I'm small, but I bite.
+    <SpeakerName>k__BackingField: Micky Mirage
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: 495d2edd-7998-4f76-a13a-a11b1699ad8a
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: Nicki:Nicki
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 618.4, y: 117.6}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: bade6fedfff9f754380fa199f0f19c53, type: 3}
+    <Actions>k__BackingField: 
+    <HintSo>k__BackingField: {fileID: 0}
+  - <ID>k__BackingField: aa07cfd4-07c1-4d4f-921d-bf05c5b144c0
+    <Name>k__BackingField: 5
+    <Text>k__BackingField: This party is dry. Wher's the bubbly? Where's the drama?
+    <SpeakerName>k__BackingField: Micky Mirage
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: cf3d64f8-49e5-4e80-adc3-ca8cef8964c3
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: Nicki:Nicki
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 1680.8, y: -209.59999}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: bade6fedfff9f754380fa199f0f19c53, type: 3}
+    <Actions>k__BackingField: 
+    <HintSo>k__BackingField: {fileID: 0}
+  - <ID>k__BackingField: cf3d64f8-49e5-4e80-adc3-ca8cef8964c3
+    <Name>k__BackingField: 6
+    <Text>k__BackingField: I'm bored. I might start a rap battle with a waiter to
+      feel something.
+    <SpeakerName>k__BackingField: Micky Mirage
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: 5e8331d8-1a48-4381-8ec6-ba1e4fa2f9fc
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: Nicki:Nicki
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 2090.4, y: -216}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: bade6fedfff9f754380fa199f0f19c53, type: 3}
+    <Actions>k__BackingField: 
+    <HintSo>k__BackingField: {fileID: 0}
+  - <ID>k__BackingField: 5e8331d8-1a48-4381-8ec6-ba1e4fa2f9fc
+    <Name>k__BackingField: 7
+    <Text>k__BackingField: You look like you need a makeover with me.
+    <SpeakerName>k__BackingField: Micky Mirage
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: ebe9dd68-3edc-49ad-826d-e3b3e7754df5
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: Nicki:Nicki
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 2533.6, y: -224}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: bade6fedfff9f754380fa199f0f19c53, type: 3}
+    <Actions>k__BackingField: 
+    <HintSo>k__BackingField: {fileID: 0}
+  - <ID>k__BackingField: 78b5a67d-700a-420b-9e24-54fff4c0f377
+    <Name>k__BackingField: 11
+    <Text>k__BackingField: I love my country
+    <SpeakerName>k__BackingField: Micky Mirage
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: 7e4f0a65-4099-491d-9909-45c24c102cf3
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: Nicki:Nicki
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 1684.8, y: 830.39996}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: bade6fedfff9f754380fa199f0f19c53, type: 3}
+    <Actions>k__BackingField: 
+    <HintSo>k__BackingField: {fileID: 0}
+  - <ID>k__BackingField: 7e4f0a65-4099-491d-9909-45c24c102cf3
+    <Name>k__BackingField: 12
+    <Text>k__BackingField: I love Ronald Dump, I'll love to get his attention.
+    <SpeakerName>k__BackingField: Micky Mirage
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: b77cda57-cd85-4073-82cb-183632ace451
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: Nicki:Nicki
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 1994.4, y: 827.19995}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: bade6fedfff9f754380fa199f0f19c53, type: 3}
+    <Actions>k__BackingField: 
+    <HintSo>k__BackingField: {fileID: 0}
+  - <ID>k__BackingField: b77cda57-cd85-4073-82cb-183632ace451
+    <Name>k__BackingField: 13
+    <Text>k__BackingField: God bless america and all of that.
+    <SpeakerName>k__BackingField: Micky Mirage
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: ebe9dd68-3edc-49ad-826d-e3b3e7754df5
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: Nicki:Nicki
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 2375.2, y: 848}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: bade6fedfff9f754380fa199f0f19c53, type: 3}
+    <Actions>k__BackingField: 
+    <HintSo>k__BackingField: {fileID: 0}
+  - <ID>k__BackingField: ebe9dd68-3edc-49ad-826d-e3b3e7754df5
+    <Name>k__BackingField: 4
+    <Text>k__BackingField: What do you need from this queen? You handsome...
+    <SpeakerName>k__BackingField: Micky Mirage
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Party Activity
+      <NodeID>k__BackingField: aa07cfd4-07c1-4d4f-921d-bf05c5b144c0
+    - <Text>k__BackingField: Let's talk about Ye-zuz
+      <NodeID>k__BackingField: a8f48383-ead5-424c-a7fa-475fb47b011c
+    - <Text>k__BackingField: Patriotism?
+      <NodeID>k__BackingField: 78b5a67d-700a-420b-9e24-54fff4c0f377
+    - <Text>k__BackingField: Get lost
+      <NodeID>k__BackingField: cac4857b-b929-422b-87fd-5a10079973eb
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: Nicki:Nicki
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 1170.4, y: 113.6}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: bade6fedfff9f754380fa199f0f19c53, type: 3}
+    <Actions>k__BackingField: 
+    <HintSo>k__BackingField: {fileID: 0}
+  - <ID>k__BackingField: cac4857b-b929-422b-87fd-5a10079973eb
+    <Name>k__BackingField: 14
+    <Text>k__BackingField: Euugh... As if I was interested in you.
+    <SpeakerName>k__BackingField: Micky Mirage
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: Nicki:Nicki
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 1316, y: 912}
+    <CharacterImageLeft>k__BackingField: {fileID: 0}
+    <Actions>k__BackingField: 
+    <HintSo>k__BackingField: {fileID: 0}
+  - <ID>k__BackingField: a8f48383-ead5-424c-a7fa-475fb47b011c
+    <Name>k__BackingField: 8
+    <Text>k__BackingField: Ye-zuz... that wash-up. He thinks he's a god?
+    <SpeakerName>k__BackingField: Micky Mirage
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: 52d87271-8687-47c1-b648-43ea068e453a
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: Nicki:Nicki
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 1682.4, y: 316.80002}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: bade6fedfff9f754380fa199f0f19c53, type: 3}
+    <Actions>k__BackingField: 
+    <HintSo>k__BackingField: {fileID: 0}
+  - <ID>k__BackingField: 52d87271-8687-47c1-b648-43ea068e453a
+    <Name>k__BackingField: 9
+    <Text>k__BackingField: I'm the Goddess! He stole my verse in 2010 and I never
+      forgave him.
+    <SpeakerName>k__BackingField: Micky Mirage
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: 3e02dd0c-75ae-494b-a70c-6a456a427bbf
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: Nicki:Nicki
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 2069.6, y: 317.6}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: bade6fedfff9f754380fa199f0f19c53, type: 3}
+    <Actions>k__BackingField: 
+    <HintSo>k__BackingField: {fileID: 0}
+  - <ID>k__BackingField: 3e02dd0c-75ae-494b-a70c-6a456a427bbf
+    <Name>k__BackingField: 10
+    <Text>k__BackingField: Tonight, the bear gets stuffed. I'm gonna pop him like
+      a balloon.
+    <SpeakerName>k__BackingField: Micky Mirage
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: ebe9dd68-3edc-49ad-826d-e3b3e7754df5
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: Nicki:Nicki
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 2562.4, y: 332}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: bade6fedfff9f754380fa199f0f19c53, type: 3}
+    <Actions>k__BackingField: GiveHint
+    <HintSo>k__BackingField: {fileID: 0}
+  <OldGroupNames>k__BackingField: []
+  <OldUngroupedNodesNames>k__BackingField:
+  - 3
+  - 1
+  - 2
+  - 5
+  - 6
+  - 7
+  - 11
+  - 12
+  - 13
+  - 4
+  - 14
+  - 8
+  - 9
+  - 10
+  <OldGroupedNodeNames>k__BackingField:
+    list: []

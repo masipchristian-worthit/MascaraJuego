@@ -18,7 +18,7 @@ MonoBehaviour:
   <Choices>k__BackingField:
   - <Text>k__BackingField: Rate the party
     <NextDialogue>k__BackingField: {fileID: 11400000, guid: 5dea3ed530015c34aa57405f95acf7e3, type: 2}
-  - <Text>k__BackingField: What do you think about micky?
+  - <Text>k__BackingField: What do you think about Micky?
     <NextDialogue>k__BackingField: {fileID: 11400000, guid: f88c22e17ed7cca48ad36facf0c20587, type: 2}
   - <Text>k__BackingField: Who invited you?
     <NextDialogue>k__BackingField: {fileID: 11400000, guid: f4a1af1941d7f0941ad1a9d44693117d, type: 2}
@@ -28,6 +28,6 @@ MonoBehaviour:
   <DialogueType>k__BackingField: 1
   <IsStartingDialogue>k__BackingField: 0
   <DialogueSpeed>k__BackingField: 
-  <DialogueCharacterLeft>k__BackingField: {fileID: 21300000, guid: b2fed1ecb0d934a45a2a78e19d12b9aa, type: 3}
+  <DialogueCharacterLeft>k__BackingField: {fileID: 21300000, guid: db8440effc688124dbcdd059aecf289b, type: 3}
   <DialogueActionName>k__BackingField: 
   <HintSo>k__BackingField: {fileID: 0}

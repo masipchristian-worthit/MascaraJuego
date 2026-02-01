@@ -27,7 +27,7 @@ MonoBehaviour:
     <Audio>k__BackingField: Trump:Trump
     <DialogueType>k__BackingField: 0
     <Position>k__BackingField: {x: 1755.2, y: -84.8}
-    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: b2fed1ecb0d934a45a2a78e19d12b9aa, type: 3}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: db8440effc688124dbcdd059aecf289b, type: 3}
     <Actions>k__BackingField: 
     <HintSo>k__BackingField: {fileID: 0}
   - <ID>k__BackingField: 9c515c6e-6184-4156-88c9-27fa2e648be1
@@ -43,23 +43,7 @@ MonoBehaviour:
     <Audio>k__BackingField: Trump:Trump
     <DialogueType>k__BackingField: 0
     <Position>k__BackingField: {x: 2476.8, y: 987.19995}
-    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: b2fed1ecb0d934a45a2a78e19d12b9aa, type: 3}
-    <Actions>k__BackingField: 
-    <HintSo>k__BackingField: {fileID: 0}
-  - <ID>k__BackingField: 9d6f341c-3e91-499a-a8d7-142a7acba261
-    <Name>k__BackingField: 1
-    <Text>k__BackingField: Excuse me, don't touch the suit. It's Italian, very expensive,
-      maybe the most expensive suit in this room.
-    <SpeakerName>k__BackingField: Ronald Dump
-    <Choices>k__BackingField:
-    - <Text>k__BackingField: Next DIalogue
-      <NodeID>k__BackingField: 9e28c3db-4194-4ef5-bb85-ec9520051afc
-    <GroupID>k__BackingField: 
-    <DialogueSpeed>k__BackingField: 
-    <Audio>k__BackingField: Trump:Trump
-    <DialogueType>k__BackingField: 0
-    <Position>k__BackingField: {x: 598.4, y: -96}
-    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: b2fed1ecb0d934a45a2a78e19d12b9aa, type: 3}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: db8440effc688124dbcdd059aecf289b, type: 3}
     <Actions>k__BackingField: 
     <HintSo>k__BackingField: {fileID: 0}
   - <ID>k__BackingField: 9e28c3db-4194-4ef5-bb85-ec9520051afc
@@ -75,8 +59,85 @@ MonoBehaviour:
     <Audio>k__BackingField: Trump:Trump
     <DialogueType>k__BackingField: 0
     <Position>k__BackingField: {x: 1269.6, y: -92}
-    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: b2fed1ecb0d934a45a2a78e19d12b9aa, type: 3}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: db8440effc688124dbcdd059aecf289b, type: 3}
     <Actions>k__BackingField: 
+    <HintSo>k__BackingField: {fileID: 0}
+  - <ID>k__BackingField: cc6b82e3-a4cf-4167-b758-e68253ad42c0
+    <Name>k__BackingField: 5
+    <Text>k__BackingField: Honestly? The vibe is low energy. Very sad.
+    <SpeakerName>k__BackingField: Ronald Dump
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: 7794732a-abb6-47d2-aec0-c4868c6ad333
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: Trump:Trump
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 2560.8, y: -721.60004}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: db8440effc688124dbcdd059aecf289b, type: 3}
+    <Actions>k__BackingField: 
+    <HintSo>k__BackingField: {fileID: 0}
+  - <ID>k__BackingField: 7794732a-abb6-47d2-aec0-c4868c6ad333
+    <Name>k__BackingField: 6
+    <Text>k__BackingField: There's a guy in an X mask staring at me. Jealousy. Pure
+      jealousy.
+    <SpeakerName>k__BackingField: Ronald Dump
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: a1969df6-b30f-4c7b-90d2-a62a25702e9a
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: 'Trump:Trump  '
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 2882.4, y: -730.4}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: db8440effc688124dbcdd059aecf289b, type: 3}
+    <Actions>k__BackingField: 
+    <HintSo>k__BackingField: {fileID: 0}
+  - <ID>k__BackingField: bb35795c-c289-4d1c-8849-71e8f513a7aa
+    <Name>k__BackingField: 8
+    <Text>k__BackingField: MIcky? She's fine. A bit loud.
+    <SpeakerName>k__BackingField: Ronald Dump
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: fbdfcfe7-56e9-4741-a13b-5039950b517b
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: Trump:Trump
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 2599.2, y: 78.4}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: db8440effc688124dbcdd059aecf289b, type: 3}
+    <Actions>k__BackingField: 
+    <HintSo>k__BackingField: {fileID: 0}
+  - <ID>k__BackingField: 0fde4cc7-3039-45cf-88a0-b6d4b2f582b8
+    <Name>k__BackingField: 10
+    <Text>k__BackingField: But she has a lot of followers, so I respect the hustle
+    <SpeakerName>k__BackingField: Ronald Dump
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: 8e9595fe-1a5a-4f3f-a938-5447f41d6f88
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: Trump:Trump
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 3604.8, y: 100}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: db8440effc688124dbcdd059aecf289b, type: 3}
+    <Actions>k__BackingField: Nothing
+    <HintSo>k__BackingField: {fileID: 0}
+  - <ID>k__BackingField: a1969df6-b30f-4c7b-90d2-a62a25702e9a
+    <Name>k__BackingField: 7
+    <Text>k__BackingField: I feel like I'm being hunted by a beta male nerd. I need
+      my Secret Service detail
+    <SpeakerName>k__BackingField: Ronald Trump
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: 8e9595fe-1a5a-4f3f-a938-5447f41d6f88
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: Trump:Trump
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 3309.6, y: -728}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: db8440effc688124dbcdd059aecf289b, type: 3}
+    <Actions>k__BackingField: GiveHint
     <HintSo>k__BackingField: {fileID: 0}
   - <ID>k__BackingField: eecad135-25bf-4f87-8d83-312bd2cf54d0
     <Name>k__BackingField: 12
@@ -90,7 +151,7 @@ MonoBehaviour:
     <Audio>k__BackingField: Trump:Trump
     <DialogueType>k__BackingField: 0
     <Position>k__BackingField: {x: 3020.8, y: 992.8}
-    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: b2fed1ecb0d934a45a2a78e19d12b9aa, type: 3}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: db8440effc688124dbcdd059aecf289b, type: 3}
     <Actions>k__BackingField: 
     <HintSo>k__BackingField: {fileID: 0}
   - <ID>k__BackingField: 74dd387b-21f3-40fa-a639-370c6012163d
@@ -105,7 +166,23 @@ MonoBehaviour:
     <Audio>k__BackingField: Trump:Trump
     <DialogueType>k__BackingField: 0
     <Position>k__BackingField: {x: 2116, y: 811.19995}
-    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: b2fed1ecb0d934a45a2a78e19d12b9aa, type: 3}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: db8440effc688124dbcdd059aecf289b, type: 3}
+    <Actions>k__BackingField: 
+    <HintSo>k__BackingField: {fileID: 0}
+  - <ID>k__BackingField: fbdfcfe7-56e9-4741-a13b-5039950b517b
+    <Name>k__BackingField: 9
+    <Text>k__BackingField: I prefer people who are quieter, more respectful of my
+      genius.
+    <SpeakerName>k__BackingField: Ronald Trump
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: 0fde4cc7-3039-45cf-88a0-b6d4b2f582b8
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: Trump:Trump
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 3088, y: 108.799995}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: db8440effc688124dbcdd059aecf289b, type: 3}
     <Actions>k__BackingField: 
     <HintSo>k__BackingField: {fileID: 0}
   - <ID>k__BackingField: 8e9595fe-1a5a-4f3f-a938-5447f41d6f88
@@ -126,116 +203,39 @@ MonoBehaviour:
     <Audio>k__BackingField: Trump:Trump
     <DialogueType>k__BackingField: 1
     <Position>k__BackingField: {x: 2048.8, y: -108}
-    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: b2fed1ecb0d934a45a2a78e19d12b9aa, type: 3}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: db8440effc688124dbcdd059aecf289b, type: 3}
     <Actions>k__BackingField: 
     <HintSo>k__BackingField: {fileID: 0}
-  - <ID>k__BackingField: cc6b82e3-a4cf-4167-b758-e68253ad42c0
-    <Name>k__BackingField: 5
-    <Text>k__BackingField: Honestly? The vibe is low energy. Very sad.
+  - <ID>k__BackingField: 9d6f341c-3e91-499a-a8d7-142a7acba261
+    <Name>k__BackingField: 1
+    <Text>k__BackingField: Excuse me, don't touch the suit. It's Italian, very expensive,
+      maybe the most expensive suit in this room.
     <SpeakerName>k__BackingField: Ronald Dump
     <Choices>k__BackingField:
     - <Text>k__BackingField: Next DIalogue
-      <NodeID>k__BackingField: 7794732a-abb6-47d2-aec0-c4868c6ad333
+      <NodeID>k__BackingField: 9e28c3db-4194-4ef5-bb85-ec9520051afc
     <GroupID>k__BackingField: 
     <DialogueSpeed>k__BackingField: 
     <Audio>k__BackingField: Trump:Trump
     <DialogueType>k__BackingField: 0
-    <Position>k__BackingField: {x: 2560.8, y: -721.60004}
-    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: b2fed1ecb0d934a45a2a78e19d12b9aa, type: 3}
+    <Position>k__BackingField: {x: 598.4, y: -96}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: db8440effc688124dbcdd059aecf289b, type: 3}
     <Actions>k__BackingField: 
-    <HintSo>k__BackingField: {fileID: 0}
-  - <ID>k__BackingField: 7794732a-abb6-47d2-aec0-c4868c6ad333
-    <Name>k__BackingField: 6
-    <Text>k__BackingField: There's a guy in an X mask staring at me. Jealousy. Pure
-      jealousy.
-    <SpeakerName>k__BackingField: Ronald Dump
-    <Choices>k__BackingField:
-    - <Text>k__BackingField: Next DIalogue
-      <NodeID>k__BackingField: a1969df6-b30f-4c7b-90d2-a62a25702e9a
-    <GroupID>k__BackingField: 
-    <DialogueSpeed>k__BackingField: 
-    <Audio>k__BackingField: 'Trump:Trump  '
-    <DialogueType>k__BackingField: 0
-    <Position>k__BackingField: {x: 2882.4, y: -730.4}
-    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: b2fed1ecb0d934a45a2a78e19d12b9aa, type: 3}
-    <Actions>k__BackingField: 
-    <HintSo>k__BackingField: {fileID: 0}
-  - <ID>k__BackingField: a1969df6-b30f-4c7b-90d2-a62a25702e9a
-    <Name>k__BackingField: 7
-    <Text>k__BackingField: I feel like I'm being hunted by a beta male nerd. I need
-      my Secret Service detail
-    <SpeakerName>k__BackingField: Ronald Trump
-    <Choices>k__BackingField:
-    - <Text>k__BackingField: Next DIalogue
-      <NodeID>k__BackingField: 8e9595fe-1a5a-4f3f-a938-5447f41d6f88
-    <GroupID>k__BackingField: 
-    <DialogueSpeed>k__BackingField: 
-    <Audio>k__BackingField: Trump:Trump
-    <DialogueType>k__BackingField: 0
-    <Position>k__BackingField: {x: 3309.6, y: -728}
-    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: b2fed1ecb0d934a45a2a78e19d12b9aa, type: 3}
-    <Actions>k__BackingField: GiveHint
-    <HintSo>k__BackingField: {fileID: 0}
-  - <ID>k__BackingField: bb35795c-c289-4d1c-8849-71e8f513a7aa
-    <Name>k__BackingField: 8
-    <Text>k__BackingField: MIcky? She's fine. A bit loud.
-    <SpeakerName>k__BackingField: Ronald Dump
-    <Choices>k__BackingField:
-    - <Text>k__BackingField: Next DIalogue
-      <NodeID>k__BackingField: fbdfcfe7-56e9-4741-a13b-5039950b517b
-    <GroupID>k__BackingField: 
-    <DialogueSpeed>k__BackingField: 
-    <Audio>k__BackingField: Trump:Trump
-    <DialogueType>k__BackingField: 0
-    <Position>k__BackingField: {x: 2599.2, y: 78.4}
-    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: b2fed1ecb0d934a45a2a78e19d12b9aa, type: 3}
-    <Actions>k__BackingField: 
-    <HintSo>k__BackingField: {fileID: 0}
-  - <ID>k__BackingField: fbdfcfe7-56e9-4741-a13b-5039950b517b
-    <Name>k__BackingField: 9
-    <Text>k__BackingField: I prefer people who are quieter, more respectful of my
-      genius.
-    <SpeakerName>k__BackingField: Ronald Trump
-    <Choices>k__BackingField:
-    - <Text>k__BackingField: Next DIalogue
-      <NodeID>k__BackingField: 0fde4cc7-3039-45cf-88a0-b6d4b2f582b8
-    <GroupID>k__BackingField: 
-    <DialogueSpeed>k__BackingField: 
-    <Audio>k__BackingField: Trump:Trump
-    <DialogueType>k__BackingField: 0
-    <Position>k__BackingField: {x: 3088, y: 108.799995}
-    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: b2fed1ecb0d934a45a2a78e19d12b9aa, type: 3}
-    <Actions>k__BackingField: 
-    <HintSo>k__BackingField: {fileID: 0}
-  - <ID>k__BackingField: 0fde4cc7-3039-45cf-88a0-b6d4b2f582b8
-    <Name>k__BackingField: 10
-    <Text>k__BackingField: But she has a lot of followers, so I respect the hustle
-    <SpeakerName>k__BackingField: Ronald Dump
-    <Choices>k__BackingField:
-    - <Text>k__BackingField: Next DIalogue
-      <NodeID>k__BackingField: 8e9595fe-1a5a-4f3f-a938-5447f41d6f88
-    <GroupID>k__BackingField: 
-    <DialogueSpeed>k__BackingField: 
-    <Audio>k__BackingField: Trump:Trump
-    <DialogueType>k__BackingField: 0
-    <Position>k__BackingField: {x: 3604.8, y: 100}
-    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: b2fed1ecb0d934a45a2a78e19d12b9aa, type: 3}
-    <Actions>k__BackingField: Nothing
     <HintSo>k__BackingField: {fileID: 0}
   <OldGroupNames>k__BackingField: []
   <OldUngroupedNodesNames>k__BackingField:
   - 3
   - 11
-  - 1
   - 2
-  - 12
-  - 13
-  - 4
   - 5
   - 6
-  - 7
   - 8
-  - 9
   - 10
+  - 7
+  - 12
+  - 13
+  - 9
+  - 4
+  - 1
   <OldGroupedNodeNames>k__BackingField:
     list: []

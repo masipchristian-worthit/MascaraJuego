@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abd133c77dbcb374a950c429185e0edc, type: 3}
+  m_Name: NickMinajNeutral
+  m_EditorClassIdentifier: Assembly-CSharp::DS.ScriptableObjects.DSDialogueContainerSO
+  <FileName>k__BackingField: NickMinajNeutral
+  <DialogueGroups>k__BackingField:
+    list: []
+  <UngroupedDialogues>k__BackingField:
+  - {fileID: 11400000, guid: 67ff6e652c23f984dbadb637beeea9a8, type: 2}
+  - {fileID: 11400000, guid: ee639bd8d93595747b4ef82189a680d3, type: 2}
+  - {fileID: 11400000, guid: 4ab895863be285c439941ddf357c1404, type: 2}
+  - {fileID: 11400000, guid: 9305bbe392aa8444b82fca7badb73556, type: 2}
+  - {fileID: 11400000, guid: 7d7c883582a1f494e9b85d178b90f544, type: 2}
+  - {fileID: 11400000, guid: 02e6e05f276aa754089034053dc8105d, type: 2}
+  - {fileID: 11400000, guid: 810ca6eb0db386148b45af3eba3a8f16, type: 2}
+  - {fileID: 11400000, guid: 0281aacef4f751d478d466bdeb3951e4, type: 2}
+  - {fileID: 11400000, guid: ab3d98a2510c42a4dae16143a05c4b04, type: 2}
+  - {fileID: 11400000, guid: 7b86bde7fdbc53648862844623aae003, type: 2}
+  - {fileID: 11400000, guid: f3be73ee930edce438c2250005fed2d8, type: 2}
+  - {fileID: 11400000, guid: 6ca3e0449114736409f3e0bf7b8f4601, type: 2}
+  - {fileID: 11400000, guid: 2e399433e929b654ea7b309132644598, type: 2}
+  - {fileID: 11400000, guid: 2b6fc2d496f92eb4987d30cb2d07ebc3, type: 2}
