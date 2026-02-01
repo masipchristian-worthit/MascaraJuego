@@ -1,0 +1,316 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9147bccad748a464487ec789f0cfc14b, type: 3}
+  m_Name: BelenestebanNeutroGraph
+  m_EditorClassIdentifier: Assembly-CSharp-Editor::DS.Data.Save.DSGraphSaveData
+  <FileName>k__BackingField: BelenestebanNeutro
+  <Groups>k__BackingField: []
+  <Nodes>k__BackingField:
+  - <ID>k__BackingField: c222ae5b-6a2b-4231-a9dc-0c1e3de873cf
+    <Name>k__BackingField: 2
+    <Text>k__BackingField: Can't you see I'm busy?
+    <SpeakerName>k__BackingField: Ellen Steven
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: 60678a04-adf2-40c4-b9eb-ad91d83aca1b
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: Elen
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 752, y: 265}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: 3ed352066aa221b4bb4eb3853e887b82, type: 3}
+    <Actions>k__BackingField: 
+    <HintSo>k__BackingField: {fileID: 0}
+  - <ID>k__BackingField: 2eb33924-063d-437d-b451-6911df8b7df7
+    <Name>k__BackingField: 6
+    <Text>k__BackingField: I'm  Ellen Steven, can't you tell?
+    <SpeakerName>k__BackingField: Ellen Steven
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: 5080ce7a-40ba-41b2-908e-5626e4c7df3e
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: Elen
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 2466, y: -746}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: 3ed352066aa221b4bb4eb3853e887b82, type: 3}
+    <Actions>k__BackingField: 
+    <HintSo>k__BackingField: {fileID: 0}
+  - <ID>k__BackingField: 54487332-c5bc-470a-ba04-1e5c5a65dacb
+    <Name>k__BackingField: 8
+    <Text>k__BackingField: Even a monkey knows who I am
+    <SpeakerName>k__BackingField: Ellen Steven
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: f7717128-68a5-4aad-b1ba-12f49be999c6
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: Elen
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 3157, y: -760}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: 3ed352066aa221b4bb4eb3853e887b82, type: 3}
+    <Actions>k__BackingField: 
+    <HintSo>k__BackingField: {fileID: 0}
+  - <ID>k__BackingField: 60678a04-adf2-40c4-b9eb-ad91d83aca1b
+    <Name>k__BackingField: 3
+    <Text>k__BackingField: Ugh, idiots like you irritate me
+    <SpeakerName>k__BackingField: Ellen Steven
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: f6a342ff-8782-414d-b54f-d6be1af79401
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: Elen
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 1089, y: 260}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: 3ed352066aa221b4bb4eb3853e887b82, type: 3}
+    <Actions>k__BackingField: 
+    <HintSo>k__BackingField: {fileID: 0}
+  - <ID>k__BackingField: 29b55f1d-65e0-4661-b5a1-91eb34bb8312
+    <Name>k__BackingField: DialogueName
+    <Text>k__BackingField: What do you want?
+    <SpeakerName>k__BackingField: Ellen Steven
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Who are you?
+      <NodeID>k__BackingField: 2eb33924-063d-437d-b451-6911df8b7df7
+    - <Text>k__BackingField: Why are you here?
+      <NodeID>k__BackingField: 5ca4f95d-e047-4208-92ef-fba1ea0074b3
+    - <Text>k__BackingField: Who invited you to the party?
+      <NodeID>k__BackingField: ea81f9ce-c91d-47ed-811d-1f30c99b9286
+    - <Text>k__BackingField: Fuck you
+      <NodeID>k__BackingField: 20400a4f-60d5-422f-94e4-96442772610c
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: Elen
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 2034, y: 242}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: 3ed352066aa221b4bb4eb3853e887b82, type: 3}
+    <Actions>k__BackingField: 
+    <HintSo>k__BackingField: {fileID: 0}
+  - <ID>k__BackingField: 5ca4f95d-e047-4208-92ef-fba1ea0074b3
+    <Name>k__BackingField: 10
+    <Text>k__BackingField: I'm always at a good party, especially one like this
+    <SpeakerName>k__BackingField: Ellen Steven
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: e27a8f4c-dbb4-4382-a8e5-127975775e56
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: Elen
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 2489, y: -166}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: 3ed352066aa221b4bb4eb3853e887b82, type: 3}
+    <Actions>k__BackingField: 
+    <HintSo>k__BackingField: {fileID: 0}
+  - <ID>k__BackingField: f3099716-ddc4-47c8-8b96-4bb284210d9d
+    <Name>k__BackingField: 1
+    <Text>k__BackingField: 'What''s wrong with you? '
+    <SpeakerName>k__BackingField: Ellen Steven
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: c222ae5b-6a2b-4231-a9dc-0c1e3de873cf
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: Elen
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 368, y: 273}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: 3ed352066aa221b4bb4eb3853e887b82, type: 3}
+    <Actions>k__BackingField: 
+    <HintSo>k__BackingField: {fileID: 0}
+  - <ID>k__BackingField: ea81f9ce-c91d-47ed-811d-1f30c99b9286
+    <Name>k__BackingField: 15
+    <Text>k__BackingField: I'm always invited to parties, unlike you
+    <SpeakerName>k__BackingField: Ellen Steven
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: d2c60f0b-c2c1-4a33-90bb-9675090ef643
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: Elen
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 2484, y: 469}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: 3ed352066aa221b4bb4eb3853e887b82, type: 3}
+    <Actions>k__BackingField: 
+    <HintSo>k__BackingField: {fileID: 0}
+  - <ID>k__BackingField: 1b4b334f-806f-4339-a2e5-669e824784da
+    <Name>k__BackingField: 12
+    <Text>k__BackingField: But of course, none of them are my equal
+    <SpeakerName>k__BackingField: Ellen Steven
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: 5cafd67f-cc3e-406b-a827-da0870c3c157
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: Elen
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 3199, y: -146}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: 3ed352066aa221b4bb4eb3853e887b82, type: 3}
+    <Actions>k__BackingField: 
+    <HintSo>k__BackingField: {fileID: 0}
+  - <ID>k__BackingField: e27a8f4c-dbb4-4382-a8e5-127975775e56
+    <Name>k__BackingField: 11
+    <Text>k__BackingField: There are very important people here
+    <SpeakerName>k__BackingField: Ellen Steven
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: 1b4b334f-806f-4339-a2e5-669e824784da
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: Elen
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 2846, y: -158}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: 3ed352066aa221b4bb4eb3853e887b82, type: 3}
+    <Actions>k__BackingField: 
+    <HintSo>k__BackingField: {fileID: 0}
+  - <ID>k__BackingField: 5cafd67f-cc3e-406b-a827-da0870c3c157
+    <Name>k__BackingField: 13
+    <Text>k__BackingField: Anyway
+    <SpeakerName>k__BackingField: Ellen Steven
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: 29b55f1d-65e0-4661-b5a1-91eb34bb8312
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: Elen
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 3557, y: -144}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: 3ed352066aa221b4bb4eb3853e887b82, type: 3}
+    <Actions>k__BackingField: 
+    <HintSo>k__BackingField: {fileID: 0}
+  - <ID>k__BackingField: f7717128-68a5-4aad-b1ba-12f49be999c6
+    <Name>k__BackingField: 9
+    <Text>k__BackingField: Anyway
+    <SpeakerName>k__BackingField: Ellen Steven
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: 29b55f1d-65e0-4661-b5a1-91eb34bb8312
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: Elen
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 3483, y: -758}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: 3ed352066aa221b4bb4eb3853e887b82, type: 3}
+    <Actions>k__BackingField: 
+    <HintSo>k__BackingField: {fileID: 0}
+  - <ID>k__BackingField: 5080ce7a-40ba-41b2-908e-5626e4c7df3e
+    <Name>k__BackingField: 7
+    <Text>k__BackingField: The super famous princess of the inept town
+    <SpeakerName>k__BackingField: Ellen Steven
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: 54487332-c5bc-470a-ba04-1e5c5a65dacb
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: Elen
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 2796, y: -760}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: 3ed352066aa221b4bb4eb3853e887b82, type: 3}
+    <Actions>k__BackingField: 
+    <HintSo>k__BackingField: {fileID: 0}
+  - <ID>k__BackingField: d2c60f0b-c2c1-4a33-90bb-9675090ef643
+    <Name>k__BackingField: 16
+    <Text>k__BackingField: Even the budget brand is better quality than your entire
+      life
+    <SpeakerName>k__BackingField: Ellen Steven
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: acd85293-80b7-41c1-aafe-2a00a345f701
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: Elen
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 2836, y: 469}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: 3ed352066aa221b4bb4eb3853e887b82, type: 3}
+    <Actions>k__BackingField: 
+    <HintSo>k__BackingField: {fileID: 0}
+  - <ID>k__BackingField: 20400a4f-60d5-422f-94e4-96442772610c
+    <Name>k__BackingField: 14
+    <Text>k__BackingField: Fine
+    <SpeakerName>k__BackingField: Ellen Steven
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: a06caa65-3ac3-44c0-b3f1-772d41427051
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: Elen
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 2404, y: 1020}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: 3ed352066aa221b4bb4eb3853e887b82, type: 3}
+    <Actions>k__BackingField: 
+    <HintSo>k__BackingField: {fileID: 0}
+  - <ID>k__BackingField: f6a342ff-8782-414d-b54f-d6be1af79401
+    <Name>k__BackingField: 4
+    <Text>k__BackingField: Cut it out.
+    <SpeakerName>k__BackingField: Ellen Steven
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: 29b55f1d-65e0-4661-b5a1-91eb34bb8312
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: Elen
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 1416, y: 256}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: 3ed352066aa221b4bb4eb3853e887b82, type: 3}
+    <Actions>k__BackingField: 
+    <HintSo>k__BackingField: {fileID: 0}
+  - <ID>k__BackingField: acd85293-80b7-41c1-aafe-2a00a345f701
+    <Name>k__BackingField: 17
+    <Text>k__BackingField: Anyway
+    <SpeakerName>k__BackingField: Ellen Steven
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: 29b55f1d-65e0-4661-b5a1-91eb34bb8312
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: Elen
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 3199, y: 483}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: 3ed352066aa221b4bb4eb3853e887b82, type: 3}
+    <Actions>k__BackingField: 
+    <HintSo>k__BackingField: {fileID: 0}
+  - <ID>k__BackingField: a06caa65-3ac3-44c0-b3f1-772d41427051
+    <Name>k__BackingField: 18
+    <Text>k__BackingField: I hope I never see you again
+    <SpeakerName>k__BackingField: Ellen Steven
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: 29b55f1d-65e0-4661-b5a1-91eb34bb8312
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: Elen
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 2754, y: 1024}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: 3ed352066aa221b4bb4eb3853e887b82, type: 3}
+    <Actions>k__BackingField: 
+    <HintSo>k__BackingField: {fileID: 0}
+  <OldGroupNames>k__BackingField: []
+  <OldUngroupedNodesNames>k__BackingField:
+  - 2
+  - 6
+  - 8
+  - 3
+  - DialogueName
+  - 10
+  - 1
+  - 15
+  - 12
+  - 11
+  - 13
+  - 9
+  - 7
+  - 16
+  - 14
+  - 4
+  - 17
+  - 18
+  <OldGroupedNodeNames>k__BackingField:
+    list: []
