@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3c3bb5c07aff7c04f80b75665fb3f9a5, type: 3}
-  m_Name: ChalametRSO
+  m_Name: TimotheeRSO
   m_EditorClassIdentifier: Assembly-CSharp::CharacterDataSO
-  characterID: 0
+  characterID: 6
   characterName: 
-  normalDialogue: {fileID: 0}
-  victimDialogue: {fileID: 0}
-  killerDialogue: {fileID: 0}
+  normalDialogue: {fileID: 11400000, guid: dc8509e0ec828434a8249527a99bb244, type: 2}
+  victimDialogue: {fileID: 11400000, guid: 76444c055082bf24e99ac6c8195cc5f1, type: 2}
+  killerDialogue: {fileID: 11400000, guid: c697db9604001544c88968f584ee4173, type: 2}
   clueItemName: 
   normalClueDescription: 
   incriminatingClueDescription: 

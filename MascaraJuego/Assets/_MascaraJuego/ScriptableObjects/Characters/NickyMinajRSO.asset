@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c3bb5c07aff7c04f80b75665fb3f9a5, type: 3}
   m_Name: NickyMinajRSO
   m_EditorClassIdentifier: Assembly-CSharp::CharacterDataSO
-  characterID: 0
+  characterID: 7
   characterName: 
   normalDialogue: {fileID: 0}
   victimDialogue: {fileID: 0}

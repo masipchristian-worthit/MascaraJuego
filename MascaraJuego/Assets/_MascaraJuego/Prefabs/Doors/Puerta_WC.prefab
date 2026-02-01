@@ -221,8 +221,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 093ba83731ce3b84d88bc76693e5a392, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
+  myID: 0
   _dialogueContainerSO: {fileID: 11400000, guid: 6358780c071a4e2469394c49da4ee2c1, type: 2}
-  Name: 
 --- !u!114 &968115431371509637
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -460,8 +460,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 093ba83731ce3b84d88bc76693e5a392, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNPC
+  myID: 0
   _dialogueContainerSO: {fileID: 11400000, guid: ca89605b3a127964aac5abe5366dc78c, type: 2}
-  Name: 
 --- !u!114 &2501508646648580487
 MonoBehaviour:
   m_ObjectHideFlags: 0

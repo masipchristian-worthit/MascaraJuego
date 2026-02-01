@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c3bb5c07aff7c04f80b75665fb3f9a5, type: 3}
   m_Name: KanyeRSO
   m_EditorClassIdentifier: Assembly-CSharp::CharacterDataSO
-  characterID: 0
+  characterID: 4
   characterName: 
-  normalDialogue: {fileID: 0}
-  victimDialogue: {fileID: 0}
-  killerDialogue: {fileID: 0}
+  normalDialogue: {fileID: 11400000, guid: ca89605b3a127964aac5abe5366dc78c, type: 2}
+  victimDialogue: {fileID: 11400000, guid: fee9d8c240fc59c40876e6b174c7ff14, type: 2}
+  killerDialogue: {fileID: 11400000, guid: 108e9e6e1a5a19947ac744b705b83343, type: 2}
   clueItemName: 
   normalClueDescription: 
   incriminatingClueDescription: 

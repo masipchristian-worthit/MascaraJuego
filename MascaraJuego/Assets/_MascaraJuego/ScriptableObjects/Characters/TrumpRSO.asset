@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::CharacterDataSO
   characterID: 0
   characterName: 
-  normalDialogue: {fileID: 0}
-  victimDialogue: {fileID: 0}
-  killerDialogue: {fileID: 0}
+  normalDialogue: {fileID: 11400000, guid: e372dfd21c7f97b478e75f216229d3c3, type: 2}
+  victimDialogue: {fileID: 11400000, guid: d916a8eb1aa217949b8393819eae05d3, type: 2}
+  killerDialogue: {fileID: 11400000, guid: 54f077be541badc40ac6c1a853ed86f8, type: 2}
   clueItemName: 
   normalClueDescription: 
   incriminatingClueDescription: 

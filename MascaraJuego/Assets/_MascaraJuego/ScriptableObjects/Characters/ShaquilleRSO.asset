@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c3bb5c07aff7c04f80b75665fb3f9a5, type: 3}
   m_Name: ShaquilleRSO
   m_EditorClassIdentifier: Assembly-CSharp::CharacterDataSO
-  characterID: 0
+  characterID: 1
   characterName: 
-  normalDialogue: {fileID: 0}
-  victimDialogue: {fileID: 0}
-  killerDialogue: {fileID: 0}
+  normalDialogue: {fileID: 11400000, guid: a02b4eb163925ec4da5f362a3724c0a0, type: 2}
+  victimDialogue: {fileID: 11400000, guid: 2956deaac1a9c6c438abe94331d74819, type: 2}
+  killerDialogue: {fileID: 11400000, guid: b6f4cbe600a38974c81f6e6a1175c932, type: 2}
   clueItemName: 
   normalClueDescription: 
   incriminatingClueDescription: 
