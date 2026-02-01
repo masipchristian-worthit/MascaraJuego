@@ -61,6 +61,7 @@ public class PauseManager : MonoBehaviour
             case MyEnum.Main:
                 resume();
                 Debug.Log("PARA juego");
+                EventSystem.current.SetSelectedGameObject(_fakeButton);
                 break;
         }
     }

@@ -15,7 +15,7 @@ public class DoorInteraction : MonoBehaviour
 
         if (_animator != null)
         {
-            _animator.SetTrigger("OpenDoor");
+            _animator.SetTrigger("Open");
         }
         else
         {
