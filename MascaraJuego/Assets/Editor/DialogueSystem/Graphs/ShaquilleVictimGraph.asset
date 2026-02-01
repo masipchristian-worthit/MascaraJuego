@@ -1,0 +1,223 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9147bccad748a464487ec789f0cfc14b, type: 3}
+  m_Name: ShaquilleVictimGraph
+  m_EditorClassIdentifier: Assembly-CSharp-Editor::DS.Data.Save.DSGraphSaveData
+  <FileName>k__BackingField: 
+  <Groups>k__BackingField: []
+  <Nodes>k__BackingField:
+  - <ID>k__BackingField: eecad135-25bf-4f87-8d83-312bd2cf54d0
+    <Name>k__BackingField: 12
+    <Text>k__BackingField: Basketball changed my life.
+    <SpeakerName>k__BackingField: Shack O'Kneel
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: 8e9595fe-1a5a-4f3f-a938-5447f41d6f88
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: Shaq:Shaq
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 3020.8, y: 992.8}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: d694f35cadb551748976a5017f2adc1b, type: 3}
+    <Actions>k__BackingField: 
+    <HintSo>k__BackingField: {fileID: 0}
+  - <ID>k__BackingField: 9d6f341c-3e91-499a-a8d7-142a7acba261
+    <Name>k__BackingField: 1
+    <Text>k__BackingField: DOWN HERE. NO, UP HERE. wait, you can't see my face. I'm
+      the Big Aristotle!
+    <SpeakerName>k__BackingField: Shack O'Kneel
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: 9e28c3db-4194-4ef5-bb85-ec9520051afc
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: Shaq:Shaq
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 598.4, y: -96}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: d694f35cadb551748976a5017f2adc1b, type: 3}
+    <Actions>k__BackingField: 
+    <HintSo>k__BackingField: {fileID: 0}
+  - <ID>k__BackingField: 9e28c3db-4194-4ef5-bb85-ec9520051afc
+    <Name>k__BackingField: 2
+    <Text>k__BackingField: ' I don''t need a mask, my height is my disguise.'
+    <SpeakerName>k__BackingField: Shack O'Kneel
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: f40eb2f9-b204-4e27-88ba-4c8bd5f29964
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: Shaq:Shaq
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 1269.6, y: -92}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: d694f35cadb551748976a5017f2adc1b, type: 3}
+    <Actions>k__BackingField: 
+    <HintSo>k__BackingField: {fileID: 0}
+  - <ID>k__BackingField: bb35795c-c289-4d1c-8849-71e8f513a7aa
+    <Name>k__BackingField: 8
+    <Text>k__BackingField: Ellen? The loud Lady? She's funny.
+    <SpeakerName>k__BackingField: Shack O'Kneel
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: fbdfcfe7-56e9-4741-a13b-5039950b517b
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: Shaq:Shq
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 2599.2, y: 78.4}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: d694f35cadb551748976a5017f2adc1b, type: 3}
+    <Actions>k__BackingField: 
+    <HintSo>k__BackingField: {fileID: 0}
+  - <ID>k__BackingField: 74dd387b-21f3-40fa-a639-370c6012163d
+    <Name>k__BackingField: 13
+    <Text>k__BackingField: No need to be rude... I have feelings too.
+    <SpeakerName>k__BackingField: Shack O'Kneel
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: Shaq:Shaq
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 2116, y: 811.19995}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: d694f35cadb551748976a5017f2adc1b, type: 3}
+    <Actions>k__BackingField: 
+    <HintSo>k__BackingField: {fileID: 0}
+  - <ID>k__BackingField: f40eb2f9-b204-4e27-88ba-4c8bd5f29964
+    <Name>k__BackingField: 3
+    <Text>k__BackingField: "I\u2019m just trying to find a toilet that fits me."
+    <SpeakerName>k__BackingField: Shack O'Kneel
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: 8e9595fe-1a5a-4f3f-a938-5447f41d6f88
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: Shaq:Shaq
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 1755.2, y: -84.8}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: d694f35cadb551748976a5017f2adc1b, type: 3}
+    <Actions>k__BackingField: 
+    <HintSo>k__BackingField: {fileID: 0}
+  - <ID>k__BackingField: fbdfcfe7-56e9-4741-a13b-5039950b517b
+    <Name>k__BackingField: 9
+    <Text>k__BackingField: She reminds me of a referee I usd to know. No problems
+      with her.
+    <SpeakerName>k__BackingField: Shack O'Kneel
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: 0fde4cc7-3039-45cf-88a0-b6d4b2f582b8
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: Shaq:Shaq
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 3024, y: 72}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: d694f35cadb551748976a5017f2adc1b, type: 3}
+    <Actions>k__BackingField: 
+    <HintSo>k__BackingField: {fileID: 0}
+  - <ID>k__BackingField: 9c515c6e-6184-4156-88c9-27fa2e648be1
+    <Name>k__BackingField: 11
+    <Text>k__BackingField: '"Stay cool. Don''t fake the funk on a nasty dunk"'
+    <SpeakerName>k__BackingField: Shack O'Kneel
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: eecad135-25bf-4f87-8d83-312bd2cf54d0
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: Shaq:Shaq
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 2476.8, y: 987.19995}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: d694f35cadb551748976a5017f2adc1b, type: 3}
+    <Actions>k__BackingField: 
+    <HintSo>k__BackingField: {fileID: 0}
+  - <ID>k__BackingField: 8e9595fe-1a5a-4f3f-a938-5447f41d6f88
+    <Name>k__BackingField: 4
+    <Text>k__BackingField: Hey, what's up little fella?
+    <SpeakerName>k__BackingField: Shack O'Kneel
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: How are the views from up there?
+      <NodeID>k__BackingField: cc6b82e3-a4cf-4167-b758-e68253ad42c0
+    - <Text>k__BackingField: What do you think about Ella?
+      <NodeID>k__BackingField: bb35795c-c289-4d1c-8849-71e8f513a7aa
+    - <Text>k__BackingField: Tell me a special sentence for your sport
+      <NodeID>k__BackingField: 9c515c6e-6184-4156-88c9-27fa2e648be1
+    - <Text>k__BackingField: Fuck you
+      <NodeID>k__BackingField: 74dd387b-21f3-40fa-a639-370c6012163d
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: Shaq:Shaq
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 2048.8, y: -108}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: d694f35cadb551748976a5017f2adc1b, type: 3}
+    <Actions>k__BackingField: 
+    <HintSo>k__BackingField: {fileID: 0}
+  - <ID>k__BackingField: cc6b82e3-a4cf-4167-b758-e68253ad42c0
+    <Name>k__BackingField: 5
+    <Text>k__BackingField: 'Yo, that little lady in orange... Ellen. She''s scary. '
+    <SpeakerName>k__BackingField: Shack O'Kneel
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: 7794732a-abb6-47d2-aec0-c4868c6ad333
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: Shaq:Shaq
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 2560.8, y: -721.60004}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: d694f35cadb551748976a5017f2adc1b, type: 3}
+    <Actions>k__BackingField: 
+    <HintSo>k__BackingField: {fileID: 0}
+  - <ID>k__BackingField: 7794732a-abb6-47d2-aec0-c4868c6ad333
+    <Name>k__BackingField: 6
+    <Text>k__BackingField: "She's \xF1ike a chihuahua with a megaphone. She screamed
+      at my knees."
+    <SpeakerName>k__BackingField: Shack O'Kneel
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: a1969df6-b30f-4c7b-90d2-a62a25702e9a
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: Shaq:Shaq
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 3060.8, y: -716}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: d694f35cadb551748976a5017f2adc1b, type: 3}
+    <Actions>k__BackingField: 
+    <HintSo>k__BackingField: {fileID: 0}
+  - <ID>k__BackingField: a1969df6-b30f-4c7b-90d2-a62a25702e9a
+    <Name>k__BackingField: 7
+    <Text>k__BackingField: I think she wants to chop me down. I'm big, but i'm sensitive.
+    <SpeakerName>k__BackingField: Shack O'Kneel
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: 8e9595fe-1a5a-4f3f-a938-5447f41d6f88
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: Shaq:Shaq
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 3586.4, y: -697.60004}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: d694f35cadb551748976a5017f2adc1b, type: 3}
+    <Actions>k__BackingField: GiveHint
+    <HintSo>k__BackingField: {fileID: 0}
+  <OldGroupNames>k__BackingField: []
+  <OldUngroupedNodesNames>k__BackingField:
+  - 10
+  - 12
+  - 1
+  - 2
+  - 8
+  - 13
+  - 3
+  - 9
+  - 11
+  - 4
+  - 5
+  - 6
+  - 7
+  <OldGroupedNodeNames>k__BackingField:
+    list: []

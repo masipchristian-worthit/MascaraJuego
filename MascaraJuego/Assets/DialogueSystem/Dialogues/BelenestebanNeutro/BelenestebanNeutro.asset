@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abd133c77dbcb374a950c429185e0edc, type: 3}
+  m_Name: BelenestebanNeutro
+  m_EditorClassIdentifier: Assembly-CSharp::DS.ScriptableObjects.DSDialogueContainerSO
+  <FileName>k__BackingField: BelenestebanNeutro
+  <DialogueGroups>k__BackingField:
+    list: []
+  <UngroupedDialogues>k__BackingField:
+  - {fileID: 11400000, guid: ab7dbf7baaa10cb41aae6f74c227337e, type: 2}
+  - {fileID: 11400000, guid: 20829cc41f903b34fbfa4ac511d8c75e, type: 2}
+  - {fileID: 11400000, guid: a0a1ccc54409dc84a8e2fd51e104d177, type: 2}
+  - {fileID: 11400000, guid: 8bee8359b905baa45973be5754b281db, type: 2}
+  - {fileID: 11400000, guid: bff781cd8e963a54f85abbcb91093281, type: 2}
+  - {fileID: 11400000, guid: aaf2bc5b71db3aa4cb3c8617a43e508b, type: 2}
+  - {fileID: 11400000, guid: 1ddb796b5886f64439ef50a3028a3518, type: 2}
+  - {fileID: 11400000, guid: 246adb148d3ccd64ea2b4e78dda692dc, type: 2}
+  - {fileID: 11400000, guid: 58690ca47b9ab46479687a5ee0447644, type: 2}
+  - {fileID: 11400000, guid: a4acb3e2e56cf344f9d2f78ba91bf55f, type: 2}
+  - {fileID: 11400000, guid: b180638fa3f5a8a4d8bed3faba71a5e8, type: 2}
+  - {fileID: 11400000, guid: 4190995e6622e334887e32299eeaf272, type: 2}
+  - {fileID: 11400000, guid: 43fa3de6634ff794e8e59936bd0c5bf4, type: 2}
+  - {fileID: 11400000, guid: 9f6e8eac14346924a9fc70830c941be7, type: 2}
+  - {fileID: 11400000, guid: 05eea72034be303469c9605525ff0320, type: 2}
+  - {fileID: 11400000, guid: 6fd1743e116f6a54698ae1df181ac1b0, type: 2}
+  - {fileID: 11400000, guid: 16a81a2887e922d4bbf630b1f7d22a56, type: 2}
+  - {fileID: 11400000, guid: 210f90d339fb11b4aa58da41309a7443, type: 2}

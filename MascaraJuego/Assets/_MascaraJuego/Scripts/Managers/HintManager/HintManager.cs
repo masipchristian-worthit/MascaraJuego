@@ -34,70 +34,52 @@ public class HintManager : MonoBehaviour
     }
 
     public void ShowHintsInMenu()
-{
-    var _hintParentCanvas = _hintsParent.GetComponent<CanvasGroup>().alpha = 1;
-
-    // Eliminar los hints previos
-    for (int i = 0; i < _hintsParent.childCount; i++)
     {
-        Destroy(_hintsParent.GetChild(i).gameObject);
-        Debug.Log("Eliminando hint");
-    }
+        _hintsParent.GetComponent<CanvasGroup>().alpha = 1;
 
-    // Crear los nuevos hint buttons
-    List<HintButton> hintButtons = new List<HintButton>(); // Para almacenar referencias a los botones instanciados
-    for (int i = 0; i < hints.Count; i++)
-    {
-        HintButton hintButtonPrefab = Instantiate(_hintButton, _hintsParent);
-        hintButtonPrefab.GetComponent<HintButton>().SetTextButton(hints[i]);
-        hintButtons.Add(hintButtonPrefab);  // Guardamos las referencias
-        Debug.Log("Añadiendo hint ");
-    }
-
-    // Configurar la navegación entre los botones
-    for (int i = 0; i < hintButtons.Count; i++)
-    {
-        Button button = hintButtons[i].GetComponent<Button>();
-        Navigation navigation = button.navigation;  // Crea una referencia a la variable Navigation
-
-        // Configurar la navegación hacia abajo
-        if (i < hintButtons.Count - 1)
+        // Eliminar los hints previos
+        for (int i = 0; i < _hintsParent.childCount; i++)
         {
-            // Si no es el último botón, navegamos hacia abajo al siguiente botón
-            navigation.selectOnUp = hintButtons[i + 1].GetComponent<Button>();  // El siguiente botón
-            navigation.selectOnDown = hintButtons[i + 1].GetComponent<Button>();  // El siguiente botón
+            Destroy(_hintsParent.GetChild(i).gameObject);
+            Debug.Log("Eliminando hint");
+        }
+
+        // Crear los nuevos botones de hint
+        List<HintButton> hintButtons = new List<HintButton>();
+        for (int i = 0; i < hints.Count; i++)
+        {
+            HintButton hintButtonPrefab = Instantiate(_hintButton, _hintsParent);
+            hintButtonPrefab.GetComponent<HintButton>().SetTextButton(hints[i]);
+            hintButtons.Add(hintButtonPrefab);  // Guardamos las referencias
+            Debug.Log("Añadiendo hint ");
+        }
+
+        // Configurar la navegación entre los botones
+        for (int i = 0; i < hintButtons.Count; i++)
+        {
+            Button button = hintButtons[i].GetComponent<Button>();
+        
+            Navigation navigation = new Navigation()
+            {
+                mode = Navigation.Mode.Explicit,
+                selectOnUp = (i > 0) ? hintButtons[i - 1].GetComponent<Button>() : button, // El anterior o el mismo si es el primer botón
+                selectOnDown = (i < hintButtons.Count - 1) ? hintButtons[i + 1].GetComponent<Button>() : button  // El siguiente o el mismo si es el último botón
+            };
+
+            button.navigation = navigation;  // Asignamos la navegación al botón
+        }
+
+        // Seleccionar el primer botón al mostrar el menú de hints
+        if (_hintsParent.childCount > 0)
+        {
+            EventSystem.current.SetSelectedGameObject(_hintsParent.GetChild(0).gameObject);
+            Debug.Log("SELECCIONANDO EL PRIMER HINT");
         }
         else
         {
-            // Si es el último botón, no hay un botón hacia abajo (se queda en el último)
-            navigation.selectOnUp = hintButtons[i - 1].GetComponent<Button>(); // El anterior
-            navigation.selectOnDown = button;  // Se queda en el mismo
+            Debug.Log("No se encontraron botones de hint.");
         }
-
-        // Configuración hacia arriba (para todos los botones)
-        if (i > 0)
-        {
-            navigation.selectOnUp = hintButtons[i - 1].GetComponent<Button>();  // El anterior
-        }
-
-        // Si es el primer botón, no navega hacia arriba, se queda en el mismo
-        if (i == 0)
-        {
-            navigation.selectOnUp = button;
-        }
-
-        // Asignamos la configuración de navegación de vuelta al botón
-        button.navigation = navigation;
     }
-
-    // Seleccionar el primer botón para comenzar la navegación
-    if (_hintsParent.childCount > 0)
-    {
-        EventSystem.current.SetSelectedGameObject(_hintsParent.GetChild(0).gameObject);
-        Debug.Log("SELECCIONANDO EL PRIMER HINT");
-    }
-}
-
 
 
 

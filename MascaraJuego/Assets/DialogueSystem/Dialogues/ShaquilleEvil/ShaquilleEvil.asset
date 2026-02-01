@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abd133c77dbcb374a950c429185e0edc, type: 3}
+  m_Name: ShaquilleEvil
+  m_EditorClassIdentifier: Assembly-CSharp::DS.ScriptableObjects.DSDialogueContainerSO
+  <FileName>k__BackingField: ShaquilleEvil
+  <DialogueGroups>k__BackingField:
+    list: []
+  <UngroupedDialogues>k__BackingField:
+  - {fileID: 11400000, guid: c8563d62108cf564dbdf2a6c21fa0ef4, type: 2}
+  - {fileID: 11400000, guid: a061b90e1d70c13458cec94e009cc0ec, type: 2}
+  - {fileID: 11400000, guid: 57394b3310070d949a1e5e70d9604628, type: 2}
+  - {fileID: 11400000, guid: 256352d2703f4424fb158bce59749079, type: 2}
+  - {fileID: 11400000, guid: f8a14b67b3bea214388f527a5f2dd359, type: 2}
+  - {fileID: 11400000, guid: d2dd71cc994f5754aa7dcb7a653ef5fd, type: 2}
+  - {fileID: 11400000, guid: 8e9da1583a752e8409b94116a8ee164a, type: 2}
+  - {fileID: 11400000, guid: 0140a3b12bb2ca2498503072074ff5d0, type: 2}
+  - {fileID: 11400000, guid: ab74aca630806dd499aea3427dce7a65, type: 2}
+  - {fileID: 11400000, guid: 7aa899d8191448e4bbc73bb5326b341c, type: 2}
+  - {fileID: 11400000, guid: d13d355f3834be143bc69c08d856d10f, type: 2}
+  - {fileID: 11400000, guid: 3f9a43fa9c648f94a95b74d7f822e744, type: 2}
+  - {fileID: 11400000, guid: 08d3b12f1f26a534ab5f68fa7e694e01, type: 2}
