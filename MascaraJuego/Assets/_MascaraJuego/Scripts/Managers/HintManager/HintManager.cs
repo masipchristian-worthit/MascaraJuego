@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class HintManager : MonoBehaviour
 {
@@ -24,11 +25,6 @@ public class HintManager : MonoBehaviour
             Destroy(gameObject);
         }
     }
-    
-    private void Start()
-    {
-        showHintsInMenu();
-    }
 
     public void registerHint(HintSO hint)
     {
@@ -36,7 +32,7 @@ public class HintManager : MonoBehaviour
         _hintDiscover.SetHintDiscover(hint);
     }
 
-    private void showHintsInMenu()
+    public void ShowHintsInMenu()
     {
         for (int i = 0; i < _hintsParent.childCount; i++)
         {
@@ -50,9 +46,14 @@ public class HintManager : MonoBehaviour
             hintButtonPrefab.GetComponent<HintButton>().SetTextButton(hints[i]);
             Debug.Log("Añadiendo hint ");
         }
+
+        if (_hintsParent.GetChild(0).transform.GetChild(0).gameObject != null)
+        {
+            EventSystem.current.SetSelectedGameObject(_hintsParent.GetChild(0).transform.GetChild(0).gameObject);
+        }
     }
 
-    public void ShowHintsInMenu(HintSO hint)
+    public void ShowHintInMenu(HintSO hint)
     {
         _hintMenu.SetHint(hint);
     }
