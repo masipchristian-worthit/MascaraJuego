@@ -274,8 +274,17 @@ public class DSDialogueUI : MonoBehaviour
         dialogueAnimator.Play("Close");
         yield return new WaitForSeconds(0.1f);
         inDialogue = false;
-        InputManager.Instance.ReturnToPreviousMap();
-        Debug.Log("PENE");
+        if (DoorManager.Instance.isAtDoor == true)
+        {
+            DoorManager.Instance.currentDoor.comeFromDialogue();
+            
+        }
+        else
+        {
+            InputManager.Instance.ReturnToPreviousMap();
+            Debug.Log("PENE");
+        }
+        
         //actioMapToLoad = InputManager.ActionMaps.None;
     }
     
