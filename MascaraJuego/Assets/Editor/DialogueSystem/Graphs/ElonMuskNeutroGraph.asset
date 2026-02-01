@@ -1,0 +1,365 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9147bccad748a464487ec789f0cfc14b, type: 3}
+  m_Name: ElonMuskNeutroGraph
+  m_EditorClassIdentifier: Assembly-CSharp-Editor::DS.Data.Save.DSGraphSaveData
+  <FileName>k__BackingField: ElonMuskNeutro
+  <Groups>k__BackingField: []
+  <Nodes>k__BackingField:
+  - <ID>k__BackingField: 0e026a86-c0e3-41db-9bb2-24cd18b4ddff
+    <Name>k__BackingField: 4
+    <Text>k__BackingField: Well, what do you want?Dialogue text.
+    <SpeakerName>k__BackingField: Felon Tusk
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Who are you?
+      <NodeID>k__BackingField: 54a3aa4f-d57f-4ce4-bc37-4de22689efee
+    - <Text>k__BackingField: Why are you here?
+      <NodeID>k__BackingField: 4414e63e-5402-41b4-8d64-d683a7c9cb4d
+    - <Text>k__BackingField: Who invited you to the party?
+      <NodeID>k__BackingField: 8f843f33-0979-468c-a8cb-b9401d8f73ba
+    - <Text>k__BackingField: fuck you
+      <NodeID>k__BackingField: a7b24202-7280-46ef-b053-ae47210b3790
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: Elon M
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 2605, y: 117}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: 939891ae3a7805e449a627884f629561, type: 3}
+    <Actions>k__BackingField: 
+    <HintSo>k__BackingField: {fileID: 0}
+  - <ID>k__BackingField: a7b24202-7280-46ef-b053-ae47210b3790
+    <Name>k__BackingField: 21
+    <Text>k__BackingField: What language you use
+    <SpeakerName>k__BackingField: Felon Tusk
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: 495e368f-f625-410f-8a91-172a3c4a5b80
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: Elon M
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 3051, y: 301}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: 939891ae3a7805e449a627884f629561, type: 3}
+    <Actions>k__BackingField: 
+    <HintSo>k__BackingField: {fileID: 0}
+  - <ID>k__BackingField: 2b2492c3-f0e5-40a1-a8f9-396278b1ad93
+    <Name>k__BackingField: 11
+    <Text>k__BackingField: Well
+    <SpeakerName>k__BackingField: Felon Tusk
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: 0e026a86-c0e3-41db-9bb2-24cd18b4ddff
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: Elon M
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 5040, y: -1513}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: 939891ae3a7805e449a627884f629561, type: 3}
+    <Actions>k__BackingField: 
+    <HintSo>k__BackingField: {fileID: 0}
+  - <ID>k__BackingField: 9c813000-9644-43d6-a1da-faab7e5f275f
+    <Name>k__BackingField: 6
+    <Text>k__BackingField: I'm the very lord of Mars
+    <SpeakerName>k__BackingField: Felon Tusk
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: 05989a1c-eec9-4e52-81bf-c0dc419f0c32
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: Elon M
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 3362, y: -1547}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: 939891ae3a7805e449a627884f629561, type: 3}
+    <Actions>k__BackingField: 
+    <HintSo>k__BackingField: {fileID: 0}
+  - <ID>k__BackingField: 36ae4a72-c8de-4993-bd26-ddcef1445a3e
+    <Name>k__BackingField: 15
+    <Text>k__BackingField: Well
+    <SpeakerName>k__BackingField: Felon Tusk
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: 0e026a86-c0e3-41db-9bb2-24cd18b4ddff
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: Elon M
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 4305, y: -947}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: 939891ae3a7805e449a627884f629561, type: 3}
+    <Actions>k__BackingField: 
+    <HintSo>k__BackingField: {fileID: 0}
+  - <ID>k__BackingField: 7c532c54-8e8f-4eb5-bce0-481beca83393
+    <Name>k__BackingField: 2
+    <Text>k__BackingField: there's nothing to see here
+    <SpeakerName>k__BackingField: Felon Tusk
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: 139ae544-c413-4f91-b1c3-73a9e09c0b3d
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: Elon M
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 1814, y: 186}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: 939891ae3a7805e449a627884f629561, type: 3}
+    <Actions>k__BackingField: 
+    <HintSo>k__BackingField: {fileID: 0}
+  - <ID>k__BackingField: 139ae544-c413-4f91-b1c3-73a9e09c0b3d
+    <Name>k__BackingField: 3
+    <Text>k__BackingField: just a few businessmen and philanthropists talking about
+      their stuff
+    <SpeakerName>k__BackingField: Felon Tusk
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: 0e026a86-c0e3-41db-9bb2-24cd18b4ddff
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: Elon M
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 2127, y: 171}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: 939891ae3a7805e449a627884f629561, type: 3}
+    <Actions>k__BackingField: 
+    <HintSo>k__BackingField: {fileID: 0}
+  - <ID>k__BackingField: ffdad762-6a35-44a7-bf07-11c00eebb4fe
+    <Name>k__BackingField: 8
+    <Text>k__BackingField: I know, officer
+    <SpeakerName>k__BackingField: Felon Tusk
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: 7d2c51b8-5e61-440e-8e22-9c28972bb67b
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: Elon M
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 4005, y: -1541}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: 939891ae3a7805e449a627884f629561, type: 3}
+    <Actions>k__BackingField: 
+    <HintSo>k__BackingField: {fileID: 0}
+  - <ID>k__BackingField: 731feb52-0c57-4941-b923-9ffc05b1d960
+    <Name>k__BackingField: 13
+    <Text>k__BackingField: I like to get together with people of my level from time
+      to time
+    <SpeakerName>k__BackingField: Felon Tusk
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: c4a3986c-8e95-4f61-bdfd-adc48d86cc0d
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: Elon M
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 3402, y: -988}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: 939891ae3a7805e449a627884f629561, type: 3}
+    <Actions>k__BackingField: 
+    <HintSo>k__BackingField: {fileID: 0}
+  - <ID>k__BackingField: 8f843f33-0979-468c-a8cb-b9401d8f73ba
+    <Name>k__BackingField: 16
+    <Text>k__BackingField: " I don't usually use such trivial things as \u201Cinvitations.\u201D"
+    <SpeakerName>k__BackingField: Felon Tusk
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: d388b3db-c5e4-4263-949b-83c1caa00410
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: Elon M
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 3041, y: -395}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: 939891ae3a7805e449a627884f629561, type: 3}
+    <Actions>k__BackingField: 
+    <HintSo>k__BackingField: {fileID: 0}
+  - <ID>k__BackingField: 495e368f-f625-410f-8a91-172a3c4a5b80
+    <Name>k__BackingField: 22
+    <Text>k__BackingField: Sometimes I think I'm the only one with any common sense
+    <SpeakerName>k__BackingField: Felon Tusk
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: Elon M
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 3452, y: 321}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: 939891ae3a7805e449a627884f629561, type: 3}
+    <Actions>k__BackingField: 
+    <HintSo>k__BackingField: {fileID: 0}
+  - <ID>k__BackingField: 430edca6-a8dd-4091-ac70-88e22ab02469
+    <Name>k__BackingField: 1
+    <Text>k__BackingField: Oh hello officer
+    <SpeakerName>k__BackingField: Felon Tusk
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: 7c532c54-8e8f-4eb5-bce0-481beca83393
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: Elon M
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 1449, y: 210}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: 939891ae3a7805e449a627884f629561, type: 3}
+    <Actions>k__BackingField: 
+    <HintSo>k__BackingField: {fileID: 0}
+  - <ID>k__BackingField: d388b3db-c5e4-4263-949b-83c1caa00410
+    <Name>k__BackingField: 17
+    <Text>k__BackingField: I prefer to use my own ways and means
+    <SpeakerName>k__BackingField: Felon Tusk
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: d1f14a4f-742e-4ff6-b292-8850d4369632
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: Elon M
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 3434, y: -381}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: 939891ae3a7805e449a627884f629561, type: 3}
+    <Actions>k__BackingField: 
+    <HintSo>k__BackingField: {fileID: 0}
+  - <ID>k__BackingField: d1f14a4f-742e-4ff6-b292-8850d4369632
+    <Name>k__BackingField: 19
+    <Text>k__BackingField: You know what I mean
+    <SpeakerName>k__BackingField: Felon Tusk
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: df28e8d0-ca2c-46de-adab-8ef9df0b8797
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: Elon M
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 3825, y: -360}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: 939891ae3a7805e449a627884f629561, type: 3}
+    <Actions>k__BackingField: 
+    <HintSo>k__BackingField: {fileID: 0}
+  - <ID>k__BackingField: df28e8d0-ca2c-46de-adab-8ef9df0b8797
+    <Name>k__BackingField: 20
+    <Text>k__BackingField: Well
+    <SpeakerName>k__BackingField: Felon Tusk
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: 0e026a86-c0e3-41db-9bb2-24cd18b4ddff
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: Elon M
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 4182, y: -351}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: 939891ae3a7805e449a627884f629561, type: 3}
+    <Actions>k__BackingField: 
+    <HintSo>k__BackingField: {fileID: 0}
+  - <ID>k__BackingField: c4a3986c-8e95-4f61-bdfd-adc48d86cc0d
+    <Name>k__BackingField: 14
+    <Text>k__BackingField: especially people as charismatic as those here
+    <SpeakerName>k__BackingField: Felon Tusk
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: 36ae4a72-c8de-4993-bd26-ddcef1445a3e
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: Elon M
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 3879, y: -975}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: 939891ae3a7805e449a627884f629561, type: 3}
+    <Actions>k__BackingField: 
+    <HintSo>k__BackingField: {fileID: 0}
+  - <ID>k__BackingField: 4414e63e-5402-41b4-8d64-d683a7c9cb4d
+    <Name>k__BackingField: 12
+    <Text>k__BackingField: For the atmosphere
+    <SpeakerName>k__BackingField: Felon Tusk
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: 731feb52-0c57-4941-b923-9ffc05b1d960
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: Elon M
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 3089, y: -978}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: 939891ae3a7805e449a627884f629561, type: 3}
+    <Actions>k__BackingField: 
+    <HintSo>k__BackingField: {fileID: 0}
+  - <ID>k__BackingField: 54a3aa4f-d57f-4ce4-bc37-4de22689efee
+    <Name>k__BackingField: 5
+    <Text>k__BackingField: It's obvious
+    <SpeakerName>k__BackingField: Felon Tusk
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: 9c813000-9644-43d6-a1da-faab7e5f275f
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: Elon M
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 3053, y: -1546}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: 939891ae3a7805e449a627884f629561, type: 3}
+    <Actions>k__BackingField: 
+    <HintSo>k__BackingField: {fileID: 0}
+  - <ID>k__BackingField: 05989a1c-eec9-4e52-81bf-c0dc419f0c32
+    <Name>k__BackingField: 7
+    <Text>k__BackingField: Felon Trusk
+    <SpeakerName>k__BackingField: Felon Tusk
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: ffdad762-6a35-44a7-bf07-11c00eebb4fe
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: Elon M
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 3684, y: -1538}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: 939891ae3a7805e449a627884f629561, type: 3}
+    <Actions>k__BackingField: 
+    <HintSo>k__BackingField: {fileID: 0}
+  - <ID>k__BackingField: 7d2c51b8-5e61-440e-8e22-9c28972bb67b
+    <Name>k__BackingField: 9
+    <Text>k__BackingField: ' I know it''s hard for you to believe'
+    <SpeakerName>k__BackingField: Felon Tusk
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: 8cae3745-d40f-4aad-9775-1494412cdf2a
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: Elon M
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 4318, y: -1547}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: 939891ae3a7805e449a627884f629561, type: 3}
+    <Actions>k__BackingField: 
+    <HintSo>k__BackingField: {fileID: 0}
+  - <ID>k__BackingField: 8cae3745-d40f-4aad-9775-1494412cdf2a
+    <Name>k__BackingField: 10
+    <Text>k__BackingField: but yes, you are in the presence of a living legend
+    <SpeakerName>k__BackingField: Felon Tusk
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: 2b2492c3-f0e5-40a1-a8f9-396278b1ad93
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: Elon M
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 4642, y: -1534}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: 939891ae3a7805e449a627884f629561, type: 3}
+    <Actions>k__BackingField: 
+    <HintSo>k__BackingField: {fileID: 0}
+  <OldGroupNames>k__BackingField: []
+  <OldUngroupedNodesNames>k__BackingField:
+  - 4
+  - 21
+  - 11
+  - 6
+  - 15
+  - 2
+  - 3
+  - 8
+  - 13
+  - 16
+  - 22
+  - 1
+  - 17
+  - 19
+  - 20
+  - 14
+  - 12
+  - 5
+  - 7
+  - 9
+  - 10
+  <OldGroupedNodeNames>k__BackingField:
+    list: []
