@@ -10,18 +10,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 131a78a354596af40b2a9b91fee30564, type: 3}
-  m_Name: 11
+  m_Name: 1
   m_EditorClassIdentifier: Assembly-CSharp::DS.ScriptableObjects.DSDialogueSO
-  <DialogueName>k__BackingField: 11
-  <Text>k__BackingField: I don't care much about who invited me. I only want to make
-    America gret again.
+  <DialogueName>k__BackingField: 1
+  <Text>k__BackingField: Excuse me, don't touch the suit. It's Italian, very expensive,
+    maybe the most expensive suit in this room.
   <SpeakerName>k__BackingField: Ronald Dump
   <Choices>k__BackingField:
   - <Text>k__BackingField: Next DIalogue
-    <NextDialogue>k__BackingField: {fileID: 11400000, guid: be8b4edb5bd1f7d439ff820a75542077, type: 2}
+    <NextDialogue>k__BackingField: {fileID: 11400000, guid: 20f580b912da18741b97dae5d9033471, type: 2}
   <Audio>k__BackingField: Trump:Trump
   <DialogueType>k__BackingField: 0
-  <IsStartingDialogue>k__BackingField: 0
+  <IsStartingDialogue>k__BackingField: 1
   <DialogueSpeed>k__BackingField: 
   <DialogueCharacterLeft>k__BackingField: {fileID: 21300000, guid: b2fed1ecb0d934a45a2a78e19d12b9aa, type: 3}
   <DialogueActionName>k__BackingField: 

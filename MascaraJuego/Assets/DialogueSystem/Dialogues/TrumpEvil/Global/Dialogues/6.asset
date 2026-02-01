@@ -10,16 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 131a78a354596af40b2a9b91fee30564, type: 3}
-  m_Name: 11
+  m_Name: 6
   m_EditorClassIdentifier: Assembly-CSharp::DS.ScriptableObjects.DSDialogueSO
-  <DialogueName>k__BackingField: 11
-  <Text>k__BackingField: I don't care much about who invited me. I only want to make
-    America gret again.
+  <DialogueName>k__BackingField: 6
+  <Text>k__BackingField: ' Although the DJ is a disaster. I would have hired a better
+    DJ. '
   <SpeakerName>k__BackingField: Ronald Dump
   <Choices>k__BackingField:
   - <Text>k__BackingField: Next DIalogue
-    <NextDialogue>k__BackingField: {fileID: 11400000, guid: be8b4edb5bd1f7d439ff820a75542077, type: 2}
-  <Audio>k__BackingField: Trump:Trump
+    <NextDialogue>k__BackingField: {fileID: 11400000, guid: 274d94154ce239f4eacb7ff3812cdc7b, type: 2}
+  <Audio>k__BackingField: 'Trump:Trump  '
   <DialogueType>k__BackingField: 0
   <IsStartingDialogue>k__BackingField: 0
   <DialogueSpeed>k__BackingField: 

@@ -18,7 +18,7 @@ MonoBehaviour:
   <SpeakerName>k__BackingField: Ronald Dump
   <Choices>k__BackingField:
   - <Text>k__BackingField: Next DIalogue
-    <NextDialogue>k__BackingField: {fileID: 11400000, guid: be8b4edb5bd1f7d439ff820a75542077, type: 2}
+    <NextDialogue>k__BackingField: {fileID: 11400000, guid: 85f47630bbc884345b1907564bfca045, type: 2}
   <Audio>k__BackingField: Trump:Trump
   <DialogueType>k__BackingField: 0
   <IsStartingDialogue>k__BackingField: 0

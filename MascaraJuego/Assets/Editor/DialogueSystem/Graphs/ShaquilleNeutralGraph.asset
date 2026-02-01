@@ -10,14 +10,31 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9147bccad748a464487ec789f0cfc14b, type: 3}
-  m_Name: TrumpNeutralGraph
+  m_Name: ShaquilleNeutralGraph
   m_EditorClassIdentifier: Assembly-CSharp-Editor::DS.Data.Save.DSGraphSaveData
-  <FileName>k__BackingField: TrumpNeutral
+  <FileName>k__BackingField: ShaquilleNeutral
   <Groups>k__BackingField: []
   <Nodes>k__BackingField:
-  - <ID>k__BackingField: f40eb2f9-b204-4e27-88ba-4c8bd5f29964
-    <Name>k__BackingField: 3
-    <Text>k__BackingField: I have the best meat.
+  - <ID>k__BackingField: 9c515c6e-6184-4156-88c9-27fa2e648be1
+    <Name>k__BackingField: 11
+    <Text>k__BackingField: I don't care much about who invited me. I only want to
+      make America gret again.
+    <SpeakerName>k__BackingField: Shack O'Kneel
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: eecad135-25bf-4f87-8d83-312bd2cf54d0
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: Shaq:Shaq
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 2476.8, y: 987.19995}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: b2fed1ecb0d934a45a2a78e19d12b9aa, type: 3}
+    <Actions>k__BackingField: 
+    <HintSo>k__BackingField: {fileID: 0}
+  - <ID>k__BackingField: 0fde4cc7-3039-45cf-88a0-b6d4b2f582b8
+    <Name>k__BackingField: 10
+    <Text>k__BackingField: "I\u2019m not saying I\u2019ll do it, but if she disappeared?
+      The economy would go up"
     <SpeakerName>k__BackingField: Ronald Dump
     <Choices>k__BackingField:
     - <Text>k__BackingField: Next DIalogue
@@ -26,51 +43,99 @@ MonoBehaviour:
     <DialogueSpeed>k__BackingField: 
     <Audio>k__BackingField: Trump:Trump
     <DialogueType>k__BackingField: 0
-    <Position>k__BackingField: {x: 1755.2, y: -84.8}
+    <Position>k__BackingField: {x: 3602.4, y: 73.6}
     <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: b2fed1ecb0d934a45a2a78e19d12b9aa, type: 3}
-    <Actions>k__BackingField: 
+    <Actions>k__BackingField: GiveHint
     <HintSo>k__BackingField: {fileID: 0}
   - <ID>k__BackingField: cc6b82e3-a4cf-4167-b758-e68253ad42c0
     <Name>k__BackingField: 5
-    <Text>k__BackingField: The party is tremendous. Huge ratings.
-    <SpeakerName>k__BackingField: Ronald Dump
+    <Text>k__BackingField: Honestly? The vibe is low energy. Very sad.
+    <SpeakerName>k__BackingField: Shack O'Kneel
     <Choices>k__BackingField:
     - <Text>k__BackingField: Next DIalogue
       <NodeID>k__BackingField: 7794732a-abb6-47d2-aec0-c4868c6ad333
     <GroupID>k__BackingField: 
     <DialogueSpeed>k__BackingField: 
-    <Audio>k__BackingField: Trump:Trump
+    <Audio>k__BackingField: Shaq:Shaq
     <DialogueType>k__BackingField: 0
     <Position>k__BackingField: {x: 2560.8, y: -721.60004}
     <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: b2fed1ecb0d934a45a2a78e19d12b9aa, type: 3}
     <Actions>k__BackingField: 
     <HintSo>k__BackingField: {fileID: 0}
+  - <ID>k__BackingField: a1969df6-b30f-4c7b-90d2-a62a25702e9a
+    <Name>k__BackingField: 7
+    <Text>k__BackingField: I feel like I'm being hunted by a beta male nerd. I need
+      my Secret Service detail
+    <SpeakerName>k__BackingField: Shack O'Kneel
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: 8e9595fe-1a5a-4f3f-a938-5447f41d6f88
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: Shaq:Shaq
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 3309.6, y: -728}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: b2fed1ecb0d934a45a2a78e19d12b9aa, type: 3}
+    <Actions>k__BackingField: GiveHint
+    <HintSo>k__BackingField: {fileID: 0}
+  - <ID>k__BackingField: f40eb2f9-b204-4e27-88ba-4c8bd5f29964
+    <Name>k__BackingField: 3
+    <Text>k__BackingField: I have the best meat.
+    <SpeakerName>k__BackingField: Shack O'Kneel
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: 8e9595fe-1a5a-4f3f-a938-5447f41d6f88
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: Shaq:Shaq
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 1755.2, y: -84.8}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: b2fed1ecb0d934a45a2a78e19d12b9aa, type: 3}
+    <Actions>k__BackingField: 
+    <HintSo>k__BackingField: {fileID: 0}
+  - <ID>k__BackingField: 7794732a-abb6-47d2-aec0-c4868c6ad333
+    <Name>k__BackingField: 6
+    <Text>k__BackingField: There's a guy in an X mask staring at me. Jealousy. Pure
+      jealousy.
+    <SpeakerName>k__BackingField: Shack O'Kneel
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: a1969df6-b30f-4c7b-90d2-a62a25702e9a
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: Shaq:Shaq
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 2882.4, y: -730.4}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: b2fed1ecb0d934a45a2a78e19d12b9aa, type: 3}
+    <Actions>k__BackingField: 
+    <HintSo>k__BackingField: {fileID: 0}
   - <ID>k__BackingField: fbdfcfe7-56e9-4741-a13b-5039950b517b
     <Name>k__BackingField: 9
-    <Text>k__BackingField: I prefer people who are quieter, more respectful of my
-      genius.
-    <SpeakerName>k__BackingField: Ronald Trump
+    <Text>k__BackingField: She walked past me and neighed. Disrespectful! Someone
+      needs to send her to the glue factory.
+    <SpeakerName>k__BackingField: Shack O'Kneel
     <Choices>k__BackingField:
     - <Text>k__BackingField: Next DIalogue
       <NodeID>k__BackingField: 0fde4cc7-3039-45cf-88a0-b6d4b2f582b8
     <GroupID>k__BackingField: 
     <DialogueSpeed>k__BackingField: 
-    <Audio>k__BackingField: Trump:Trump
+    <Audio>k__BackingField: Shaq:Shaq
     <DialogueType>k__BackingField: 0
-    <Position>k__BackingField: {x: 2920, y: 81.6}
+    <Position>k__BackingField: {x: 3024, y: 72}
     <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: b2fed1ecb0d934a45a2a78e19d12b9aa, type: 3}
     <Actions>k__BackingField: 
     <HintSo>k__BackingField: {fileID: 0}
   - <ID>k__BackingField: bb35795c-c289-4d1c-8849-71e8f513a7aa
     <Name>k__BackingField: 8
-    <Text>k__BackingField: Nicki? She's fine. A bit loud.
-    <SpeakerName>k__BackingField: Ronald Dump
+    <Text>k__BackingField: "That horse woman... Micky. She\u2019s a disaster. A total
+      nastiness."
+    <SpeakerName>k__BackingField: Shack O'Kneel
     <Choices>k__BackingField:
     - <Text>k__BackingField: Next DIalogue
       <NodeID>k__BackingField: fbdfcfe7-56e9-4741-a13b-5039950b517b
     <GroupID>k__BackingField: 
     <DialogueSpeed>k__BackingField: 
-    <Audio>k__BackingField: Trump:Trump
+    <Audio>k__BackingField: Shaq:Shq
     <DialogueType>k__BackingField: 0
     <Position>k__BackingField: {x: 2599.2, y: 78.4}
     <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: b2fed1ecb0d934a45a2a78e19d12b9aa, type: 3}
@@ -79,7 +144,7 @@ MonoBehaviour:
   - <ID>k__BackingField: 8e9595fe-1a5a-4f3f-a938-5447f41d6f88
     <Name>k__BackingField: 4
     <Text>k__BackingField: What do you want? Are you a russian investigator?
-    <SpeakerName>k__BackingField: Ronald Dump
+    <SpeakerName>k__BackingField: Shack O'Kneel
     <Choices>k__BackingField:
     - <Text>k__BackingField: Rate the party
       <NodeID>k__BackingField: cc6b82e3-a4cf-4167-b758-e68253ad42c0
@@ -91,151 +156,87 @@ MonoBehaviour:
       <NodeID>k__BackingField: 74dd387b-21f3-40fa-a639-370c6012163d
     <GroupID>k__BackingField: 
     <DialogueSpeed>k__BackingField: 
-    <Audio>k__BackingField: Trump:Trump
+    <Audio>k__BackingField: Shaq:Shaq
     <DialogueType>k__BackingField: 1
     <Position>k__BackingField: {x: 2048.8, y: -108}
-    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: b2fed1ecb0d934a45a2a78e19d12b9aa, type: 3}
-    <Actions>k__BackingField: 
-    <HintSo>k__BackingField: {fileID: 0}
-  - <ID>k__BackingField: 9c515c6e-6184-4156-88c9-27fa2e648be1
-    <Name>k__BackingField: 11
-    <Text>k__BackingField: I don't care much about who invited me. I only want to
-      make America gret again.
-    <SpeakerName>k__BackingField: Ronald Dump
-    <Choices>k__BackingField:
-    - <Text>k__BackingField: Next DIalogue
-      <NodeID>k__BackingField: eecad135-25bf-4f87-8d83-312bd2cf54d0
-    <GroupID>k__BackingField: 
-    <DialogueSpeed>k__BackingField: 
-    <Audio>k__BackingField: Trump:Trump
-    <DialogueType>k__BackingField: 0
-    <Position>k__BackingField: {x: 2476.8, y: 987.19995}
     <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: b2fed1ecb0d934a45a2a78e19d12b9aa, type: 3}
     <Actions>k__BackingField: 
     <HintSo>k__BackingField: {fileID: 0}
   - <ID>k__BackingField: 74dd387b-21f3-40fa-a639-370c6012163d
     <Name>k__BackingField: 13
     <Text>k__BackingField: No, fuck you, bitch.
-    <SpeakerName>k__BackingField: Ronald Dump
+    <SpeakerName>k__BackingField: Shack O'Kneel
     <Choices>k__BackingField:
     - <Text>k__BackingField: Next DIalogue
       <NodeID>k__BackingField: 
     <GroupID>k__BackingField: 
     <DialogueSpeed>k__BackingField: 
-    <Audio>k__BackingField: Trump:Trump
+    <Audio>k__BackingField: Shaq:Shaq
     <DialogueType>k__BackingField: 0
     <Position>k__BackingField: {x: 2116, y: 811.19995}
-    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: b2fed1ecb0d934a45a2a78e19d12b9aa, type: 3}
-    <Actions>k__BackingField: 
-    <HintSo>k__BackingField: {fileID: 0}
-  - <ID>k__BackingField: 9d6f341c-3e91-499a-a8d7-142a7acba261
-    <Name>k__BackingField: 1
-    <Text>k__BackingField: Excuse me, don't touch the suit. It's Italian, very expensive,
-      maybe the most expensive suit in this room.
-    <SpeakerName>k__BackingField: Ronald Dump
-    <Choices>k__BackingField:
-    - <Text>k__BackingField: Next DIalogue
-      <NodeID>k__BackingField: 9e28c3db-4194-4ef5-bb85-ec9520051afc
-    <GroupID>k__BackingField: 
-    <DialogueSpeed>k__BackingField: 
-    <Audio>k__BackingField: Trump:Trump
-    <DialogueType>k__BackingField: 0
-    <Position>k__BackingField: {x: 598.4, y: -96}
-    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: b2fed1ecb0d934a45a2a78e19d12b9aa, type: 3}
-    <Actions>k__BackingField: 
-    <HintSo>k__BackingField: {fileID: 0}
-  - <ID>k__BackingField: 9e28c3db-4194-4ef5-bb85-ec9520051afc
-    <Name>k__BackingField: 2
-    <Text>k__BackingField: I'm wearing a pig mask because, frankly, I'm delicious.
-      Everyone says so.
-    <SpeakerName>k__BackingField: Ronald Dump
-    <Choices>k__BackingField:
-    - <Text>k__BackingField: Next DIalogue
-      <NodeID>k__BackingField: f40eb2f9-b204-4e27-88ba-4c8bd5f29964
-    <GroupID>k__BackingField: 
-    <DialogueSpeed>k__BackingField: 
-    <Audio>k__BackingField: Trump:Trump
-    <DialogueType>k__BackingField: 0
-    <Position>k__BackingField: {x: 1269.6, y: -92}
-    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: b2fed1ecb0d934a45a2a78e19d12b9aa, type: 3}
-    <Actions>k__BackingField: 
-    <HintSo>k__BackingField: {fileID: 0}
-  - <ID>k__BackingField: 7794732a-abb6-47d2-aec0-c4868c6ad333
-    <Name>k__BackingField: 6
-    <Text>k__BackingField: ' Although the DJ is a disaster. I would have hired a
-      better DJ. '
-    <SpeakerName>k__BackingField: Ronald Dump
-    <Choices>k__BackingField:
-    - <Text>k__BackingField: Next DIalogue
-      <NodeID>k__BackingField: a1969df6-b30f-4c7b-90d2-a62a25702e9a
-    <GroupID>k__BackingField: 
-    <DialogueSpeed>k__BackingField: 
-    <Audio>k__BackingField: 'Trump:Trump  '
-    <DialogueType>k__BackingField: 0
-    <Position>k__BackingField: {x: 2882.4, y: -730.4}
-    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: b2fed1ecb0d934a45a2a78e19d12b9aa, type: 3}
-    <Actions>k__BackingField: 
-    <HintSo>k__BackingField: {fileID: 0}
-  - <ID>k__BackingField: a1969df6-b30f-4c7b-90d2-a62a25702e9a
-    <Name>k__BackingField: 7
-    <Text>k__BackingField: But the shrimp cocktail? Solid. Not as good as my hotels,
-      but solid.
-    <SpeakerName>k__BackingField: Ronald Trump
-    <Choices>k__BackingField:
-    - <Text>k__BackingField: Next DIalogue
-      <NodeID>k__BackingField: 8e9595fe-1a5a-4f3f-a938-5447f41d6f88
-    <GroupID>k__BackingField: 
-    <DialogueSpeed>k__BackingField: 
-    <Audio>k__BackingField: Trump:Trump
-    <DialogueType>k__BackingField: 0
-    <Position>k__BackingField: {x: 3309.6, y: -728}
-    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: b2fed1ecb0d934a45a2a78e19d12b9aa, type: 3}
-    <Actions>k__BackingField: 
-    <HintSo>k__BackingField: {fileID: 0}
-  - <ID>k__BackingField: 0fde4cc7-3039-45cf-88a0-b6d4b2f582b8
-    <Name>k__BackingField: 10
-    <Text>k__BackingField: But she has a lot of followers, so I respect the hustle.
-    <SpeakerName>k__BackingField: Ronald Dump
-    <Choices>k__BackingField:
-    - <Text>k__BackingField: Next DIalogue
-      <NodeID>k__BackingField: 8e9595fe-1a5a-4f3f-a938-5447f41d6f88
-    <GroupID>k__BackingField: 
-    <DialogueSpeed>k__BackingField: 
-    <Audio>k__BackingField: Trump:Trump
-    <DialogueType>k__BackingField: 0
-    <Position>k__BackingField: {x: 3354.4, y: 87.2}
     <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: b2fed1ecb0d934a45a2a78e19d12b9aa, type: 3}
     <Actions>k__BackingField: 
     <HintSo>k__BackingField: {fileID: 0}
   - <ID>k__BackingField: eecad135-25bf-4f87-8d83-312bd2cf54d0
     <Name>k__BackingField: 12
     <Text>k__BackingField: Anyways, is Maduro in this party?
-    <SpeakerName>k__BackingField: Ronald Dump
+    <SpeakerName>k__BackingField: Shack O'Kneel
     <Choices>k__BackingField:
     - <Text>k__BackingField: Next DIalogue
       <NodeID>k__BackingField: 8e9595fe-1a5a-4f3f-a938-5447f41d6f88
     <GroupID>k__BackingField: 
     <DialogueSpeed>k__BackingField: 
-    <Audio>k__BackingField: Trump:Trump
+    <Audio>k__BackingField: Shaq:Shaq
     <DialogueType>k__BackingField: 0
     <Position>k__BackingField: {x: 3020.8, y: 992.8}
     <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: b2fed1ecb0d934a45a2a78e19d12b9aa, type: 3}
     <Actions>k__BackingField: 
     <HintSo>k__BackingField: {fileID: 0}
+  - <ID>k__BackingField: 9d6f341c-3e91-499a-a8d7-142a7acba261
+    <Name>k__BackingField: 1
+    <Text>k__BackingField: DOWN HERE. NO, UP HERE. wait, you can't see my face. I'm
+      the Big Aristotle!
+    <SpeakerName>k__BackingField: Shack O'Kneel
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: 9e28c3db-4194-4ef5-bb85-ec9520051afc
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: Shaq:Shaq
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 598.4, y: -96}
+    <CharacterImageLeft>k__BackingField: {fileID: 0}
+    <Actions>k__BackingField: 
+    <HintSo>k__BackingField: {fileID: 0}
+  - <ID>k__BackingField: 9e28c3db-4194-4ef5-bb85-ec9520051afc
+    <Name>k__BackingField: 2
+    <Text>k__BackingField: ' I don''t need a mask, my height is my disguise.'
+    <SpeakerName>k__BackingField: Shack O'Kneel
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: f40eb2f9-b204-4e27-88ba-4c8bd5f29964
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: Shaq:Shaq
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 1269.6, y: -92}
+    <CharacterImageLeft>k__BackingField: {fileID: 0}
+    <Actions>k__BackingField: 
+    <HintSo>k__BackingField: {fileID: 0}
   <OldGroupNames>k__BackingField: []
   <OldUngroupedNodesNames>k__BackingField:
-  - 3
+  - 11
+  - 10
   - 5
+  - 7
+  - 3
+  - 6
   - 9
   - 8
   - 4
-  - 11
   - 13
+  - 12
   - 1
   - 2
-  - 6
-  - 7
-  - 10
-  - 12
   <OldGroupedNodeNames>k__BackingField:
     list: []

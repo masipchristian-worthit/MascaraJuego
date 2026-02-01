@@ -10,19 +10,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 131a78a354596af40b2a9b91fee30564, type: 3}
-  m_Name: 11
+  m_Name: 10
   m_EditorClassIdentifier: Assembly-CSharp::DS.ScriptableObjects.DSDialogueSO
-  <DialogueName>k__BackingField: 11
-  <Text>k__BackingField: I don't care much about who invited me. I only want to make
-    America gret again.
+  <DialogueName>k__BackingField: 10
+  <Text>k__BackingField: "I\u2019m not saying I\u2019ll do it, but if she disappeared?
+    The economy would go up"
   <SpeakerName>k__BackingField: Ronald Dump
   <Choices>k__BackingField:
   - <Text>k__BackingField: Next DIalogue
-    <NextDialogue>k__BackingField: {fileID: 11400000, guid: be8b4edb5bd1f7d439ff820a75542077, type: 2}
+    <NextDialogue>k__BackingField: {fileID: 11400000, guid: 628abeb512dc24d4cbd76780cb045270, type: 2}
   <Audio>k__BackingField: Trump:Trump
   <DialogueType>k__BackingField: 0
   <IsStartingDialogue>k__BackingField: 0
   <DialogueSpeed>k__BackingField: 
   <DialogueCharacterLeft>k__BackingField: {fileID: 21300000, guid: b2fed1ecb0d934a45a2a78e19d12b9aa, type: 3}
-  <DialogueActionName>k__BackingField: 
+  <DialogueActionName>k__BackingField: GiveHint
   <HintSo>k__BackingField: {fileID: 0}
