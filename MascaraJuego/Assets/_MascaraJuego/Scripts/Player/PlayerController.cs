@@ -39,24 +39,24 @@ public class PlayerController : MonoBehaviour
     private InputAction pauseGameplayAction;
 
     // UI Actions
-    private InputAction acceptUIAction;
-    private InputAction navigateUIAction;
-    private InputAction escapeUIAction; // Llamado 'CancelUI' en tu lógica anterior
-
-    // Dialogue Actions
-    private InputAction acceptDialogueAction;
-    private InputAction navigateDialogueAction;
-    private InputAction escapeDialogueAction;
-
-    // Door Actions
-    private InputAction escapeDoorAction;
-    private InputAction interactCharacterDoorAction;
-    private InputAction gamepadCursorDoorAction;
-
-    // Hint Actions
-    private InputAction acceptHintAction;
-    private InputAction navigateHintAction;
-    private InputAction escapeHintAction; // Llamado 'CancelHint' en tu lógica anterior
+   // private InputAction acceptUIAction;
+   // private InputAction navigateUIAction;
+   // private InputAction escapeUIAction; // Llamado 'CancelUI' en tu lógica anterior
+//
+   // // Dialogue Actions
+   // private InputAction acceptDialogueAction;
+   // private InputAction navigateDialogueAction;
+   // private InputAction escapeDialogueAction;
+//
+   // // Door Actions
+   // private InputAction escapeDoorAction;
+   // private InputAction interactCharacterDoorAction;
+   // private InputAction gamepadCursorDoorAction;
+//
+   // // Hint Actions
+   // private InputAction acceptHintAction;
+   // private InputAction navigateHintAction;
+   // private InputAction escapeHintAction; // Llamado 'CancelHint' en tu lógica anterior
 
     private Vector3 originalScale;
 
@@ -96,24 +96,24 @@ public class PlayerController : MonoBehaviour
         pauseGameplayAction = inputInstance.Gameplay.PauseGameplay;
 
         // 2. UI
-        acceptUIAction = inputInstance.UI.AcceptUI;
-        navigateUIAction = inputInstance.UI.NavigateUI;
-        escapeUIAction = inputInstance.UI.EscapeUI;
-
-        // 3. DIALOGUE
-        acceptDialogueAction = inputInstance.Dialogue.AcceptDialogue;
-        navigateDialogueAction = inputInstance.Dialogue.NavigateDialogue;
-        escapeDialogueAction = inputInstance.Dialogue.EscapeDialogue;
-
-        // 4. DOOR
-        escapeDoorAction = inputInstance.Door.EscapeDoor;
-        interactCharacterDoorAction = inputInstance.Door.InteractCharacter;
-        gamepadCursorDoorAction = inputInstance.Door.GamepadCursor;
-
-        // 5. HINT
-        acceptHintAction = inputInstance.Hint.AcceptHint;
-        navigateHintAction = inputInstance.Hint.NavigateHint;
-        escapeHintAction = inputInstance.Hint.EscapeHint;
+       // acceptUIAction = inputInstance.UI.AcceptUI;
+       // navigateUIAction = inputInstance.UI.NavigateUI;
+       // escapeUIAction = inputInstance.UI.EscapeUI;
+//
+       // // 3. DIALOGUE
+       // acceptDialogueAction = inputInstance.Dialogue.AcceptDialogue;
+       // navigateDialogueAction = inputInstance.Dialogue.NavigateDialogue;
+       // escapeDialogueAction = inputInstance.Dialogue.EscapeDialogue;
+//
+       // // 4. DOOR
+       // escapeDoorAction = inputInstance.Door.EscapeDoor;
+       // interactCharacterDoorAction = inputInstance.Door.InteractCharacter;
+       // gamepadCursorDoorAction = inputInstance.Door.GamepadCursor;
+//
+       // // 5. HINT
+       // acceptHintAction = inputInstance.Hint.AcceptHint;
+       // navigateHintAction = inputInstance.Hint.NavigateHint;
+       // escapeHintAction = inputInstance.Hint.EscapeHint;
     }
 
     void Update()
@@ -131,12 +131,12 @@ public class PlayerController : MonoBehaviour
             // Leemos el valor directamente (Polling continuo)
             movement = moveGameplayAction.ReadValue<Vector2>();
         }
-
+        Movement();
         // Lógica de movimiento físico
-        if (!isPaused && !isInteracting)
-        {
-            Movement();
-        }
+       // if (!isPaused && !isInteracting)
+       // {
+       //     
+       // }
     }
 
     //ANIMATIONS
@@ -152,10 +152,14 @@ public class PlayerController : MonoBehaviour
 
         if (pauseGameplayAction.WasPressedThisFrame())
         {
-            isPaused = !isPaused;
-            anim.SetBool("Watch", isPaused);
+            anim.SetBool("Watch", true);
         }
     }
+
+    public void cancelWatch()
+    {
+        anim.SetBool("Watch", false);
+    } 
 
 
     // Método centralizado para verificar pulsaciones de botones
@@ -175,38 +179,38 @@ public class PlayerController : MonoBehaviour
         // --- UI INPUTS ---
         // (Nota: InputManager maneja el cambio de mapas, así que estas acciones 
         // solo devolverán true si el mapa UI está activo).
-        if (escapeUIAction.WasPressedThisFrame())
-        {
-            if (pauseMenuPanel != null) 
-            {
-                isPaused = false;
-                Time.timeScale = 1f;
-                pauseMenuPanel.SetActive(false);
-            }
-            InputManager.Instance.ReturnToPreviousMap();
-        }
-
-        // --- HINT INPUTS ---
-        if (escapeHintAction.WasPressedThisFrame())
-        {
-            if (hintPanel != null) hintPanel.SetActive(false);
-            InputManager.Instance.ReturnToPreviousMap();
-        }
-
-        // --- DIALOGUE INPUTS ---
-        if (acceptDialogueAction.WasPressedThisFrame())
-        {
-            // Lógica aceptar diálogo
-        }
-
-        // --- DOOR INPUTS ---
-        if (escapeDoorAction.WasPressedThisFrame())
-        {
-            // Lógica salir puerta
-        }
-        
-        // El cursor del gamepad se lee como vector, similar al movimiento
-        // Vector2 cursorVal = gamepadCursorDoorAction.ReadValue<Vector2>();
+     //   if (escapeUIAction.WasPressedThisFrame())
+     //   {
+     //       if (pauseMenuPanel != null) 
+     //       {
+     //           isPaused = false;
+     //           Time.timeScale = 1f;
+     //           pauseMenuPanel.SetActive(false);
+     //       }
+     //       InputManager.Instance.ReturnToPreviousMap();
+     //   }
+//
+     //   // --- HINT INPUTS ---
+     //   if (escapeHintAction.WasPressedThisFrame())
+     //   {
+     //       if (hintPanel != null) hintPanel.SetActive(false);
+     //       InputManager.Instance.ReturnToPreviousMap();
+     //   }
+//
+     //   // --- DIALOGUE INPUTS ---
+     //   if (acceptDialogueAction.WasPressedThisFrame())
+     //   {
+     //       // Lógica aceptar diálogo
+     //   }
+//
+     //   // --- DOOR INPUTS ---
+     //   if (escapeDoorAction.WasPressedThisFrame())
+     //   {
+     //       // Lógica salir puerta
+     //   }
+     //   
+     //   // El cursor del gamepad se lee como vector, similar al movimiento
+     //   // Vector2 cursorVal = gamepadCursorDoorAction.ReadValue<Vector2>();
     }
 
 void Movement()

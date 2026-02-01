@@ -1,6 +1,7 @@
 using System;
 using UnityEngine;
 using System.Collections;
+using UnityEngine.EventSystems;
 using UnityEngine.InputSystem;
 using UnityEngine.Rendering;
 
@@ -38,11 +39,14 @@ public class PauseManager : MonoBehaviour
     {
         _pausePanel.SetActive(true);
         _animator.Play("Open");
-        
+        InputManager.Instance.SwitchTo(InputManager.InputMapType.UI);
+        EventSystem.current.SetSelectedGameObject(_firstButton);
+        currentOption = MyEnum.Main;
     }
 
     private void escapeFunc()
     {
+        Debug.Log("HOLAAAA");
         switch (currentOption)
         {
             case MyEnum.Hints:
@@ -50,9 +54,11 @@ public class PauseManager : MonoBehaviour
                 break;
             case MyEnum.Settings:
                 toMain();
+                Debug.Log(" AJUSTED ATRAS");
                 break;
             case MyEnum.Main:
                 resume();
+                Debug.Log("PARA juego");
                 break;
         }
     }
@@ -61,7 +67,8 @@ public class PauseManager : MonoBehaviour
     {
         _buttonsGroup.alpha = 1;
         currentOption = MyEnum.Main;
-        
+        Debug.Log("tomain");
+        EventSystem.current.SetSelectedGameObject(_firstButton);
     }
 
     public void settingsMenu()
@@ -72,7 +79,9 @@ public class PauseManager : MonoBehaviour
     public void resume()
     {
         _animator.Play("Close");
-        InputManager.Instance.ReturnToPreviousMap();
+        InputManager.Instance.SwitchTo(InputManager.InputMapType.Gameplay);
+        EventSystem.current.SetSelectedGameObject(null);
+        Debug.Log("Selected");
     }
 
     public void hintMenu()
@@ -80,5 +89,10 @@ public class PauseManager : MonoBehaviour
         HintManager.Instance.ShowHintsInMenu();
         _buttonsGroup.alpha = 0;
         currentOption = MyEnum.Hints;
+    }
+
+    public void exitGame()
+    {
+        Application.Quit();
     }
 }

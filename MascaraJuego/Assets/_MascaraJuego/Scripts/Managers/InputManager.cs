@@ -114,6 +114,7 @@ public class InputManager : MonoBehaviour
 
         currentMapName = mapToEnable.name;
         CursorLogic(); 
+        Debug.Log(currentMapName);
     }
 
     public void ReturnToPreviousMap()
