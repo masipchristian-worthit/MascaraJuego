@@ -17,7 +17,7 @@ MonoBehaviour:
   <SpeakerName>k__BackingField: Ellen Steven
   <Choices>k__BackingField:
   - <Text>k__BackingField: Next DIalogue
-    <NextDialogue>k__BackingField: {fileID: 11400000, guid: 3bd3f107c108542499aab9583cd0bd3c, type: 2}
+    <NextDialogue>k__BackingField: {fileID: 0}
   <Audio>k__BackingField: 'Elen    '
   <DialogueType>k__BackingField: 0
   <IsStartingDialogue>k__BackingField: 0
