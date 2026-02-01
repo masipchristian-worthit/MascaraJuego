@@ -10,15 +10,7 @@ public class DoorInteraction : MonoBehaviour
     [SerializeField] private Animator _animator; 
     [SerializeField] private GameObject _menuCanvas; 
     [SerializeField] private GameObject _firstButton;
-    private InputAction _inputAction;
-
-
-    private void Start()
-    {
-        _inputAction = InputManager.Instance.Door.EscapeDoor;
-        _inputAction.performed += ctx => closeDoor(); 
-
-    }
+  
 
     public void OpenDoorAndShowUI()
     {
@@ -44,14 +36,14 @@ public class DoorInteraction : MonoBehaviour
     public void comeFromDialogue()
     {
         EventSystem.current.SetSelectedGameObject(_firstButton);
+        InputManager.Instance.SwitchTo(InputManager.InputMapType.Door);
         
     }
     
-    private void closeDoor()
+    public void closeDoor()
     {
         _animator.Play("Close");
         InputManager.Instance.SwitchTo(InputManager.InputMapType.Gameplay);
-        DoorManager.Instance.closeDoor();
         Debug.Log("AYUDAAAAAA");
     }
 }
