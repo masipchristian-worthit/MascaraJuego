@@ -1,0 +1,388 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9147bccad748a464487ec789f0cfc14b, type: 3}
+  m_Name: KanyeVictimGraph
+  m_EditorClassIdentifier: Assembly-CSharp-Editor::DS.Data.Save.DSGraphSaveData
+  <FileName>k__BackingField: KanyeVictim
+  <Groups>k__BackingField: []
+  <Nodes>k__BackingField:
+  - <ID>k__BackingField: 025108a2-0bda-4e3a-955a-d398249cffda
+    <Name>k__BackingField: 3
+    <Text>k__BackingField: Are you lost or something?
+    <SpeakerName>k__BackingField: Kanee East
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: c62ca95d-3903-4166-8554-13603e9f8d25
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: KanyeAudio
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 128.8, y: 136}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: 86e1ef13716e0c946a714e69ecf0fb5f, type: 3}
+    <Actions>k__BackingField: 
+    <HintSo>k__BackingField: {fileID: 0}
+  - <ID>k__BackingField: 872aec12-0a46-4421-8ec2-65ca453895c9
+    <Name>k__BackingField: 1
+    <Text>k__BackingField: Huh?
+    <SpeakerName>k__BackingField: Kanee East
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: 6510c884-8272-417b-86bb-d5fb2c005489
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: KanyeAudio
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: -598.4, y: 136}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: 86e1ef13716e0c946a714e69ecf0fb5f, type: 3}
+    <Actions>k__BackingField: 
+    <HintSo>k__BackingField: {fileID: 0}
+  - <ID>k__BackingField: 6510c884-8272-417b-86bb-d5fb2c005489
+    <Name>k__BackingField: 2
+    <Text>k__BackingField: Are you looking at me?
+    <SpeakerName>k__BackingField: Kanee East
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: 025108a2-0bda-4e3a-955a-d398249cffda
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: KanyeAudio
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: -258.4, y: 136}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: 86e1ef13716e0c946a714e69ecf0fb5f, type: 3}
+    <Actions>k__BackingField: 
+    <HintSo>k__BackingField: {fileID: 0}
+  - <ID>k__BackingField: 6e5d64c2-3404-429f-a6eb-d62c0e4993bf
+    <Name>k__BackingField: 7
+    <Text>k__BackingField: "That ain't damage, fam. That\u2019s design."
+    <SpeakerName>k__BackingField: Kanee East
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: 7a2c8067-0b50-4f00-8a56-6bdaccd0ea49
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: KanyeAudio
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 1951.2, y: -154.4}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: 86e1ef13716e0c946a714e69ecf0fb5f, type: 3}
+    <Actions>k__BackingField: 
+    <HintSo>k__BackingField: {fileID: 0}
+  - <ID>k__BackingField: 7a2c8067-0b50-4f00-8a56-6bdaccd0ea49
+    <Name>k__BackingField: 8
+    <Text>k__BackingField: "That\u2019s the pressure of my genius bursting through
+      the seams of this limited reality."
+    <SpeakerName>k__BackingField: Kanee East
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: 4d28e466-2333-47a9-8363-f75418617fb2
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: KanyeAudio
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 2240.8, y: -154.4}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: 86e1ef13716e0c946a714e69ecf0fb5f, type: 3}
+    <Actions>k__BackingField: 
+    <HintSo>k__BackingField: {fileID: 0}
+  - <ID>k__BackingField: 4d28e466-2333-47a9-8363-f75418617fb2
+    <Name>k__BackingField: 9
+    <Text>k__BackingField: "I\u2019m wearing the bear because the industry wants
+      me cute, but the bear is dead.."
+    <SpeakerName>k__BackingField: Kanee East
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: 5d4b3f31-b646-4ebf-839f-f066cadd87d8
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: KanyeAudio
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 2789.6, y: -156}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: 86e1ef13716e0c946a714e69ecf0fb5f, type: 3}
+    <Actions>k__BackingField: 
+    <HintSo>k__BackingField: {fileID: 0}
+  - <ID>k__BackingField: 5d4b3f31-b646-4ebf-839f-f066cadd87d8
+    <Name>k__BackingField: 10
+    <Text>k__BackingField: 'The bear is a zombie now. '
+    <SpeakerName>k__BackingField: Kanee East
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: 9eee130a-d343-4db5-ab06-562bbbc40c5c
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: KanyeAudio
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 3352, y: -156}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: 86e1ef13716e0c946a714e69ecf0fb5f, type: 3}
+    <Actions>k__BackingField: 
+    <HintSo>k__BackingField: {fileID: 0}
+  - <ID>k__BackingField: 9eee130a-d343-4db5-ab06-562bbbc40c5c
+    <Name>k__BackingField: 11
+    <Text>k__BackingField: "I\u2019m walking through this party like a ghost in a
+      Gucci sheet."
+    <SpeakerName>k__BackingField: Kanee East
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: d38a1275-e6af-430e-b87f-00824c17ecfb
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: KanyeAudio
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 3636, y: -156}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: 86e1ef13716e0c946a714e69ecf0fb5f, type: 3}
+    <Actions>k__BackingField: 
+    <HintSo>k__BackingField: {fileID: 0}
+  - <ID>k__BackingField: d38a1275-e6af-430e-b87f-00824c17ecfb
+    <Name>k__BackingField: 12
+    <Text>k__BackingField: Don't ask for a selfie; my aura is too bright, it breaks
+      the camera lens.
+    <SpeakerName>k__BackingField: Kanee East
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: c62ca95d-3903-4166-8554-13603e9f8d25
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: KanyeAudio
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 4051.2, y: -156}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: 86e1ef13716e0c946a714e69ecf0fb5f, type: 3}
+    <Actions>k__BackingField: 
+    <HintSo>k__BackingField: {fileID: 0}
+  - <ID>k__BackingField: e830d0c9-8dab-4848-99ee-2277990ddef4
+    <Name>k__BackingField: 44
+    <Text>k__BackingField: Yo, [wave]shh[/]. Keep your voice down.
+    <SpeakerName>k__BackingField: Kanee East
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: 863d73b7-f88e-4b33-8647-9e65c160bae8
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: KanyeAudio
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 1488, y: -905.60004}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: 86e1ef13716e0c946a714e69ecf0fb5f, type: 3}
+    <Actions>k__BackingField: 
+    <HintSo>k__BackingField: {fileID: 0}
+  - <ID>k__BackingField: 863d73b7-f88e-4b33-8647-9e65c160bae8
+    <Name>k__BackingField: 45
+    <Text>k__BackingField: Yo, shh. Keep your voice down.
+    <SpeakerName>k__BackingField: Kanee East
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: 3b5fd744-c20e-4bad-aa07-d9b8e0495ac3
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: KanyeAudio
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 1993.6, y: -892}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: 86e1ef13716e0c946a714e69ecf0fb5f, type: 3}
+    <Actions>k__BackingField: 
+    <HintSo>k__BackingField: {fileID: 0}
+  - <ID>k__BackingField: 5923e909-8e63-445e-a31b-92396898beee
+    <Name>k__BackingField: 14
+    <Text>k__BackingField: "Felon? That\u2019s my brother in the struggle."
+    <SpeakerName>k__BackingField: Kanee East
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: 03be8160-1bb5-4f2a-ae10-e25b7f479dc2
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: KanyeAudio
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 1697.6, y: 716}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: 86e1ef13716e0c946a714e69ecf0fb5f, type: 3}
+    <Actions>k__BackingField: 
+    <HintSo>k__BackingField: {fileID: 0}
+  - <ID>k__BackingField: 03be8160-1bb5-4f2a-ae10-e25b7f479dc2
+    <Name>k__BackingField: 15
+    <Text>k__BackingField: We both got that Dragon Energy. Pure fire.
+    <SpeakerName>k__BackingField: Kanee East
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: be699791-c44f-43f4-85f7-0d5d6ff458c1
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: KanyeAudio
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 2025.6, y: 716}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: 86e1ef13716e0c946a714e69ecf0fb5f, type: 3}
+    <Actions>k__BackingField: 
+    <HintSo>k__BackingField: {fileID: 0}
+  - <ID>k__BackingField: be699791-c44f-43f4-85f7-0d5d6ff458c1
+    <Name>k__BackingField: 16
+    <Text>k__BackingField: "He\u2019s building rockets to Mars, I\u2019m building
+      churches in my mind.."
+    <SpeakerName>k__BackingField: Kanee East
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: af04abbc-645d-4e4b-a6b4-fed6b29c88db
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: KanyeAudio
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 2335.2, y: 716}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: 86e1ef13716e0c946a714e69ecf0fb5f, type: 3}
+    <Actions>k__BackingField: 
+    <HintSo>k__BackingField: {fileID: 0}
+  - <ID>k__BackingField: af04abbc-645d-4e4b-a6b4-fed6b29c88db
+    <Name>k__BackingField: 17
+    <Text>k__BackingField: We are the two pillars of the future.
+    <SpeakerName>k__BackingField: Kanee East
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: 07a2c046-de3a-4206-8fc4-8db832a6f7f5
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: KanyeAudio
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 2789.6, y: 716}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: 86e1ef13716e0c946a714e69ecf0fb5f, type: 3}
+    <Actions>k__BackingField: 
+    <HintSo>k__BackingField: {fileID: 0}
+  - <ID>k__BackingField: 07a2c046-de3a-4206-8fc4-8db832a6f7f5
+    <Name>k__BackingField: 18
+    <Text>k__BackingField: "He\u2019s cool, even if he dresses like a divorced dad
+      trying to impress a robot."
+    <SpeakerName>k__BackingField: Kanee East
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: c62ca95d-3903-4166-8554-13603e9f8d25
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: KanyeAudio
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 3092, y: 716}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: 86e1ef13716e0c946a714e69ecf0fb5f, type: 3}
+    <Actions>k__BackingField: 
+    <HintSo>k__BackingField: {fileID: 0}
+  - <ID>k__BackingField: 76334ac2-79c8-4410-a0a1-ccb4e7dc41a7
+    <Name>k__BackingField: 30
+    <Text>k__BackingField: Tell them you met the glitch in the system.
+    <SpeakerName>k__BackingField: Kanee East
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: KanyeAudio
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 1168.8, y: 935.19995}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: 86e1ef13716e0c946a714e69ecf0fb5f, type: 3}
+    <Actions>k__BackingField: 
+    <HintSo>k__BackingField: {fileID: 0}
+  - <ID>k__BackingField: c62ca95d-3903-4166-8554-13603e9f8d25
+    <Name>k__BackingField: 5
+    <Text>k__BackingField: What do you want from me?
+    <SpeakerName>k__BackingField: Kanee East
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Analize mask
+      <NodeID>k__BackingField: 2b8cf2bd-9bf9-4ed3-ac5b-569394e62638
+    - <Text>k__BackingField: Ask for thoughts
+      <NodeID>k__BackingField: e830d0c9-8dab-4848-99ee-2277990ddef4
+    - <Text>k__BackingField: Ask about Felon
+      <NodeID>k__BackingField: 5923e909-8e63-445e-a31b-92396898beee
+    - <Text>k__BackingField: Goodbye
+      <NodeID>k__BackingField: 76334ac2-79c8-4410-a0a1-ccb4e7dc41a7
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: KanyeAudio
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 697.6, y: 151.20001}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: 86e1ef13716e0c946a714e69ecf0fb5f, type: 3}
+    <Actions>k__BackingField: 
+    <HintSo>k__BackingField: {fileID: 0}
+  - <ID>k__BackingField: 2b8cf2bd-9bf9-4ed3-ac5b-569394e62638
+    <Name>k__BackingField: 6
+    <Text>k__BackingField: You staring at the rip in the fabric?
+    <SpeakerName>k__BackingField: Kanee East
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: 6e5d64c2-3404-429f-a6eb-d62c0e4993bf
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: KanyeAudio
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 1641.6, y: -154.4}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: 86e1ef13716e0c946a714e69ecf0fb5f, type: 3}
+    <Actions>k__BackingField: 
+    <HintSo>k__BackingField: {fileID: 0}
+  - <ID>k__BackingField: 3b5fd744-c20e-4bad-aa07-d9b8e0495ac3
+    <Name>k__BackingField: 46
+    <Text>k__BackingField: "That shorty in the horse mask? She\u2019s emitting a
+      low-level radiation."
+    <SpeakerName>k__BackingField: Kanee East
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: 762904b7-3a22-4141-b980-c0c2f191640c
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: KanyeAudio
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 2342.4, y: -892}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: 86e1ef13716e0c946a714e69ecf0fb5f, type: 3}
+    <Actions>k__BackingField: 
+    <HintSo>k__BackingField: {fileID: 0}
+  - <ID>k__BackingField: 762904b7-3a22-4141-b980-c0c2f191640c
+    <Name>k__BackingField: 47
+    <Text>k__BackingField: "She\u2019s an operative, man. Sent by the shadow government
+      to sedate me."
+    <SpeakerName>k__BackingField: Kanee East
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: e6f44d2f-8f11-4822-994b-60c2cbdabdbd
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: KanyeAudio
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 2789.6, y: -892}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: 86e1ef13716e0c946a714e69ecf0fb5f, type: 3}
+    <Actions>k__BackingField: 
+    <HintSo>k__BackingField: {fileID: 0}
+  - <ID>k__BackingField: e6f44d2f-8f11-4822-994b-60c2cbdabdbd
+    <Name>k__BackingField: DialogueName
+    <Text>k__BackingField: I saw her holding a syringe, she wants to extract my creativity
+      and sell it as an NFT. I ain't sleeping tonight.
+    <SpeakerName>k__BackingField: Kanee East
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: c62ca95d-3903-4166-8554-13603e9f8d25
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: KanyeAudio
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 3280, y: -892}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: 86e1ef13716e0c946a714e69ecf0fb5f, type: 3}
+    <Actions>k__BackingField: GiveHint
+    <HintSo>k__BackingField: {fileID: 0}
+  <OldGroupNames>k__BackingField: []
+  <OldUngroupedNodesNames>k__BackingField:
+  - 3
+  - 1
+  - 2
+  - 7
+  - 8
+  - 9
+  - 10
+  - 11
+  - 12
+  - 44
+  - 45
+  - 14
+  - 15
+  - 16
+  - 17
+  - 18
+  - 30
+  - 5
+  - 6
+  - 46
+  - 47
+  - DialogueName
+  <OldGroupedNodeNames>k__BackingField:
+    list: []
