@@ -1,4 +1,6 @@
+using System;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class DoorManager : MonoBehaviour
 {
@@ -7,6 +9,13 @@ public class DoorManager : MonoBehaviour
     [Header("Checks")] public bool isAtDoor = false;
     
     public DoorInteraction currentDoor;
+    private InputAction _inputAction;
+    private void Start()
+    {
+        _inputAction = InputManager.Instance.Door.EscapeDoor;
+        _inputAction.performed += ctx => closeDoor(); 
+    }
+
     void Awake()
     {
         if (Instance == null)
@@ -29,8 +38,10 @@ public class DoorManager : MonoBehaviour
 
     public void closeDoor()
     {
+        Debug.Log("MANGEL TE ODIIOOOOOOOOO");
+        currentDoor.closeDoor();
         isAtDoor = false;
-        DoorManager.Instance.currentDoor = null;
+        currentDoor = null;
     }
     
 }

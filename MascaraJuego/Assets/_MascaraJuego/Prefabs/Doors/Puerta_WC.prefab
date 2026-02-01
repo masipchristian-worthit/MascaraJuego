@@ -90,7 +90,7 @@ GameObject:
   - component: {fileID: 5984408153053874503}
   - component: {fileID: 968115431371509637}
   m_Layer: 0
-  m_Name: BlenEsteven
+  m_Name: Shaquio
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -112,8 +112,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 619, y: -283.1516}
-  m_SizeDelta: {x: 265, y: 350}
+  m_AnchoredPosition: {x: -18, y: 39}
+  m_SizeDelta: {x: 234, y: 533}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &905164085381117486
 CanvasRenderer:
@@ -143,7 +143,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 44ebc990614c94e48bf76792c1313eca, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f315cbb234b09464b9459a7e9924f50d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -221,7 +221,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 093ba83731ce3b84d88bc76693e5a392, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  _dialogueContainerSO: {fileID: 11400000, guid: 6358780c071a4e2469394c49da4ee2c1, type: 2}
+  _dialogueContainerSO: {fileID: 11400000, guid: a02b4eb163925ec4da5f362a3724c0a0, type: 2}
   Name: 
 --- !u!114 &968115431371509637
 MonoBehaviour:
@@ -304,7 +304,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 4895a618f6be6f34cbf63f40d699845f, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 2caee8286a45ed04cadbbe70f696d998, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -329,7 +329,7 @@ GameObject:
   - component: {fileID: 5100649242500232131}
   - component: {fileID: 2501508646648580487}
   m_Layer: 0
-  m_Name: KaneeEast
+  m_Name: ElonMusk
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -351,8 +351,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 194, y: -209}
-  m_SizeDelta: {x: 305, y: 330}
+  m_AnchoredPosition: {x: 294, y: -59}
+  m_SizeDelta: {x: 304, y: 755}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5796310890531512587
 CanvasRenderer:
@@ -382,7 +382,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: b76f9ee39fbd1234990e36c674919883, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e994857f3be946b429e474d27fe693de, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -460,7 +460,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 093ba83731ce3b84d88bc76693e5a392, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNPC
-  _dialogueContainerSO: {fileID: 11400000, guid: ca89605b3a127964aac5abe5366dc78c, type: 2}
+  _dialogueContainerSO: {fileID: 11400000, guid: 9d5114e45cdfa16458ef9d9990eee105, type: 2}
   Name: 
 --- !u!114 &2501508646648580487
 MonoBehaviour:
@@ -594,7 +594,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &8743012527019203791
 RectTransform:
   m_ObjectHideFlags: 0

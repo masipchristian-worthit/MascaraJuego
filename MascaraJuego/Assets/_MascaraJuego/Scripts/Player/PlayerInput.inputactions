@@ -967,17 +967,6 @@
                 },
                 {
                     "name": "",
-                    "id": "db8022b4-20f4-4e9e-bcfa-88144288dbbc",
-                    "path": "<Keyboard>/enter",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": ";Gamepad;Keyboard",
-                    "action": "EscapeDoor",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
                     "id": "1cde7a25-8d4f-4f8e-bffa-1c38992f82f4",
                     "path": "<Keyboard>/tab",
                     "interactions": "",
@@ -1312,17 +1301,6 @@
                     "name": "",
                     "id": "747aa7ee-ebbf-4d16-870c-9237bc6ff66c",
                     "path": "<Keyboard>/delete",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "EscapeHint",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "796e402a-6f16-421e-8275-ebcaac089701",
-                    "path": "<Keyboard>/enter",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
