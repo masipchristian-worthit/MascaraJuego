@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 89a948a9c63bd61468ac431a2dfb33b3
+guid: 4e7ba907f30920e498486eb9b7ee5c66
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -97,7 +97,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: mordecai-Sheet_0
+      name: Vegetta777_0
       rect:
         serializedVersion: 2
         x: 0
@@ -112,14 +112,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9324dd8952bc2d141b0a5f33abc1b2bd
-      internalID: -2093031161
+      spriteID: 0d3e454d688ac104c812e982444d1121
+      internalID: -1637487570
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mordecai-Sheet_1
+      name: Vegetta777_1
       rect:
         serializedVersion: 2
         x: 48
@@ -134,14 +134,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 78b4226e2c0e25148b6b2e0cd04630bd
-      internalID: 756745044
+      spriteID: 8d4b086313dddd344ae8d41cc6ce0199
+      internalID: 349958705
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mordecai-Sheet_2
+      name: Vegetta777_2
       rect:
         serializedVersion: 2
         x: 96
@@ -156,14 +156,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 86dd908fe30d8dc45a74391975716264
-      internalID: 1801918280
+      spriteID: 2f4e02b2e59835c45b3e70cf1fc41936
+      internalID: 1296296076
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mordecai-Sheet_3
+      name: Vegetta777_3
       rect:
         serializedVersion: 2
         x: 144
@@ -178,8 +178,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 107b65ae84ed08c42bf82d8de1202891
-      internalID: 263704841
+      spriteID: 8c3bea4c2f5b7154ab4c1f523fce4f8c
+      internalID: -1679214981
       vertices: []
       indices: 
       edges: []
@@ -188,7 +188,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: f07db086a5fd4bc49a75a55df1fdda66
+    spriteID: 2a82bb4277b28e547aa8bff4541eb560
     internalID: 0
     vertices: []
     indices: 
@@ -200,10 +200,10 @@ TextureImporter:
       - key: SpriteEditor.SliceSettings
         value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":48.0,"y":48.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.0},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":7,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      mordecai-Sheet_0: -2093031161
-      mordecai-Sheet_1: 756745044
-      mordecai-Sheet_2: 1801918280
-      mordecai-Sheet_3: 263704841
+      Vegetta777_0: -1637487570
+      Vegetta777_1: 349958705
+      Vegetta777_2: 1296296076
+      Vegetta777_3: -1679214981
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
