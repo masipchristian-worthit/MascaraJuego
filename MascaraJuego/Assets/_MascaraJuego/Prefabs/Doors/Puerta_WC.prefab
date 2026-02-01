@@ -88,6 +88,7 @@ GameObject:
   - component: {fileID: 1788957293826802359}
   - component: {fileID: 4816191964125329184}
   - component: {fileID: 5984408153053874503}
+  - component: {fileID: 968115431371509637}
   m_Layer: 0
   m_Name: BlenEsteven
   m_TagString: Untagged
@@ -223,6 +224,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   _dialogueContainerSO: {fileID: 11400000, guid: 6358780c071a4e2469394c49da4ee2c1, type: 2}
   Name: 
+--- !u!114 &968115431371509637
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1396280662749592747}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1e7de56297cb074ca88c36f2425a211, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ButtonDoAlpha
+  hoverAlpha: 0.5
+  duration: 0.5
 --- !u!1 &2339092015950193517
 GameObject:
   m_ObjectHideFlags: 0
@@ -310,6 +325,8 @@ GameObject:
   - component: {fileID: 5796310890531512587}
   - component: {fileID: 3802686906275627229}
   - component: {fileID: 6134775973135673896}
+  - component: {fileID: 5100649242500232131}
+  - component: {fileID: 2501508646648580487}
   m_Layer: 0
   m_Name: KaneeEast
   m_TagString: Untagged
@@ -392,8 +409,8 @@ MonoBehaviour:
     m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
+    m_SelectOnLeft: {fileID: 4816191964125329184}
+    m_SelectOnRight: {fileID: 4816191964125329184}
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
@@ -418,7 +435,47 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 3802686906275627229}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 5100649242500232131}
+        m_TargetAssemblyTypeName: DialogueNPC, Assembly-CSharp
+        m_MethodName: startDialogue
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &5100649242500232131
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5365425637398974409}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 093ba83731ce3b84d88bc76693e5a392, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueNPC
+  _dialogueContainerSO: {fileID: 0}
+  Name: 
+--- !u!114 &2501508646648580487
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5365425637398974409}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1e7de56297cb074ca88c36f2425a211, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ButtonDoAlpha
+  hoverAlpha: 0.5
+  duration: 0.5
 --- !u!1 &7302981798848205662
 GameObject:
   m_ObjectHideFlags: 0
