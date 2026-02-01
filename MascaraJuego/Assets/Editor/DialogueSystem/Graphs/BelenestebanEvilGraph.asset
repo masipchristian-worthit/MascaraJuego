@@ -15,21 +15,6 @@ MonoBehaviour:
   <FileName>k__BackingField: BelenestebanEvil
   <Groups>k__BackingField: []
   <Nodes>k__BackingField:
-  - <ID>k__BackingField: 947a0521-83d5-41c9-a1c0-23c9d3c75d35
-    <Name>k__BackingField: 5
-    <Text>k__BackingField: What do you want?
-    <SpeakerName>k__BackingField: Ellen Steven
-    <Choices>k__BackingField:
-    - <Text>k__BackingField: Next DIalogue
-      <NodeID>k__BackingField: 29b55f1d-65e0-4661-b5a1-91eb34bb8312
-    <GroupID>k__BackingField: 
-    <DialogueSpeed>k__BackingField: 
-    <Audio>k__BackingField: 'Elen    '
-    <DialogueType>k__BackingField: 0
-    <Position>k__BackingField: {x: 1734, y: 267}
-    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: 3ed352066aa221b4bb4eb3853e887b82, type: 3}
-    <Actions>k__BackingField: 
-    <HintSo>k__BackingField: {fileID: 0}
   - <ID>k__BackingField: 60678a04-adf2-40c4-b9eb-ad91d83aca1b
     <Name>k__BackingField: 3
     <Text>k__BackingField: Ugh, idiots like you irritate me
@@ -41,7 +26,7 @@ MonoBehaviour:
     <DialogueSpeed>k__BackingField: 
     <Audio>k__BackingField: 'Elen    '
     <DialogueType>k__BackingField: 0
-    <Position>k__BackingField: {x: 1093, y: 260}
+    <Position>k__BackingField: {x: 1092.8, y: 260}
     <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: 3ed352066aa221b4bb4eb3853e887b82, type: 3}
     <Actions>k__BackingField: 
     <HintSo>k__BackingField: {fileID: 0}
@@ -56,7 +41,7 @@ MonoBehaviour:
     <DialogueSpeed>k__BackingField: 
     <Audio>k__BackingField: 'Elen    '
     <DialogueType>k__BackingField: 0
-    <Position>k__BackingField: {x: 3198, y: -146}
+    <Position>k__BackingField: {x: 3198.4, y: -146.4}
     <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: 3ed352066aa221b4bb4eb3853e887b82, type: 3}
     <Actions>k__BackingField: 
     <HintSo>k__BackingField: {fileID: 0}
@@ -66,12 +51,12 @@ MonoBehaviour:
     <SpeakerName>k__BackingField: Ellen Steven
     <Choices>k__BackingField:
     - <Text>k__BackingField: Next DIalogue
-      <NodeID>k__BackingField: 947a0521-83d5-41c9-a1c0-23c9d3c75d35
+      <NodeID>k__BackingField: 
     <GroupID>k__BackingField: 
     <DialogueSpeed>k__BackingField: 
     <Audio>k__BackingField: 'Elen    '
     <DialogueType>k__BackingField: 0
-    <Position>k__BackingField: {x: 3557, y: -144}
+    <Position>k__BackingField: {x: 3556.8, y: -144}
     <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: 3ed352066aa221b4bb4eb3853e887b82, type: 3}
     <Actions>k__BackingField: 
     <HintSo>k__BackingField: {fileID: 0}
@@ -86,7 +71,7 @@ MonoBehaviour:
     <DialogueSpeed>k__BackingField: 
     <Audio>k__BackingField: 'Elen    '
     <DialogueType>k__BackingField: 0
-    <Position>k__BackingField: {x: 2795, y: -759}
+    <Position>k__BackingField: {x: 2795.2, y: -759.2}
     <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: 3ed352066aa221b4bb4eb3853e887b82, type: 3}
     <Actions>k__BackingField: 
     <HintSo>k__BackingField: {fileID: 0}
@@ -101,7 +86,7 @@ MonoBehaviour:
     <DialogueSpeed>k__BackingField: 
     <Audio>k__BackingField: 'Elen    '
     <DialogueType>k__BackingField: 0
-    <Position>k__BackingField: {x: 3835, y: 448}
+    <Position>k__BackingField: {x: 3835.2, y: 448}
     <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: 3ed352066aa221b4bb4eb3853e887b82, type: 3}
     <Actions>k__BackingField: 
     <HintSo>k__BackingField: {fileID: 0}
@@ -116,28 +101,7 @@ MonoBehaviour:
     <DialogueSpeed>k__BackingField: 
     <Audio>k__BackingField: 'Elen    '
     <DialogueType>k__BackingField: 0
-    <Position>k__BackingField: {x: 752, y: 265}
-    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: 3ed352066aa221b4bb4eb3853e887b82, type: 3}
-    <Actions>k__BackingField: 
-    <HintSo>k__BackingField: {fileID: 0}
-  - <ID>k__BackingField: 29b55f1d-65e0-4661-b5a1-91eb34bb8312
-    <Name>k__BackingField: DialogueName
-    <Text>k__BackingField: Dialogue text.
-    <SpeakerName>k__BackingField: Ellen Steven
-    <Choices>k__BackingField:
-    - <Text>k__BackingField: Who are you?
-      <NodeID>k__BackingField: 2eb33924-063d-437d-b451-6911df8b7df7
-    - <Text>k__BackingField: Why are you here?
-      <NodeID>k__BackingField: 5ca4f95d-e047-4208-92ef-fba1ea0074b3
-    - <Text>k__BackingField: I think she's a little weird
-      <NodeID>k__BackingField: ea81f9ce-c91d-47ed-811d-1f30c99b9286
-    - <Text>k__BackingField: Fuck you
-      <NodeID>k__BackingField: 20400a4f-60d5-422f-94e4-96442772610c
-    <GroupID>k__BackingField: 
-    <DialogueSpeed>k__BackingField: 
-    <Audio>k__BackingField: 'Elen    '
-    <DialogueType>k__BackingField: 1
-    <Position>k__BackingField: {x: 2034, y: 242}
+    <Position>k__BackingField: {x: 752, y: 264.80002}
     <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: 3ed352066aa221b4bb4eb3853e887b82, type: 3}
     <Actions>k__BackingField: 
     <HintSo>k__BackingField: {fileID: 0}
@@ -152,7 +116,7 @@ MonoBehaviour:
     <DialogueSpeed>k__BackingField: 
     <Audio>k__BackingField: 'Elen    '
     <DialogueType>k__BackingField: 0
-    <Position>k__BackingField: {x: 2490, y: -166}
+    <Position>k__BackingField: {x: 2490.4, y: -166.4}
     <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: 3ed352066aa221b4bb4eb3853e887b82, type: 3}
     <Actions>k__BackingField: 
     <HintSo>k__BackingField: {fileID: 0}
@@ -167,7 +131,7 @@ MonoBehaviour:
     <DialogueSpeed>k__BackingField: 
     <Audio>k__BackingField: 'Elen    '
     <DialogueType>k__BackingField: 0
-    <Position>k__BackingField: {x: 2847, y: -156}
+    <Position>k__BackingField: {x: 2847.2, y: -156}
     <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: 3ed352066aa221b4bb4eb3853e887b82, type: 3}
     <Actions>k__BackingField: 
     <HintSo>k__BackingField: {fileID: 0}
@@ -182,7 +146,7 @@ MonoBehaviour:
     <DialogueSpeed>k__BackingField: 
     <Audio>k__BackingField: 'Elen    '
     <DialogueType>k__BackingField: 0
-    <Position>k__BackingField: {x: 2468, y: -745}
+    <Position>k__BackingField: {x: 2468, y: -745.60004}
     <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: 3ed352066aa221b4bb4eb3853e887b82, type: 3}
     <Actions>k__BackingField: 
     <HintSo>k__BackingField: {fileID: 0}
@@ -201,21 +165,6 @@ MonoBehaviour:
     <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: 3ed352066aa221b4bb4eb3853e887b82, type: 3}
     <Actions>k__BackingField: 
     <HintSo>k__BackingField: {fileID: 0}
-  - <ID>k__BackingField: f6a342ff-8782-414d-b54f-d6be1af79401
-    <Name>k__BackingField: 4
-    <Text>k__BackingField: Cut it out.
-    <SpeakerName>k__BackingField: Ellen Steven
-    <Choices>k__BackingField:
-    - <Text>k__BackingField: Next DIalogue
-      <NodeID>k__BackingField: 947a0521-83d5-41c9-a1c0-23c9d3c75d35
-    <GroupID>k__BackingField: 
-    <DialogueSpeed>k__BackingField: 
-    <Audio>k__BackingField: 'Elen    '
-    <DialogueType>k__BackingField: 0
-    <Position>k__BackingField: {x: 1424, y: 277}
-    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: 3ed352066aa221b4bb4eb3853e887b82, type: 3}
-    <Actions>k__BackingField: 
-    <HintSo>k__BackingField: {fileID: 0}
   - <ID>k__BackingField: d2c60f0b-c2c1-4a33-90bb-9675090ef643
     <Name>k__BackingField: 16
     <Text>k__BackingField: No way
@@ -227,7 +176,7 @@ MonoBehaviour:
     <DialogueSpeed>k__BackingField: 
     <Audio>k__BackingField: 'Elen    '
     <DialogueType>k__BackingField: 0
-    <Position>k__BackingField: {x: 2835, y: 469}
+    <Position>k__BackingField: {x: 2835.2, y: 468.80002}
     <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: 3ed352066aa221b4bb4eb3853e887b82, type: 3}
     <Actions>k__BackingField: 
     <HintSo>k__BackingField: {fileID: 0}
@@ -242,7 +191,7 @@ MonoBehaviour:
     <DialogueSpeed>k__BackingField: 
     <Audio>k__BackingField: 'Elen    '
     <DialogueType>k__BackingField: 0
-    <Position>k__BackingField: {x: 3158, y: -762}
+    <Position>k__BackingField: {x: 3158.4, y: -762.4}
     <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: 3ed352066aa221b4bb4eb3853e887b82, type: 3}
     <Actions>k__BackingField: 
     <HintSo>k__BackingField: {fileID: 0}
@@ -257,7 +206,7 @@ MonoBehaviour:
     <DialogueSpeed>k__BackingField: 
     <Audio>k__BackingField: 'Elen    '
     <DialogueType>k__BackingField: 0
-    <Position>k__BackingField: {x: 2403, y: 1024}
+    <Position>k__BackingField: {x: 2403.2, y: 1024}
     <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: 3ed352066aa221b4bb4eb3853e887b82, type: 3}
     <Actions>k__BackingField: 
     <HintSo>k__BackingField: {fileID: 0}
@@ -287,7 +236,7 @@ MonoBehaviour:
     <DialogueSpeed>k__BackingField: 
     <Audio>k__BackingField: 'Elen    '
     <DialogueType>k__BackingField: 0
-    <Position>k__BackingField: {x: 2483, y: 469}
+    <Position>k__BackingField: {x: 2483.2, y: 468.80002}
     <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: 3ed352066aa221b4bb4eb3853e887b82, type: 3}
     <Actions>k__BackingField: 
     <HintSo>k__BackingField: {fileID: 0}
@@ -302,7 +251,7 @@ MonoBehaviour:
     <DialogueSpeed>k__BackingField: 
     <Audio>k__BackingField: 'Elen    '
     <DialogueType>k__BackingField: 0
-    <Position>k__BackingField: {x: 3186, y: 465}
+    <Position>k__BackingField: {x: 3186.4, y: 464.80002}
     <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: 3ed352066aa221b4bb4eb3853e887b82, type: 3}
     <Actions>k__BackingField: 
     <HintSo>k__BackingField: {fileID: 0}
@@ -317,7 +266,7 @@ MonoBehaviour:
     <DialogueSpeed>k__BackingField: 
     <Audio>k__BackingField: 'Elen    '
     <DialogueType>k__BackingField: 0
-    <Position>k__BackingField: {x: 3521, y: 454}
+    <Position>k__BackingField: {x: 3520.8, y: 453.6}
     <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: 3ed352066aa221b4bb4eb3853e887b82, type: 3}
     <Actions>k__BackingField: 
     <HintSo>k__BackingField: {fileID: 0}
@@ -332,7 +281,7 @@ MonoBehaviour:
     <DialogueSpeed>k__BackingField: 
     <Audio>k__BackingField: 'Elen    '
     <DialogueType>k__BackingField: 0
-    <Position>k__BackingField: {x: 4234, y: 444}
+    <Position>k__BackingField: {x: 4234.4, y: 444}
     <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: 3ed352066aa221b4bb4eb3853e887b82, type: 3}
     <Actions>k__BackingField: 
     <HintSo>k__BackingField: {fileID: 0}
@@ -342,12 +291,12 @@ MonoBehaviour:
     <SpeakerName>k__BackingField: Ellen Steven
     <Choices>k__BackingField:
     - <Text>k__BackingField: Next DIalogue
-      <NodeID>k__BackingField: 947a0521-83d5-41c9-a1c0-23c9d3c75d35
+      <NodeID>k__BackingField: 
     <GroupID>k__BackingField: 
     <DialogueSpeed>k__BackingField: 
     <Audio>k__BackingField: 'Elen    '
     <DialogueType>k__BackingField: 0
-    <Position>k__BackingField: {x: 4554, y: 470}
+    <Position>k__BackingField: {x: 4554.4, y: 469.6}
     <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: 3ed352066aa221b4bb4eb3853e887b82, type: 3}
     <Actions>k__BackingField: 
     <HintSo>k__BackingField: {fileID: 0}
@@ -357,30 +306,63 @@ MonoBehaviour:
     <SpeakerName>k__BackingField: 
     <Choices>k__BackingField:
     - <Text>k__BackingField: Next DIalogue
-      <NodeID>k__BackingField: 947a0521-83d5-41c9-a1c0-23c9d3c75d35
+      <NodeID>k__BackingField: 
     <GroupID>k__BackingField: 
     <DialogueSpeed>k__BackingField: 
     <Audio>k__BackingField: 'Elen    '
     <DialogueType>k__BackingField: 0
-    <Position>k__BackingField: {x: 3483, y: -758}
+    <Position>k__BackingField: {x: 3483.2, y: -758.4}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: 3ed352066aa221b4bb4eb3853e887b82, type: 3}
+    <Actions>k__BackingField: 
+    <HintSo>k__BackingField: {fileID: 0}
+  - <ID>k__BackingField: f6a342ff-8782-414d-b54f-d6be1af79401
+    <Name>k__BackingField: 4
+    <Text>k__BackingField: Cut it out.
+    <SpeakerName>k__BackingField: Ellen Steven
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: 29b55f1d-65e0-4661-b5a1-91eb34bb8312
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: 'Elen    '
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 1424, y: 276.80002}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: 3ed352066aa221b4bb4eb3853e887b82, type: 3}
+    <Actions>k__BackingField: 
+    <HintSo>k__BackingField: {fileID: 0}
+  - <ID>k__BackingField: 29b55f1d-65e0-4661-b5a1-91eb34bb8312
+    <Name>k__BackingField: DialogueName
+    <Text>k__BackingField: What do you want?
+    <SpeakerName>k__BackingField: Ellen Steven
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Who are you?
+      <NodeID>k__BackingField: 2eb33924-063d-437d-b451-6911df8b7df7
+    - <Text>k__BackingField: Why are you here?
+      <NodeID>k__BackingField: 5ca4f95d-e047-4208-92ef-fba1ea0074b3
+    - <Text>k__BackingField: I think she's a little weird
+      <NodeID>k__BackingField: ea81f9ce-c91d-47ed-811d-1f30c99b9286
+    - <Text>k__BackingField: Fuck you
+      <NodeID>k__BackingField: 20400a4f-60d5-422f-94e4-96442772610c
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: 'Elen    '
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 2034.4, y: 241.6}
     <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: 3ed352066aa221b4bb4eb3853e887b82, type: 3}
     <Actions>k__BackingField: 
     <HintSo>k__BackingField: {fileID: 0}
   <OldGroupNames>k__BackingField: []
   <OldUngroupedNodesNames>k__BackingField:
-  - 5
   - 3
   - 12
   - 13
   - 7
   - 20
   - 2
-  - DialogueName
   - 10
   - 11
   - 6
   - 1
-  - 4
   - 16
   - 8
   - 14
@@ -391,5 +373,7 @@ MonoBehaviour:
   - 21
   - 22
   - 9
+  - 4
+  - DialogueName
   <OldGroupedNodeNames>k__BackingField:
     list: []
