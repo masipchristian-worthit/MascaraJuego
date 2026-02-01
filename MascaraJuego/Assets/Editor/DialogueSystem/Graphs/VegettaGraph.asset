@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9147bccad748a464487ec789f0cfc14b, type: 3}
+  m_Name: VegettaGraph
+  m_EditorClassIdentifier: Assembly-CSharp-Editor::DS.Data.Save.DSGraphSaveData
+  <FileName>k__BackingField: Vegetta
+  <Groups>k__BackingField: []
+  <Nodes>k__BackingField:
+  - <ID>k__BackingField: 872aec12-0a46-4421-8ec2-65ca453895c9
+    <Name>k__BackingField: 1
+    <Text>k__BackingField: Hey, what's up everyone, you handsome people!
+    <SpeakerName>k__BackingField: Vegettita
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: Default
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: -203, y: 164}
+    <CharacterImageLeft>k__BackingField: {fileID: 0}
+    <Actions>k__BackingField: 
+    <HintSo>k__BackingField: {fileID: 0}
+  <OldGroupNames>k__BackingField: []
+  <OldUngroupedNodesNames>k__BackingField:
+  - 1
+  <OldGroupedNodeNames>k__BackingField:
+    list: []
