@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: AC_WatchTransition_Player
+  m_Name: AC_Idle_Trump
   serializedVersion: 7
   m_Legacy: 0
   m_Compressed: 0
@@ -21,13 +21,13 @@ AnimationClip:
   - serializedVersion: 2
     curve:
     - time: 0
-      value: {fileID: 1327679143, guid: 9ed2eba0d87f172459824ed402126478, type: 3}
+      value: {fileID: 719562917, guid: 80e0dafea35d01c468ff99b76e05a55d, type: 3}
     - time: 0.125
-      value: {fileID: 2067849007, guid: 9ed2eba0d87f172459824ed402126478, type: 3}
+      value: {fileID: -1046256727, guid: 80e0dafea35d01c468ff99b76e05a55d, type: 3}
     - time: 0.25
-      value: {fileID: 1319395808, guid: 9ed2eba0d87f172459824ed402126478, type: 3}
+      value: {fileID: -1533933594, guid: 80e0dafea35d01c468ff99b76e05a55d, type: 3}
     - time: 0.375
-      value: {fileID: -15874931, guid: 9ed2eba0d87f172459824ed402126478, type: 3}
+      value: {fileID: 180560929, guid: 80e0dafea35d01c468ff99b76e05a55d, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -50,10 +50,10 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     pptrCurveMapping:
-    - {fileID: 1327679143, guid: 9ed2eba0d87f172459824ed402126478, type: 3}
-    - {fileID: 2067849007, guid: 9ed2eba0d87f172459824ed402126478, type: 3}
-    - {fileID: 1319395808, guid: 9ed2eba0d87f172459824ed402126478, type: 3}
-    - {fileID: -15874931, guid: 9ed2eba0d87f172459824ed402126478, type: 3}
+    - {fileID: 719562917, guid: 80e0dafea35d01c468ff99b76e05a55d, type: 3}
+    - {fileID: -1046256727, guid: 80e0dafea35d01c468ff99b76e05a55d, type: 3}
+    - {fileID: -1533933594, guid: 80e0dafea35d01c468ff99b76e05a55d, type: 3}
+    - {fileID: 180560929, guid: 80e0dafea35d01c468ff99b76e05a55d, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
@@ -64,7 +64,7 @@ AnimationClip:
     m_Level: 0
     m_CycleOffset: 0
     m_HasAdditiveReferencePose: 0
-    m_LoopTime: 0
+    m_LoopTime: 1
     m_LoopBlend: 0
     m_LoopBlendOrientation: 0
     m_LoopBlendPositionY: 0
@@ -78,11 +78,4 @@ AnimationClip:
   m_EulerEditorCurves: []
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
-  m_Events:
-  - time: 0.375
-    functionName: TogglePause
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 0
-    messageOptions: 0
+  m_Events: []

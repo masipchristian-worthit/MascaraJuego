@@ -340,4 +340,9 @@ void Movement()
     }
     #endregion
     */
+
+    public void TogglePause()
+    {
+        PauseManager.Instance.pauseGame();
+    }
 }
