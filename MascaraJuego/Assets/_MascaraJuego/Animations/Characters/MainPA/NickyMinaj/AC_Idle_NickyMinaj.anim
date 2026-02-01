@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: AC_Idle_UlisesLady
+  m_Name: AC_Idle_NickyMinaj
   serializedVersion: 7
   m_Legacy: 0
   m_Compressed: 0
@@ -21,13 +21,13 @@ AnimationClip:
   - serializedVersion: 2
     curve:
     - time: 0
-      value: {fileID: -420953748, guid: e049e4f3c6ad61d4184a4a7149071813, type: 3}
+      value: {fileID: 330220399, guid: 56c281519decea54aadd903167389497, type: 3}
     - time: 0.14285715
-      value: {fileID: 123201, guid: e049e4f3c6ad61d4184a4a7149071813, type: 3}
+      value: {fileID: -169225308, guid: 56c281519decea54aadd903167389497, type: 3}
     - time: 0.2857143
-      value: {fileID: -948320214, guid: e049e4f3c6ad61d4184a4a7149071813, type: 3}
+      value: {fileID: -5642378, guid: 56c281519decea54aadd903167389497, type: 3}
     - time: 0.42857143
-      value: {fileID: 1223626499, guid: e049e4f3c6ad61d4184a4a7149071813, type: 3}
+      value: {fileID: -480483203, guid: 56c281519decea54aadd903167389497, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -50,10 +50,10 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     pptrCurveMapping:
-    - {fileID: -420953748, guid: e049e4f3c6ad61d4184a4a7149071813, type: 3}
-    - {fileID: 123201, guid: e049e4f3c6ad61d4184a4a7149071813, type: 3}
-    - {fileID: -948320214, guid: e049e4f3c6ad61d4184a4a7149071813, type: 3}
-    - {fileID: 1223626499, guid: e049e4f3c6ad61d4184a4a7149071813, type: 3}
+    - {fileID: 330220399, guid: 56c281519decea54aadd903167389497, type: 3}
+    - {fileID: -169225308, guid: 56c281519decea54aadd903167389497, type: 3}
+    - {fileID: -5642378, guid: 56c281519decea54aadd903167389497, type: 3}
+    - {fileID: -480483203, guid: 56c281519decea54aadd903167389497, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
