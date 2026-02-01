@@ -1,5 +1,7 @@
+using System;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.InputSystem;
 
 public class DoorInteraction : MonoBehaviour
 {
@@ -8,6 +10,16 @@ public class DoorInteraction : MonoBehaviour
     [SerializeField] private Animator _animator; 
     [SerializeField] private GameObject _menuCanvas; 
     [SerializeField] private GameObject _firstButton;
+    private InputAction _inputAction;
+
+
+    private void Start()
+    {
+        _inputAction = InputManager.Instance.Door.EscapeDoor;
+        _inputAction.performed += ctx => closeDoor(); 
+
+    }
+
     public void OpenDoorAndShowUI()
     {
         if (_menuCanvas != null)
@@ -18,8 +30,10 @@ public class DoorInteraction : MonoBehaviour
         if (_animator != null)
         {
             _animator.Play("Open");
+            DoorManager.Instance.openDoor();
             EventSystem.current.SetSelectedGameObject(_firstButton);
             InputManager.Instance.SwitchTo(InputManager.InputMapType.Door);
+            DoorManager.Instance.currentDoor = this;
         }
         else
         {
@@ -32,10 +46,12 @@ public class DoorInteraction : MonoBehaviour
         EventSystem.current.SetSelectedGameObject(_firstButton);
         
     }
-
+    
     private void closeDoor()
     {
-        _animator.Play("Open");
+        _animator.Play("Close");
         InputManager.Instance.SwitchTo(InputManager.InputMapType.Gameplay);
+        DoorManager.Instance.closeDoor();
+        Debug.Log("AYUDAAAAAA");
     }
 }
