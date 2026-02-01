@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: 11
   m_EditorClassIdentifier: Assembly-CSharp::DS.ScriptableObjects.DSDialogueSO
   <DialogueName>k__BackingField: 11
-  <Text>k__BackingField: 'I don''t '
+  <Text>k__BackingField: I don't care much about who invited me. I only want to make
+    America gret again.
   <SpeakerName>k__BackingField: Ronald Dump
   <Choices>k__BackingField:
   - <Text>k__BackingField: Next DIalogue

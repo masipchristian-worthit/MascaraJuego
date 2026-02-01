@@ -15,38 +15,6 @@ MonoBehaviour:
   <FileName>k__BackingField: TrumpNeutral
   <Groups>k__BackingField: []
   <Nodes>k__BackingField:
-  - <ID>k__BackingField: 9d6f341c-3e91-499a-a8d7-142a7acba261
-    <Name>k__BackingField: 1
-    <Text>k__BackingField: Excuse me, don't touch the suit. It's Italian, very expensive,
-      maybe the most expensive suit in this room.
-    <SpeakerName>k__BackingField: Ronald Dump
-    <Choices>k__BackingField:
-    - <Text>k__BackingField: Next DIalogue
-      <NodeID>k__BackingField: 9e28c3db-4194-4ef5-bb85-ec9520051afc
-    <GroupID>k__BackingField: 
-    <DialogueSpeed>k__BackingField: 
-    <Audio>k__BackingField: Trump:Trump
-    <DialogueType>k__BackingField: 0
-    <Position>k__BackingField: {x: 598.4, y: -96}
-    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: b2fed1ecb0d934a45a2a78e19d12b9aa, type: 3}
-    <Actions>k__BackingField: 
-    <HintSo>k__BackingField: {fileID: 0}
-  - <ID>k__BackingField: 9e28c3db-4194-4ef5-bb85-ec9520051afc
-    <Name>k__BackingField: 2
-    <Text>k__BackingField: I'm wearing a pig mask because, frankly, I'm delicious.
-      Everyone says so.
-    <SpeakerName>k__BackingField: Ronald Dump
-    <Choices>k__BackingField:
-    - <Text>k__BackingField: Next DIalogue
-      <NodeID>k__BackingField: f40eb2f9-b204-4e27-88ba-4c8bd5f29964
-    <GroupID>k__BackingField: 
-    <DialogueSpeed>k__BackingField: 
-    <Audio>k__BackingField: Trump:Trump
-    <DialogueType>k__BackingField: 0
-    <Position>k__BackingField: {x: 1269.6, y: -92}
-    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: b2fed1ecb0d934a45a2a78e19d12b9aa, type: 3}
-    <Actions>k__BackingField: 
-    <HintSo>k__BackingField: {fileID: 0}
   - <ID>k__BackingField: f40eb2f9-b204-4e27-88ba-4c8bd5f29964
     <Name>k__BackingField: 3
     <Text>k__BackingField: I have the best meat.
@@ -74,38 +42,6 @@ MonoBehaviour:
     <Audio>k__BackingField: Trump:Trump
     <DialogueType>k__BackingField: 0
     <Position>k__BackingField: {x: 2560.8, y: -721.60004}
-    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: b2fed1ecb0d934a45a2a78e19d12b9aa, type: 3}
-    <Actions>k__BackingField: 
-    <HintSo>k__BackingField: {fileID: 0}
-  - <ID>k__BackingField: 7794732a-abb6-47d2-aec0-c4868c6ad333
-    <Name>k__BackingField: 6
-    <Text>k__BackingField: ' Although the DJ is a disaster. I would have hired a
-      better DJ. '
-    <SpeakerName>k__BackingField: Ronald Dump
-    <Choices>k__BackingField:
-    - <Text>k__BackingField: Next DIalogue
-      <NodeID>k__BackingField: a1969df6-b30f-4c7b-90d2-a62a25702e9a
-    <GroupID>k__BackingField: 
-    <DialogueSpeed>k__BackingField: 
-    <Audio>k__BackingField: 'Trump:Trump  '
-    <DialogueType>k__BackingField: 0
-    <Position>k__BackingField: {x: 2882.4, y: -730.4}
-    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: b2fed1ecb0d934a45a2a78e19d12b9aa, type: 3}
-    <Actions>k__BackingField: 
-    <HintSo>k__BackingField: {fileID: 0}
-  - <ID>k__BackingField: a1969df6-b30f-4c7b-90d2-a62a25702e9a
-    <Name>k__BackingField: 7
-    <Text>k__BackingField: But the shrimp cocktail? Solid. Not as good as my hotels,
-      but solid.
-    <SpeakerName>k__BackingField: Ronald Trump
-    <Choices>k__BackingField:
-    - <Text>k__BackingField: Next DIalogue
-      <NodeID>k__BackingField: 
-    <GroupID>k__BackingField: 
-    <DialogueSpeed>k__BackingField: 
-    <Audio>k__BackingField: Trump:Trump
-    <DialogueType>k__BackingField: 0
-    <Position>k__BackingField: {x: 3309.6, y: -728}
     <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: b2fed1ecb0d934a45a2a78e19d12b9aa, type: 3}
     <Actions>k__BackingField: 
     <HintSo>k__BackingField: {fileID: 0}
@@ -140,51 +76,6 @@ MonoBehaviour:
     <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: b2fed1ecb0d934a45a2a78e19d12b9aa, type: 3}
     <Actions>k__BackingField: 
     <HintSo>k__BackingField: {fileID: 0}
-  - <ID>k__BackingField: 0fde4cc7-3039-45cf-88a0-b6d4b2f582b8
-    <Name>k__BackingField: 10
-    <Text>k__BackingField: But she has a lot of followers, so I respect the hustle.
-    <SpeakerName>k__BackingField: Ronald Dump
-    <Choices>k__BackingField:
-    - <Text>k__BackingField: Next DIalogue
-      <NodeID>k__BackingField: 
-    <GroupID>k__BackingField: 
-    <DialogueSpeed>k__BackingField: 
-    <Audio>k__BackingField: Trump:Trump
-    <DialogueType>k__BackingField: 0
-    <Position>k__BackingField: {x: 3354.4, y: 87.2}
-    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: b2fed1ecb0d934a45a2a78e19d12b9aa, type: 3}
-    <Actions>k__BackingField: 
-    <HintSo>k__BackingField: {fileID: 0}
-  - <ID>k__BackingField: 74dd387b-21f3-40fa-a639-370c6012163d
-    <Name>k__BackingField: 13
-    <Text>k__BackingField: No, fuck you, bitch.
-    <SpeakerName>k__BackingField: Ronald Dump
-    <Choices>k__BackingField:
-    - <Text>k__BackingField: Next DIalogue
-      <NodeID>k__BackingField: 
-    <GroupID>k__BackingField: 
-    <DialogueSpeed>k__BackingField: 
-    <Audio>k__BackingField: Trump:Trump
-    <DialogueType>k__BackingField: 0
-    <Position>k__BackingField: {x: 2116, y: 811.19995}
-    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: b2fed1ecb0d934a45a2a78e19d12b9aa, type: 3}
-    <Actions>k__BackingField: 
-    <HintSo>k__BackingField: {fileID: 0}
-  - <ID>k__BackingField: eecad135-25bf-4f87-8d83-312bd2cf54d0
-    <Name>k__BackingField: 12
-    <Text>k__BackingField: Dialogue text.
-    <SpeakerName>k__BackingField: Ronald Dump
-    <Choices>k__BackingField:
-    - <Text>k__BackingField: Next DIalogue
-      <NodeID>k__BackingField: 
-    <GroupID>k__BackingField: 
-    <DialogueSpeed>k__BackingField: 
-    <Audio>k__BackingField: Trump:Trump
-    <DialogueType>k__BackingField: 0
-    <Position>k__BackingField: {x: 2775.2, y: 997.6}
-    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: b2fed1ecb0d934a45a2a78e19d12b9aa, type: 3}
-    <Actions>k__BackingField: 
-    <HintSo>k__BackingField: {fileID: 0}
   - <ID>k__BackingField: 8e9595fe-1a5a-4f3f-a938-5447f41d6f88
     <Name>k__BackingField: 4
     <Text>k__BackingField: What do you want? Are you a russian investigator?
@@ -208,7 +99,8 @@ MonoBehaviour:
     <HintSo>k__BackingField: {fileID: 0}
   - <ID>k__BackingField: 9c515c6e-6184-4156-88c9-27fa2e648be1
     <Name>k__BackingField: 11
-    <Text>k__BackingField: 'I don''t '
+    <Text>k__BackingField: I don't care much about who invited me. I only want to
+      make America gret again.
     <SpeakerName>k__BackingField: Ronald Dump
     <Choices>k__BackingField:
     - <Text>k__BackingField: Next DIalogue
@@ -221,20 +113,129 @@ MonoBehaviour:
     <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: b2fed1ecb0d934a45a2a78e19d12b9aa, type: 3}
     <Actions>k__BackingField: 
     <HintSo>k__BackingField: {fileID: 0}
+  - <ID>k__BackingField: 74dd387b-21f3-40fa-a639-370c6012163d
+    <Name>k__BackingField: 13
+    <Text>k__BackingField: No, fuck you, bitch.
+    <SpeakerName>k__BackingField: Ronald Dump
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: Trump:Trump
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 2116, y: 811.19995}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: b2fed1ecb0d934a45a2a78e19d12b9aa, type: 3}
+    <Actions>k__BackingField: 
+    <HintSo>k__BackingField: {fileID: 0}
+  - <ID>k__BackingField: 9d6f341c-3e91-499a-a8d7-142a7acba261
+    <Name>k__BackingField: 1
+    <Text>k__BackingField: Excuse me, don't touch the suit. It's Italian, very expensive,
+      maybe the most expensive suit in this room.
+    <SpeakerName>k__BackingField: Ronald Dump
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: 9e28c3db-4194-4ef5-bb85-ec9520051afc
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: Trump:Trump
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 598.4, y: -96}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: b2fed1ecb0d934a45a2a78e19d12b9aa, type: 3}
+    <Actions>k__BackingField: 
+    <HintSo>k__BackingField: {fileID: 0}
+  - <ID>k__BackingField: 9e28c3db-4194-4ef5-bb85-ec9520051afc
+    <Name>k__BackingField: 2
+    <Text>k__BackingField: I'm wearing a pig mask because, frankly, I'm delicious.
+      Everyone says so.
+    <SpeakerName>k__BackingField: Ronald Dump
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: f40eb2f9-b204-4e27-88ba-4c8bd5f29964
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: Trump:Trump
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 1269.6, y: -92}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: b2fed1ecb0d934a45a2a78e19d12b9aa, type: 3}
+    <Actions>k__BackingField: 
+    <HintSo>k__BackingField: {fileID: 0}
+  - <ID>k__BackingField: 7794732a-abb6-47d2-aec0-c4868c6ad333
+    <Name>k__BackingField: 6
+    <Text>k__BackingField: ' Although the DJ is a disaster. I would have hired a
+      better DJ. '
+    <SpeakerName>k__BackingField: Ronald Dump
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: a1969df6-b30f-4c7b-90d2-a62a25702e9a
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: 'Trump:Trump  '
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 2882.4, y: -730.4}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: b2fed1ecb0d934a45a2a78e19d12b9aa, type: 3}
+    <Actions>k__BackingField: 
+    <HintSo>k__BackingField: {fileID: 0}
+  - <ID>k__BackingField: a1969df6-b30f-4c7b-90d2-a62a25702e9a
+    <Name>k__BackingField: 7
+    <Text>k__BackingField: But the shrimp cocktail? Solid. Not as good as my hotels,
+      but solid.
+    <SpeakerName>k__BackingField: Ronald Trump
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: 8e9595fe-1a5a-4f3f-a938-5447f41d6f88
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: Trump:Trump
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 3309.6, y: -728}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: b2fed1ecb0d934a45a2a78e19d12b9aa, type: 3}
+    <Actions>k__BackingField: 
+    <HintSo>k__BackingField: {fileID: 0}
+  - <ID>k__BackingField: 0fde4cc7-3039-45cf-88a0-b6d4b2f582b8
+    <Name>k__BackingField: 10
+    <Text>k__BackingField: But she has a lot of followers, so I respect the hustle.
+    <SpeakerName>k__BackingField: Ronald Dump
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: 8e9595fe-1a5a-4f3f-a938-5447f41d6f88
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: Trump:Trump
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 3354.4, y: 87.2}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: b2fed1ecb0d934a45a2a78e19d12b9aa, type: 3}
+    <Actions>k__BackingField: 
+    <HintSo>k__BackingField: {fileID: 0}
+  - <ID>k__BackingField: eecad135-25bf-4f87-8d83-312bd2cf54d0
+    <Name>k__BackingField: 12
+    <Text>k__BackingField: Anyways, is Maduro in this party?
+    <SpeakerName>k__BackingField: Ronald Dump
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next DIalogue
+      <NodeID>k__BackingField: 8e9595fe-1a5a-4f3f-a938-5447f41d6f88
+    <GroupID>k__BackingField: 
+    <DialogueSpeed>k__BackingField: 
+    <Audio>k__BackingField: Trump:Trump
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 3020.8, y: 992.8}
+    <CharacterImageLeft>k__BackingField: {fileID: 21300000, guid: b2fed1ecb0d934a45a2a78e19d12b9aa, type: 3}
+    <Actions>k__BackingField: 
+    <HintSo>k__BackingField: {fileID: 0}
   <OldGroupNames>k__BackingField: []
   <OldUngroupedNodesNames>k__BackingField:
-  - 1
-  - 2
   - 3
   - 5
-  - 6
-  - 7
   - 9
   - 8
-  - 10
-  - 13
-  - 12
   - 4
   - 11
+  - 13
+  - 1
+  - 2
+  - 6
+  - 7
+  - 10
+  - 12
   <OldGroupedNodeNames>k__BackingField:
     list: []
